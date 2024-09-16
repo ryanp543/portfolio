@@ -2,3 +2,9 @@
     text-align: center;
     margin: 20px 0; /* Adjust as needed */
 }
+
+.centered-title {
+    display: block;
+    text-align: center;
+    margin: 0 auto; /* Center the title if it's in a block container */
+}

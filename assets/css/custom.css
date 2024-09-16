@@ -1,5 +1,10 @@
+.page-title {
+    text-align: center;
+    margin: 20px 0; /* Adjust as needed */
+}
+
 .masthead {
-    text-align: center; /* Center all text inside the masthead */
+    text-align: center;
 }
 
 .masthead__inner-wrap {
@@ -9,11 +14,10 @@
 }
 
 .site-title {
-    display: inline-block; /* Make sure the title is treated as inline block to center properly */
+    display: inline-block;
     text-align: center;
-    margin: 0;
 }
 
 .site-subtitle {
-    display: block; /* Ensure the subtitle is centered beneath the main title */
+    display: block;
 }

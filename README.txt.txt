@@ -1,0 +1,1 @@
+project image format (border is 2% pixel width of pixel dimensions of image i.e. 50 if image is 2500 x 2500 pixels (using pixlr))

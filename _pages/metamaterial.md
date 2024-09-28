@@ -6,7 +6,6 @@ author_profile: false
 sidebar:
   - title: "Publication"
     image: /assets/images/MetamaterialIcon.png
-    image_alt: /assets/images/AgrobotIcon.png
     text: "Some text here."
 ---
 

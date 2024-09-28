@@ -1,6 +1,6 @@
 ---
 title: "Sample Page"
-permalink: /metamaterial.md/
+permalink: /metamaterial/
 date: 2016-02-24T03:02:20+00:00
 ---
 

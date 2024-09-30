@@ -4,9 +4,9 @@ permalink: /metamaterial/
 classes: wide
 author_profile: false
 sidebar:
-  - title: "Publication"
+  - title: "Location: UCLA"
     image: /assets/images/MetamaterialIcon.png
-    text: "Some text here."
+    text: "UCLA Flexible Research Group Undergraduate Researcher"
 ---
 
 During the summer of 2018, I joined Professor Jonathan Hopkins’s UCLA Flexible Research Group to expand on a project I started in his graduate course. Refusing to abandon a great idea after the class ended, I used the phase changes of gallium to develop a metamaterial with programmable stiffness properties. My work on this project was posted in Advanced Science News. You can read the article [here](https://www.advancedsciencenews.com/phase-changing-metamaterials-a-new-frontier-in-technology/ "here"). This project was also published in the Advanced Engineering Materials research journal, and the publication can be downloaded as a pdf here:

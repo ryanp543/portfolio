@@ -20,6 +20,22 @@ gallery:
     image_path: /assets/images/BarrelRoll10.jpg
     alt: "placeholder image 2"
     title: "Arm removed"
+gallery2:
+  - url: /assets/images/BarrelRoll5.jpg
+    image_path: /assets/images/BarrelRoll5.jpg
+    alt: "placeholder image 1"
+    title: "Middle body assembly"
+gallery3:
+  - url: /assets/images/BarrelRoll11.jpg
+    image_path: /assets/images/BarrelRoll11.jpg
+    alt: "placeholder image 1"
+    title: "Inner shaft FEA"
+gallery4:
+  - url: /assets/images/BarrelRoll4.jpg
+    image_path: /assets/images/BarrelRoll4.jpg
+    alt: "placeholder image 1"
+    title: "Custom gearbox to fit inside inner shaft"
+
 ---
 
 This project served as my pinnacle achievement during the 2016-17 school year. As ASME’s Battlebots Lead, I took on the ambitious task of creating a never-seen-before battlebot. As a member of a team of six individuals, I designed 90% of the robot and conducted around 60-70% of the entire manufacturing process. In doing so, my hands-on skills in this field of mechanical engineering greatly expanded as my comfort with large scale and high precision machining increased substantially.
@@ -34,13 +50,19 @@ Barrel Roll boasts two cylindrical arms rotating about shafts that protrude from
 
 The junction between the two middle body halves resembled a jigsaw pattern, with each tooth on one half fitting tightly into the respective gap on the other half. Upon impact normal to one of the cylindrical arms, this junction design would distribute the load among the teeth rather than on screws. The wedges on this middle body prevented the middle body from rotating due to the motors (instead of the arms). They were designed such that if the robot landed on the wedged sides, the center of gravity would always be beyond the point of contact with the ground so the robot would right itself naturally.
 
+{% include gallery id="gallery2" caption="Middle body assembly." %}
+
 ## Inner Shaft
 
 The inner shaft about which the steel shell and aluminum core rotated was as long as possible and housed the motor and gearbox. As a result, the exposed length of the motor output shaft exiting this inner shaft was minimized, hence reducing the torque and chance of breakage upon collision (as shown in the simulation).
 
+{% include gallery id="gallery3" caption="Inner shaft FEA." %}
+
 ## Motor and Gearbox
 
 The motor and gearbox were selected carefully to achieve comparable impact energy seen in other battlebots while the robot was spinning at full speed. The outer casing was modified and CNC’ed to fit in the inner shaft and account for centripetal forces. The robot itself was driven by a “melty brain” control system, which essentially allowed the robot to translate linearly across a surface while spinning.
+
+{% include gallery id="gallery4" caption="Custom gearbox assembly" %}
 
 ## Manufacturing
 

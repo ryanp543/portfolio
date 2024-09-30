@@ -11,7 +11,7 @@ sidebar:
 
 During the summer of 2018, I joined Professor Jonathan Hopkins’s UCLA Flexible Research Group to expand on a project I started in his graduate course. Refusing to abandon a great idea after the class ended, I used the phase changes of gallium to develop a metamaterial with programmable stiffness properties. This project was published in the Advanced Engineering Materials research journal, and the publication can be read here:
 
-[Download PDF](/assets/pdf/Poon_et_al-2019-Advanced_Engineering_Materials.pdf)
+[Download PDF]({{ site.baseurl }}/assets/pdf/Poon_et_al-2019-Advanced_Engineering_Materials.pdf)
 
 ## Definition Lists
 

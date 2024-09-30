@@ -34,8 +34,8 @@ gallery3:
     image_path: /assets/images/wedgie/IMG_20180426_040817.jpg
     alt: "placeholder image 1"
     title: "Blade close to ground"
-  - url: /assets/images/wedgie/Picture1.jpg
-    image_path: /assets/images/wedgie/Picture1.jpg
+  - url: /assets/images/wedgie/Picture1.png
+    image_path: /assets/images/wedgie/Picture1.png
     alt: "placeholder image 1"
     title: "Top of CAD"
 ---

@@ -16,6 +16,11 @@ gallery:
     image_path: /assets/images/wedgie/10.jpg
     alt: "placeholder image 2"
     title: "Image 2 title caption"
+gallery2:
+  - url: /assets/images/wedgie/IMG_20180425_203736.jpg
+    image_path: /assets/images/wedgie/IMG_20180425_203736.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
 ---
 
 My second 60-lb flagship battlebot, nicknamed “Wedgie”, was a robot I completed in my third year as the project lead of the flagship team. With many members of the previous year’s team graduating, I directed the development of the battlebot, managed team dynamics, organized the budget and purchases, and was heavily involved in Wedgie’s design and manufacturing.
@@ -29,6 +34,8 @@ My second 60-lb flagship battlebot, nicknamed “Wedgie”, was a robot I comple
 Wedgie’s weapon system consists of a dual vertical spinner and a front wedge. With the front wedge ground flat, opponents are pushed up onto the wedge and then hit by the vertical spinner, which flips them or inflicts damage underneath.
 
 The vertical spinner comprises of two thick steel “blades” mounted on a center pulley driven by a nylon-Kevlar belt. The pulley contains a press-fitted lubricated bushing that allows it to rotate about a fixed steel shaft. Oil-impregnated washers prevent the screws fastening the blades from colliding with the middle members when spinning erratically.
+
+{% include gallery id="gallery2" caption="Wedgie's internal electronics" %}
 
 ## Electronics System
 

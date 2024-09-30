@@ -55,6 +55,19 @@ gallery4:
     image_path: /assets/images/SpockFEA.jpg
     alt: "placeholder image 1"
     title: "FEA2"
+gallery5:
+  - url: /assets/images/Spock30571431_1675137825927450_1876880753933942784_n.jpg
+    image_path: /assets/images/Spock30571431_1675137825927450_1876880753933942784_n.jpg
+    alt: "placeholder image 1"
+    title: "Gloves and wheelchair basketball water bottle holders"
+  - url: /assets/images/Spockglove.jpg
+    image_path: /assets/images/Spockglove.jpg
+    alt: "placeholder image 1"
+    title: "Gloves for wheelchair racing"
+  - url: /assets/images/Spock21762265_1473878906053344_8392460800794786475_o.jpg
+    image_path: /assets/images/Spock21762265_1473878906053344_8392460800794786475_o.jpg
+    alt: "placeholder image 1"
+    title: "Our table at the adaptive sports fair"
 ---
 
 Since the 2015 "Spock" Basketball Prosthetic Hand project that spearheaded 3D4E's healthcare/prosthetics division, I've had a direct hand in developing several adaptive sports projects in collaboration with the Angel City Sports Facility in Los Angeles to provide more customizable, inexpensive, and accessible equipment for those who need them the most.
@@ -91,3 +104,5 @@ FEA simulation results on Autodesk Fusion 360 revealed that the chair with 100% 
 # Wheelchair Track Racing Gloves
 
 Designed for wheelchair track racers, these gloves are 3D printed to mold to the inside of the user's hand so that he or she can push against the wheels of the wheelchair without injury. This project was pretty cool because it forced me to step beyond hard geometric lines and dimensions into the world of the form tool on Fusion 360.
+
+{% include gallery id="gallery5" caption="3D4E at the Adaptive Sports fair." %}

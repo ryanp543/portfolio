@@ -12,16 +12,16 @@ gallery:
     image_path: /assets/images/MotorBank6b685ed4-4db9-4b18-a07e-475b54298c8c.jfif
     alt: "placeholder image 1"
     title: "Assembly without strain gauges"
-  - url: /assets/images/MotorBank583f2bf9-bc72-4ee4-aa26-ead637149433.jpg
-    image_path: /assets/images/MotorBank583f2bf9-bc72-4ee4-aa26-ead637149433.jpg
+  - url: /assets/images/MotorBank583f2bf9-bc72-4ee4-aa26-ead637149433.jfif
+    image_path: /assets/images/MotorBank583f2bf9-bc72-4ee4-aa26-ead637149433.jfif
     alt: "placeholder image 1"
     title: "No electronics"
-  - url: /assets/images/MotorBankdcb2c517-995a-4c45-9bfd-dcc8397066ac.jpg
-    image_path: /assets/images/MotorBankdcb2c517-995a-4c45-9bfd-dcc8397066ac.jpg
+  - url: /assets/images/MotorBankdcb2c517-995a-4c45-9bfd-dcc8397066ac.jfif
+    image_path: /assets/images/MotorBankdcb2c517-995a-4c45-9bfd-dcc8397066ac.jfif
     alt: "placeholder image 1"
     title: "Where the tendon tubes go"
-  - url: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jpg
-    image_path: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jpg
+  - url: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jfif
+    image_path: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jfif
     alt: "placeholder image 1"
     title: "The original bairclaw finger"
 ---

@@ -13,6 +13,8 @@ During the summer of 2018, I joined Professor Jonathan Hopkins’s UCLA Flexible
 
 [Download PDF]({{ site.baseurl }}/assets/pdf/Poon_et_al-2019-Advanced_Engineering_Materials.pdf)
 
+My work on this project was also posted in Advanced Science News. You can read the article [link](https://www.advancedsciencenews.com/phase-changing-metamaterials-a-new-frontier-in-technology/ "here").
+
 ## Definition Lists
 
 Definition List Title

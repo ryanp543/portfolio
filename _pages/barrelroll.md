@@ -91,3 +91,5 @@ The motor and gearbox were selected carefully to achieve comparable impact energ
 ## Manufacturing
 
 Manufacturing was done on a manual lathe and a Haas CNC. Tolerances were held to ±0.0005 inches for press fits and +0.002 for slip fits. Large spherical bearings supporting up to 50000 lbs of dynamic load and needle roller bearings allowed free rotation and resisted radial forces. 4140 steel and 7075 aluminum were used to maximize material strength while remaining below the weight limit. Various processes such as boring, autofeed turning, and slot milling were employed to machine the parts.
+
+{% include gallery id="gallery5" caption="Manufacturing the parts." %}

@@ -73,6 +73,47 @@ gallery3:
     image_path: /assets/images/ApartmentMakerspacetrash.jpg
     alt: "placeholder image 1"
     title: "trash idea"
+gallery4:
+  - url: /assets/images/ApartmentMakerspaceSlide13.png
+    image_path: /assets/images/ApartmentMakerspaceSlide13.png
+    alt: "placeholder image 1"
+    title: "Full render"
+  - url: /assets/images/ApartmentMakerspaceSlide14.png
+    image_path: /assets/images/ApartmentMakerspaceSlide14.png
+    alt: "placeholder image 1"
+    title: "Interchangeable surfaces"
+  - url: /assets/images/ApartmentMakerspaceSlide15.png
+    image_path: /assets/images/ApartmentMakerspaceSlide15.png
+    alt: "placeholder image 1"
+    title: "Trash slots and surface storage"
+  - url: /assets/images/ApartmentMakerspaceSlide16.png
+    image_path: /assets/images/ApartmentMakerspaceSlide16.png
+    alt: "placeholder image 1"
+    title: "Brush"
+  - url: /assets/images/ApartmentMakerspaceSlide17.png
+    image_path: /assets/images/ApartmentMakerspaceSlide17.png
+    alt: "placeholder image 1"
+    title: "Storage space with seating"
+  - url: /assets/images/ApartmentMakerspaceSlide18.png
+    image_path: /assets/images/ApartmentMakerspaceSlide18.png
+    alt: "placeholder image 1"
+    title: "Unpack and assemble"
+  - url: /assets/images/ApartmentMakerspaceSlide19.png
+    image_path: /assets/images/ApartmentMakerspaceSlide19.png
+    alt: "placeholder image 1"
+    title: "Compact boxing"
+  - url: /assets/images/ApartmentMakerspaceSlide20.png
+    image_path: /assets/images/ApartmentMakerspaceSlide20.png
+    alt: "placeholder image 1"
+    title: "Multiple materials and surfaces"
+  - url: /assets/images/ApartmentMakerspaceSlide21.png
+    image_path: /assets/images/ApartmentMakerspaceSlide21.png
+    alt: "placeholder image 1"
+    title: "Render in context"
+  - url: /assets/images/ApartmentMakerspaceSlide35.png
+    image_path: /assets/images/ApartmentMakerspaceSlide35.png
+    alt: "placeholder image 1"
+    title: "Trash bin storage"
 ---
 
 {% include gallery caption="The apartment makerspace workbench." %}
@@ -86,6 +127,8 @@ gallery3:
 {% include gallery id="gallery3" caption="Sketches that led to our final product." %}
 
 ## Features, Design, and Renders
+
+{% include gallery id="gallery4" caption="Renders of full assembly and features." %}
 
 ## Manufacturing
 

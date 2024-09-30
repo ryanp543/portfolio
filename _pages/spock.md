@@ -15,11 +15,8 @@ Since the 2015 "Spock" Basketball Prosthetic Hand project that spearheaded 3D4E'
 
 Built for children with limb differences, the Spock gave them the ability to dribble, pass, and shoot a basketball. Through the organization eNabling the Future, we were able to find a youth recipient, Logan, to test and gift our prosthetic. He made 17 shots within an hour of practice. This project went on to become a finalist in the 2016 Instructables 3D Printing Contest. 
 
-[Pac-12 Video](#){: .btn .btn--x-large}
-[3D4E Video](#){: .btn .btn--x-large}
-
-[This video ](https://www.advancedsciencenews.com/phase-changing-metamaterials-a-new-frontier-in-technology/ "here") 
-3D4E video: 
+[Click Here for Pac-12 Video](https://www.youtube.com/watch?v=Gq1toJm_MgU&ab_channel=Pac-12){: .btn .btn--x-large}
+[Click Here for 3D4E Video](https://www.youtube.com/watch?v=ECb67Tlm_jA&ab_channel=JoeBruin){: .btn .btn--x-large}
 
 ## Reverse Engineering the Raptor Reloaded
 

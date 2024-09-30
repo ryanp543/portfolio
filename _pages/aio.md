@@ -53,8 +53,8 @@ gallery5:
     alt: "placeholder image 1"
     title: "Tensioner pins 2"
 gallery6:
-  - url: /assets/images/AIOPicture1.jpg
-    image_path: /assets/images/AIOPicture1.jpg
+  - url: /assets/images/AIOPicture1.png
+    image_path: /assets/images/AIOPicture1.png
     alt: "placeholder image 1"
     title: "CAD"
 ---
@@ -79,7 +79,7 @@ The joints of the prosthetic were printed using flexible filament to preserve it
 
 The thumb was designed with the tendon closer to the axis of rotation at the second hinge joint, causing the phalanx to bend first before the finger tip and hence allowing the user to clamp objects against the palm.
 
-{% include gallery id="gallery3" caption="Opposable thumb assembled." %}
+{% include gallery id="gallery3" caption=" " %}
 
 ## Tendon Housing and Forearm Shells
 

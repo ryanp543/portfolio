@@ -7,11 +7,22 @@ sidebar:
   - title: "UCLA ASME"
     image: /assets/images/WedgieIcon.png
     text: "President, Flagship Battlebot Lead"
+gallery:
+  - url: /assets/images/wedgie/05.jpg
+    image_path: /assets/images/wedgie/05.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/wedgie/10.jpg
+    image_path: /assets/images/wedgie/10.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 
 My second 60-lb flagship battlebot, nicknamed “Wedgie”, was a robot I completed in my third year as the project lead of the flagship team. With many members of the previous year’s team graduating, I directed the development of the battlebot, managed team dynamics, organized the budget and purchases, and was heavily involved in Wedgie’s design and manufacturing.
 
 “Wedgie” went on to make it to the third round of the lightweight division at the 2018 Robogames competition.
+
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
 ## Wedge and Vertical Spinner Weapon
 

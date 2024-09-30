@@ -5,10 +5,10 @@ classes: wide
 author_profile: false
 sidebar:
   - title: "UCLA ASME"
-    image: /assets/images/WedgieIcon.png
+    image: /portfolio/assets/images/WedgieIcon.png
     text: "President, Flagship Battlebot Lead"
 gallery:
-  - url: /assets/images/wedgie/05.jpg
+  - url: /portfolio/assets/images/wedgie/05.jpg
     image_path: /assets/images/wedgie/05.jpg
     alt: "Close up 1"
     title: "Image 1 title caption"

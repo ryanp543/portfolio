@@ -59,8 +59,8 @@ gallery4:
     image_path: /assets/images/MotorBank795613b6-6588-4f4f-b61b-aee9c1d0445a.jfif
     alt: "placeholder image 1"
     title: "Redirect pulleys"
-  - url: /assets/images/MotorBank7cf1ce4c-e680-40c8-9bcd-9005276dec33.jfif
-    image_path: /assets/images/MotorBank7cf1ce4c-e680-40c8-9bcd-9005276dec33.jfif
+  - url: /assets/images/MotorBank7cf1ce4c-e680-40c8-9bcd-9005276dec33.png
+    image_path: /assets/images/MotorBank7cf1ce4c-e680-40c8-9bcd-9005276dec33.png
     alt: "placeholder image 1"
     title: "FEA"
 gallery5:

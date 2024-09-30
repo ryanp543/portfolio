@@ -7,6 +7,27 @@ sidebar:
   - title: "UCLA RoMeLa"
     image: /assets/images/HexIcon.png
     text: "Undergraduate Researcher"
+gallery:
+  - url: /assets/images/HexIMG-5238.jpg
+    image_path: /assets/images/HexIMG-5238.jpg
+    alt: "placeholder image 1"
+    title: "Resting on rolling table"
+  - url: /assets/images/HexIMG-5246.jpg
+    image_path: /assets/images/HexIMG-5246.jpg
+    alt: "placeholder image 1"
+    title: "Leg zoom in"
+  - url: /assets/images/HexIMG-5247.jpg
+    image_path: /assets/images/HexIMG-5247.jpg
+    alt: "placeholder image 1"
+    title: "Knee joint"
+  - url: /assets/images/HexIMG-5249.jpg
+    image_path: /assets/images/HexIMG-5249.jpg
+    alt: "placeholder image 1"
+    title: "First joint"
+  - url: /assets/images/HexFEA.png
+    image_path: /assets/images/HexFEA.png
+    alt: "placeholder image 1"
+    title: "First joint"
 ---
 
 During the summer of 2018, I spearheaded my own project called the Hexapod Enhancement Experiment (HEX) in the Robotics and Mechanisms Lab at UCLA. Powered by Dynamixel Pro H54-200-S500-R actuators, the hexapod is designed to have a large footprint for future developments allowing the hexapod to crouch over and dig through the ground for buried objects. My particular focus was redesigning the legs of the robot.
@@ -14,6 +35,8 @@ During the summer of 2018, I spearheaded my own project called the Hexapod Enhan
 ## Design and Finite Element Analysis
 
 The size of a twin bed, HEX’s former hexapod design suffered from serious flaws that caused screws to shear at the joints. I redesigned the entire leg to increase its structural stability by removing the need for screws. Using the FEA software built into Solidworks, I calculated the expected torque at each individual part with a safety factor of 3. The maximum torque and forces to be experienced by the leg was assumed to occur when the hexapod is about to lift its body off the ground. Once defining the material as 7075 aluminum, I meshed the model and ran the simulation, finding that the part would not fail and then backing up my findings with my hand calculations.
+
+{% include gallery caption="The robot design and leg close-ups" %}
 
 ## Computer Numerical Control Operations
 

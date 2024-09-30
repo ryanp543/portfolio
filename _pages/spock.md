@@ -7,16 +7,35 @@ sidebar:
   - title: "UCLA 3D4E"
     image: /assets/images/SpockIcon.png
     text: "Project Lead (2015-16), President (2017-19)"
+gallery:
+  - url: /assets/images/Spock3dp_spock_hand_three_fingers.jpg
+    image_path: /assets/images/Spock3dp_spock_hand_three_fingers.jpg
+    alt: "placeholder image 1"
+    title: "Lending a hand"
+  - url: /assets/images/Spock13177842_1033107270130512_2577748198247709657_n.jpg
+    image_path: /assets/images/Spock13177842_1033107270130512_2577748198247709657_n.jpg
+    alt: "placeholder image 1"
+    title: "Spock sizes"
+  - url: /assets/images/SpockIMG_2722.jpg
+    image_path: /assets/images/SpockIMG_2722.jpg
+    alt: "placeholder image 1"
+    title: "Dribbling"
+  - url: /assets/images/SpockPicture6.png
+    image_path: /assets/images/SpockPicture6.png
+    alt: "placeholder image 1"
+    title: "The shot"
 ---
 
 Since the 2015 "Spock" Basketball Prosthetic Hand project that spearheaded 3D4E's healthcare/prosthetics division, I've had a direct hand in developing several adaptive sports projects in collaboration with the Angel City Sports Facility in Los Angeles to provide more customizable, inexpensive, and accessible equipment for those who need them the most.
 
 # "Spock" Basketball Prosthetic Hand
 
-Built for children with limb differences, the Spock gave them the ability to dribble, pass, and shoot a basketball. Through the organization eNabling the Future, we were able to find a youth recipient, Logan, to test and gift our prosthetic. He made 17 shots within an hour of practice. This project went on to become a finalist in the 2016 Instructables 3D Printing Contest. 
+Built for children with limb differences, the Spock gave them the ability to dribble, pass, and shoot a basketball. Through the organization eNabling the Future, we were able to find a youth recipient, Logan, to test and gift our prosthetic. He made 17 shots within an hour of practice. This project went on to become a finalist in the [2016 Instructables 3D Printing Contest](https://www.instructables.com/Spock-Prosthetic-Basketball-Hand-by-UCLA-3D4E/#ible-comments "here"). 
 
 [Click Here for Pac-12 Video](https://www.youtube.com/watch?v=Gq1toJm_MgU&ab_channel=Pac-12){: .btn .btn--x-large}
 [Click Here for 3D4E Video](https://www.youtube.com/watch?v=ECb67Tlm_jA&ab_channel=JoeBruin){: .btn .btn--x-large}
+
+{% include gallery caption="Spock in action." %}
 
 ## Reverse Engineering the Raptor Reloaded
 

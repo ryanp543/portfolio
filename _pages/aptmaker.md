@@ -61,8 +61,8 @@ gallery2:
     image_path: /assets/images/ApartmentMakerspaceorigami4.png
     alt: "placeholder image 1"
     title: "Origami idea 4"
-  - url: /assets/images/ApartmentMakerspaceorigamimain.png
-    image_path: /assets/images/ApartmentMakerspaceorigamimain.png
+  - url: /assets/images/ApartmentMakerspaceorigamimain.jpg
+    image_path: /assets/images/ApartmentMakerspaceorigamimain.jpg
     alt: "placeholder image 1"
     title: "Origami idea main"
   - url: /assets/images/ApartmentMakerspacesupports.jpg

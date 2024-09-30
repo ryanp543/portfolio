@@ -181,6 +181,8 @@ gallery7:
 
 {% include gallery id="gallery4" caption="Renders of full assembly and features." %}
 
+{% include video id="1KKgBUuzeSHxnNFUtJGVVq23StoCTtUj1" provider="google-drive" %}
+
 ## Manufacturing
 
 {% include gallery id="gallery5" caption="The first rough draft prototype of the workbench." %}

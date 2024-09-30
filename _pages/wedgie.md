@@ -74,3 +74,7 @@ The metal blades were 1” thick AR400 steel sheets cut on a wire EDM, while the
 Wedgie’s frame was designed such that it guided any external loads through the frame and could still move via the rear wheels when flipped over.
 
 {% include gallery id="gallery4" caption="Wedgie can continue moving if flipped." %}
+
+## Wedge Ground to be Extra Sharp!
+
+{% include video id="0ULI_Zez5As&ab_channel=ASMEofUCLA" provider="youtube" %}

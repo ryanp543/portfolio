@@ -160,6 +160,11 @@ gallery6:
     image_path: /assets/images/AptMakerspaceSlide25.png
     alt: "placeholder image 1"
     title: "One of many"
+gallery7:
+  - url: /assets/images/AptMakerspaceSlide37.png
+    image_path: /assets/images/AptMakerspaceSlide37.png
+    alt: "placeholder image 1"
+    title: "The team"
 ---
 
 {% include gallery caption="The apartment makerspace workbench." %}
@@ -193,5 +198,7 @@ gallery6:
 ## Reports and Provisional Patents
 
 Gotta give credit where credit is due. This is the fantastic team I was a part of!
+
+{% include gallery id="gallery7" caption="The fantastic team I was a part of!" %}
 
 Provisional patent

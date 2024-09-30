@@ -38,8 +38,8 @@ gallery2:
     alt: "placeholder image 1"
     title: "Elastic in the back"
 gallery3:
-  - url: /assets/images/SpockPicture3.jpg
-    image_path: /assets/images/SpockPicture3.jpg
+  - url: /assets/images/SpockPicture3.png
+    image_path: /assets/images/SpockPicture3.png
     alt: "placeholder image 1"
     title: "FEA"
 ---

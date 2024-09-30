@@ -58,10 +58,6 @@ gallery3:
     image_path: /assets/images/SenseObjectPicture11.jpg
     alt: "placeholder image 1"
     title: "Inserting the sensor"
-  - url: /assets/images/SenseObjectPicture12.jpg
-    image_path: /assets/images/SenseObjectPicture12.jpg
-    alt: "placeholder image 1"
-    title: "Ribbon cables"
   - url: /assets/images/SenseObjectPicture13.jpg
     image_path: /assets/images/SenseObjectPicture13.jpg
     alt: "placeholder image 1"

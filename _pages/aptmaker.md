@@ -187,6 +187,8 @@ gallery7:
 
 {% include gallery id="gallery5" caption="The first rough draft prototype of the workbench." %}
 
+{% include video id="1yU8FrEWQt4TVm_TeubWukgcv8GstKHvH" provider="google-drive" %}
+
 ## Customer Testing
 
 > "Super cool that you included the whiteboard!! I also really like the trash slot. It’s really cool to see a table that is built for the use cases of makers” - a potential customer
@@ -196,6 +198,11 @@ gallery7:
 > "Customizability, trash bin is HUGE, good size work surface, nice height” - survey answer to “What do you like about this concept?”
 
 {% include gallery id="gallery6" caption="Very thorough customer testing and feedback." %}
+
+{% include video id="1ITINNPlwJ9Wu1ukT4oBDDU8KYO7K6pvK" provider="google-drive" %}
+{% include video id="16-14s_Vz-EMyfOE1fyZTjlGMfkyqpLY9" provider="google-drive" %}
+{% include video id="1n69FGp5XNpVjWCPC8G9244cAA7KThKGg" provider="google-drive" %}
+{% include video id="1KctcXApfY1Z12eravqxwqh4V5jch2Et4" provider="google-drive" %}
 
 ## Reports and Provisional Patents
 

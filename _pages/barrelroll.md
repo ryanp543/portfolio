@@ -35,7 +35,31 @@ gallery4:
     image_path: /assets/images/BarrelRoll4.jpg
     alt: "placeholder image 1"
     title: "Custom gearbox to fit inside inner shaft"
-
+gallery5:
+  - url: /assets/images/BarrelRoll1.jpg
+    image_path: /assets/images/BarrelRoll1.jpg
+    alt: "placeholder image 1"
+    title: "All the tooling and parts"
+  - url: /assets/images/BarrelRoll2.jpg
+    image_path: /assets/images/BarrelRoll2.jpg
+    alt: "placeholder image 2"
+    title: "Arm assembly"
+  - url: /assets/images/BarrelRoll3.jpg
+    image_path: /assets/images/BarrelRoll3.jpg
+    alt: "placeholder image 2"
+    title: "On the CNC"
+  - url: /assets/images/BarrelRollMachined.jpg
+    image_path: /assets/images/BarrelRollMachined.jpg
+    alt: "placeholder image 1"
+    title: "Some machined parts finished"
+  - url: /assets/images/BarrelRoll17757496_2080484075511499_3695779751241997096_n.jpg
+    image_path: /assets/images/BarrelRoll17757496_2080484075511499_3695779751241997096_n.jpg
+    alt: "placeholder image 2"
+    title: "On the lathe part 1"
+  - url: /assets/images/BarrelRolldrilling.jpg
+    image_path: /assets/images/BarrelRolldrilling.jpg
+    alt: "placeholder image 2"
+    title: "On the lathe part 2"
 ---
 
 This project served as my pinnacle achievement during the 2016-17 school year. As ASME’s Battlebots Lead, I took on the ambitious task of creating a never-seen-before battlebot. As a member of a team of six individuals, I designed 90% of the robot and conducted around 60-70% of the entire manufacturing process. In doing so, my hands-on skills in this field of mechanical engineering greatly expanded as my comfort with large scale and high precision machining increased substantially.

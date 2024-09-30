@@ -54,6 +54,15 @@ gallery3:
     image_path: /assets/images/MotorBank9dadd73f-ab2e-4a36-9e2e-2d4f6fb666aa.jfif
     alt: "placeholder image 1"
     title: "Balconies for redirecting"
+gallery4:
+  - url: /assets/images/MotorBank795613b6-6588-4f4f-b61b-aee9c1d0445a.jfif
+    image_path: /assets/images/MotorBank795613b6-6588-4f4f-b61b-aee9c1d0445a.jfif
+    alt: "placeholder image 1"
+    title: "Redirect pulleys"
+  - url: /assets/images/MotorBank7cf1ce4c-e680-40c8-9bcd-9005276dec33.jfif
+    image_path: /assets/images/MotorBank7cf1ce4c-e680-40c8-9bcd-9005276dec33.jfif
+    alt: "placeholder image 1"
+    title: "FEA"
 ---
 
 In the UCLA Biomechatronics Lab are Barrett Technology’s WAM robotic arm and  tendon-driven fingers made by the lab for a prospective robotic hand, nicknamed the “Bairclaw.” My duty was to merge these two systems together with an adapter and expand the testbed from one to three fingers by building a motor bank.
@@ -83,6 +92,8 @@ The motor bank could switch between two orientations: the one on the previous pa
 ## Pulleys Redirecting Tendons
 
 The tendons were guided from the edge to the finger holders, through the pocket of the finger holders, and then up into the fingers. It was expected that tension from the motor bank would keep the tendons on their respective pulleys.
+
+{% include gallery id="gallery4" caption="Redirect pulleys holders." %}
 
 ## Modular Finger Holder Design
 

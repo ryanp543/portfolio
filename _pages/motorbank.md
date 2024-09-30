@@ -24,7 +24,7 @@ gallery:
     image_path: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jfif
     alt: "placeholder image 1"
     title: "The original bairclaw finger"
-gallery:
+gallery2:
   - url: /assets/images/MotorBank6c8f6ce7-0673-4801-b6db-4e548f4ae156.png
     image_path: /assets/images/MotorBank6c8f6ce7-0673-4801-b6db-4e548f4ae156.png
     alt: "placeholder image 1"

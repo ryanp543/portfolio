@@ -114,6 +114,35 @@ gallery4:
     image_path: /assets/images/ApartmentMakerspaceSlide35.png
     alt: "placeholder image 1"
     title: "Trash bin storage"
+gallery5:
+  - url: /assets/images/AptMakerspace20210428-180815_DSC02794.jpg
+    image_path: /assets/images/AptMakerspace20210428-180815_DSC02794.jpg
+    alt: "placeholder image 1"
+    title: "Rough draft"
+  - url: /assets/images/AptMakerspace20210428-180829_DSC02795.jpg
+    image_path: /assets/images/AptMakerspace20210428-180829_DSC02795.jpg
+    alt: "placeholder image 1"
+    title: "Side storage"
+  - url: /assets/images/AptMakerspace20210428-180843_DSC02796.jpg
+    image_path: /assets/images/AptMakerspace20210428-180843_DSC02796.jpg
+    alt: "placeholder image 1"
+    title: "Surface storage"
+  - url: /assets/images/AptMakerspace20210428-180908_DSC02799.jpg
+    image_path: /assets/images/AptMakerspace20210428-180908_DSC02799.jpg
+    alt: "placeholder image 1"
+    title: "Front view"
+  - url: /assets/images/AptMakerspaceTrash Slot Pic 2.jpeg
+    image_path: /assets/images/AptMakerspaceTrash Slot Pic 2.jpeg
+    alt: "placeholder image 1"
+    title: "Trash bin"
+  - url: /assets/images/AptMakerspaceTrash Slot Pic 3.jpeg
+    image_path: /assets/images/AptMakerspaceTrash Slot Pic 3.jpeg
+    alt: "placeholder image 1"
+    title: "Trash bin 2"
+  - url: /assets/images/AptMakerspaceTrash Slot Pics.jpeg
+    image_path: /assets/images/AptMakerspaceTrash Slot Pics.jpeg
+    alt: "placeholder image 1"
+    title: "Concealed"
 ---
 
 {% include gallery caption="The apartment makerspace workbench." %}
@@ -131,6 +160,8 @@ gallery4:
 {% include gallery id="gallery4" caption="Renders of full assembly and features." %}
 
 ## Manufacturing
+
+{% include gallery id="gallery5" caption="The first rough draft prototype of the workbench." %}
 
 ## Customer Testing
 

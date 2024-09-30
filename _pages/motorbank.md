@@ -41,6 +41,19 @@ gallery2:
     image_path: /assets/images/MotorBanka21285c1-ab56-4356-9a8b-f10821957bf0.jfif
     alt: "placeholder image 1"
     title: "Strain gauge installation"
+gallery3:
+  - url: /assets/images/MotorBankad7141a9-68be-4123-9a5e-bde3ae161f6d.jfif
+    image_path: /assets/images/MotorBankad7141a9-68be-4123-9a5e-bde3ae161f6d.jfif
+    alt: "placeholder image 1"
+    title: "Springs on the balconies"
+  - url: /assets/images/MotorBankd7e2f4a6-17b2-49cc-8244-baccc65d2b0f.jfif
+    image_path: /assets/images/MotorBankd7e2f4a6-17b2-49cc-8244-baccc65d2b0f.jfif
+    alt: "placeholder image 1"
+    title: "Baseplate"
+  - url: /assets/images/MotorBank9dadd73f-ab2e-4a36-9e2e-2d4f6fb666aa.jfif
+    image_path: /assets/images/MotorBank9dadd73f-ab2e-4a36-9e2e-2d4f6fb666aa.jfif
+    alt: "placeholder image 1"
+    title: "Balconies for redirecting"
 ---
 
 In the UCLA Biomechatronics Lab are Barrett Technology’s WAM robotic arm and  tendon-driven fingers made by the lab for a prospective robotic hand, nicknamed the “Bairclaw.” My duty was to merge these two systems together with an adapter and expand the testbed from one to three fingers by building a motor bank.

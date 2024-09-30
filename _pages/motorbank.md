@@ -7,6 +7,23 @@ sidebar:
   - title: "UCLA Biomechatronics Lab"
     image: /assets/images/MotorBankIcon.png
     text: "Undergraduate Researcher"
+gallery:
+  - url: /assets/images/MotorBank6b685ed4-4db9-4b18-a07e-475b54298c8c.jpg
+    image_path: /assets/images/MotorBank6b685ed4-4db9-4b18-a07e-475b54298c8c.jpg
+    alt: "placeholder image 1"
+    title: "Assembly without strain gauges"
+  - url: /assets/images/MotorBank583f2bf9-bc72-4ee4-aa26-ead637149433.jpg
+    image_path: /assets/images/MotorBank583f2bf9-bc72-4ee4-aa26-ead637149433.jpg
+    alt: "placeholder image 1"
+    title: "No electronics"
+  - url: /assets/images/MotorBankdcb2c517-995a-4c45-9bfd-dcc8397066ac.jpg
+    image_path: /assets/images/MotorBankdcb2c517-995a-4c45-9bfd-dcc8397066ac.jpg
+    alt: "placeholder image 1"
+    title: "Where the tendon tubes go"
+  - url: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jpg
+    image_path: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jpg
+    alt: "placeholder image 1"
+    title: "The original bairclaw finger"
 ---
 
 In the UCLA Biomechatronics Lab are Barrett Technology’s WAM robotic arm and  tendon-driven fingers made by the lab for a prospective robotic hand, nicknamed the “Bairclaw.” My duty was to merge these two systems together with an adapter and expand the testbed from one to three fingers by building a motor bank.
@@ -16,6 +33,8 @@ In the UCLA Biomechatronics Lab are Barrett Technology’s WAM robotic arm and 
 ## Expanding the Bairclaw System
 
 With three modular motor units, the motor bank was designed to accommodate 18 tendons for three fingers, which each had four degrees of freedom. Stepper motors in the bank controlled tendons. Pulleys redirected the tendons towards yellow vacuum tubes that housed six separate Teflon tubes through which the tendons individually traveled. Each pulley mount was only 1/16 inches wide, 3/8 inches long, and as small as 0.09 inches tall--a fairly tough machining challenge!
+
+{% include gallery caption="Some assembly photos." %}
 
 ## Springs and Cantilever Beams with Strain Gauges
 

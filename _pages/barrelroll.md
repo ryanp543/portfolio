@@ -7,6 +7,19 @@ sidebar:
   - title: "UCLA ASME"
     image: /assets/images/BarrelRollIcon.png
     text: "Battlebot Project Lead"
+gallery:
+  - url: /assets/images/BarrelRoll7.jpg
+    image_path: /assets/images/BarrelRoll7.jpg
+    alt: "placeholder image 1"
+    title: "View 1"
+  - url: /assets/images/BarrelRoll9.jpg
+    image_path: /assets/images/BarrelRoll9.jpg
+    alt: "placeholder image 2"
+    title: "View 2"
+  - url: /assets/images/BarrelRoll10.jpg
+    image_path: /assets/images/BarrelRoll10.jpg
+    alt: "placeholder image 2"
+    title: "Arm removed"
 ---
 
 This project served as my pinnacle achievement during the 2016-17 school year. As ASME’s Battlebots Lead, I took on the ambitious task of creating a never-seen-before battlebot. As a member of a team of six individuals, I designed 90% of the robot and conducted around 60-70% of the entire manufacturing process. In doing so, my hands-on skills in this field of mechanical engineering greatly expanded as my comfort with large scale and high precision machining increased substantially.
@@ -14,6 +27,8 @@ This project served as my pinnacle achievement during the 2016-17 school year. A
 ## “Thwackbot” Concept
 
 Barrel Roll boasts two cylindrical arms rotating about shafts that protrude from the box-shaped middle body that housed the electronics. Upon spinning these arms—which had built-in treads—in opposite directions, the entire robot would spin in a circle, threatening to dangerously impact oncoming bots. Each arm consisted of an aluminum core and steel shell with treads for traction.
+
+{% include gallery caption="Barrel Roll complete assembly." %}
 
 ## Middle Body Junction
 

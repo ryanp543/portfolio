@@ -6,7 +6,20 @@ author_profile: false
 sidebar:
   - title: "AIO Robotics"
     image: /assets/images/AIOIcon.png
-    text: "Nechanical Design Intern"
+    text: "Mechanical Design Intern"
+gallery:
+  - url: /assets/images/AIO26.jpg
+    image_path: /assets/images/AIO26.jpg
+    alt: "placeholder image 1"
+    title: "View 1"
+  - url: /assets/images/AIO27.jpg
+    image_path: /assets/images/AIO27.jpg
+    alt: "placeholder image 1"
+    title: "View 2"
+  - url: /assets/images/AIO25.jpg
+    image_path: /assets/images/AIO25.jpg
+    alt: "placeholder image 1"
+    title: "Forearm"
 ---
 
 Interested in building one for yourself? [There's an Instructables Page!](https://www.instructables.com/Streamlined-3D-Printed-Prosthetic-Hand/ "here")
@@ -15,7 +28,9 @@ As an intern for AIO Robotics, I designed and 3D printed a prosthetic hand in co
 
 ## Streamlined Design
 
-This prosthetic upheld a more streamlined design, maintaining the appealing amorphous curvature of the human hand. On Autodesk’s Fusion 360 CAD software, this aesthetic was achieved by lofting spline sketches on several offset planes using my own arm as a model. To create the channels, sweeps with circular profiles and paths made from sketched lines projected onto the upper surface were used.
+This prosthetic upheld a more streamlined design, maintaining the appealing amorphous curvature of the human hand. On Autodesk’s Fusion 360 CAD software, this aesthetic was achieved by lofting spline sketches on several offset planes using my own arm as a model. To create the channels, sweeps with circular profiles and paths made from sketched lines projected onto the upper surface were used. 
+
+{% include gallery caption="AIO prosthetic full assembly." %} 
 
 ## Flexible Filament Joints
 

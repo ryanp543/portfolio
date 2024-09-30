@@ -20,6 +20,20 @@ gallery:
     image_path: /assets/images/AIO25.jpg
     alt: "placeholder image 1"
     title: "Forearm"
+gallery2:
+  - url: /assets/images/AIO17.jpg
+    image_path: /assets/images/AIO17.jpg
+    alt: "placeholder image 1"
+    title: "Wrist"
+  - url: /assets/images/AIO19.jpg
+    image_path: /assets/images/AIO19.jpg
+    alt: "placeholder image 1"
+    title: "Fingers"
+gallery3:
+  - url: /assets/images/AIO18.jpg
+    image_path: /assets/images/AIO18.jpg
+    alt: "placeholder image 1"
+    title: "Opposable Thumb"
 ---
 
 Interested in building one for yourself? [There's an Instructables Page!](https://www.instructables.com/Streamlined-3D-Printed-Prosthetic-Hand/ "here")
@@ -36,9 +50,13 @@ This prosthetic upheld a more streamlined design, maintaining the appealing amor
 
 The joints of the prosthetic were printed using flexible filament to preserve its functionality while allowing the prosthetic to be easily scaled.
 
+{% include gallery id="gallery2" caption="Joints made of flexible filament at the fingers and the wrist." %}
+
 ## Opposable Thumb 
 
 The thumb was designed with the tendon closer to the axis of rotation at the second hinge joint, causing the phalanx to bend first before the finger tip and hence allowing the user to clamp objects against the palm.
+
+{% include gallery id="gallery3" caption="Opposable thumb assembled." %}
 
 ## Tendon Housing and Forearm Shells
 

@@ -33,7 +33,30 @@ gallery3:
   - url: /assets/images/AIO18.jpg
     image_path: /assets/images/AIO18.jpg
     alt: "placeholder image 1"
-    title: "Opposable Thumb"
+    title: " "
+gallery4:
+  - url: /assets/images/AIO20.jpg
+    image_path: /assets/images/AIO20.jpg
+    alt: "placeholder image 1"
+    title: "Forearm shell 1"
+  - url: /assets/images/AIO21.jpg
+    image_path: /assets/images/AIO21.jpg
+    alt: "placeholder image 1"
+    title: "Forearm shell 2"
+gallery5:
+  - url: /assets/images/AIO23.jpg
+    image_path: /assets/images/AIO23.jpg
+    alt: "placeholder image 1"
+    title: "Tensioner pins 1"
+  - url: /assets/images/AIO22.jpg
+    image_path: /assets/images/AIO22.jpg
+    alt: "placeholder image 1"
+    title: "Tensioner pins 2"
+gallery6:
+  - url: /assets/images/AIOPicture1.jpg
+    image_path: /assets/images/AIOPicture1.jpg
+    alt: "placeholder image 1"
+    title: "CAD"
 ---
 
 Interested in building one for yourself? [There's an Instructables Page!](https://www.instructables.com/Streamlined-3D-Printed-Prosthetic-Hand/ "here")
@@ -62,9 +85,13 @@ The thumb was designed with the tendon closer to the axis of rotation at the sec
 
 The tendons were housed in channels, preventing environmental interference and giving the prosthetic a cleaner look. Top and bottom shells clipped onto the inner forearm, concealing the tensioner pins, tendon knots, and Velcro straps for a streamlined appearance.
 
+{% include gallery id="gallery4" caption="Forearm shell to keep it streamlined." %}
+
 ## Tensioner Pins
 
 Screws entered the backs of these tensioner pins. By tightening or loosening the screws, the pins pulled or relaxed the tendons, allowing the user to manipulate the tension in the strings. The mount for the pins was built into the inner forearm.
+
+{% include gallery id="gallery5" caption="Tendons are housed in the forearm shell." %}
 
 ## Removable Palm
 
@@ -73,3 +100,5 @@ A humanlike palm was screwed into upper half of the hand for easy removal. When 
 ## Analysis of Prosthetic
 
 CAD sketches were created when wrist was flexed to determine the approximate change in distance between the edges of the palm and forearm and thus whether the fingers would curl completely when the wrist bent. The desired distance was found by measuring the length of string pulled from a printed finger, fully curled.
+
+{% include gallery id="gallery6" caption="CAD model of the AIO prosthetic." %}

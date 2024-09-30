@@ -8,16 +8,16 @@ sidebar:
     image: /assets/images/WedgieIcon.png
     text: "President, Flagship Battlebot Lead"
 gallery:
-  - url: /portfolio/assets/images/wedgie/05.jpg
-    image_path: /assets/images/wedgie/05.jpg
-    alt: "Close up 1"
-    title: "Image 1 title caption"
-  - url: /portfolio/assets/images/wedgie/10.jpg
+  - url: /assets/images/wedgie/05.jpg
+    image_path: portfolio/assets/images/wedgie/05.jpg
+    alt: "placeholder image 1"
+    title: "Close up 1"
+  - url: /assets/images/wedgie/10.jpg
     image_path: /assets/images/wedgie/10.jpg
     alt: "placeholder image 2"
     title: "Close up 2"
 gallery2:
-  - url: /portfolio/assets/images/wedgie/IMG_20180425_203736.jpg
+  - url: /assets/images/wedgie/IMG_20180425_203736.jpg
     image_path: /assets/images/wedgie/IMG_20180425_203736.jpg
     alt: "placeholder image 1"
     title: "Electronics"

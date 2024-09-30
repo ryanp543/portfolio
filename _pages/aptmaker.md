@@ -8,8 +8,8 @@ sidebar:
     image: /assets/images/AptMakerspaceIcon.png
     text: "Project Member"
 gallery:
-  - url: /assets/images/New folder/AptMakerspacePicture1.png
-    image_path: /assets/images/New folder/AptMakerspacePicture1.png
+  - url: /assets/images/AptMakerspacePicture1.png
+    image_path: /assets/images/AptMakerspacePicture1.png
     alt: "placeholder image 1"
     title: "Swappable tabletops"
   - url: /assets/images/AptMakerspacePicture2.png

@@ -65,6 +65,19 @@ gallery2:
     image_path: /assets/images/Hex44392245_1919171478171604_7239005585989959680_n.jpg
     alt: "placeholder image 1"
     title: "Foot socket"
+gallery3:
+  - url: /assets/images/Hex44202356_2200698826922657_6593716548249059328_n.jpg
+    image_path: /assets/images/Hex44202356_2200698826922657_6593716548249059328_n.jpg
+    alt: "placeholder image 1"
+    title: "Clamping"
+  - url: /assets/images/Hex44225871_914459668744100_5711502223809183744_n.jpg
+    image_path: /assets/images/Hex44225871_914459668744100_5711502223809183744_n.jpg
+    alt: "placeholder image 1"
+    title: "Finished segment"
+  - url: /assets/images/Hex44265552_249021905790549_8694760858066092032_n.jpg
+    image_path: /assets/images/Hex44265552_249021905790549_8694760858066092032_n.jpg
+    alt: "placeholder image 1"
+    title: "Gluing rig"
 ---
 
 During the summer of 2018, I spearheaded my own project called the Hexapod Enhancement Experiment (HEX) in the Robotics and Mechanisms Lab at UCLA. Powered by Dynamixel Pro H54-200-S500-R actuators, the hexapod is designed to have a large footprint for future developments allowing the hexapod to crouch over and dig through the ground for buried objects. My particular focus was redesigning the legs of the robot.
@@ -84,6 +97,8 @@ I modeled the components so I could make them with advanced operations on the CN
 ## Carbon Fiber Drilling and Gluing
 
 Carbon fiber tubes connected the joints together, but the tubes needed to be aligned so the joints were positioned at the correct angles. To do this, dowel pins were utilized to align the tubes with the machined joint parts. A carbide diamond-patterned fishtail drill bit was employed to avoid cracking the carbon fiber on the CNC. Isopropyl alcohol, KimTech cleaning wipes, and sandpaper prepped the surfaces for gluing. 0.007" glass beads were mixed with the epoxy to maximize surface area, increase adherence, and reduce slop.
+
+{% include gallery id="gallery3" caption="Gluing rig views" %}
 
 ## Aesthetic Covers
 

@@ -20,11 +20,29 @@ gallery:
     image_path: /assets/images/AptMakerspacePicture3.png
     alt: "placeholder image 1"
     title: "Changing out table tops"
+gallery2:
+  - url: /assets/images/ApartmentMakerspaceSlide3.png
+    image_path: /assets/images/ApartmentMakerspaceSlide3.png
+    alt: "placeholder image 1"
+  - url: /assets/images/ApartmentMakerpaceSlide5.png
+    image_path: /assets/images/ApartmentMakerpaceSlide5.png
+    alt: "placeholder image 1"
+  - url: /assets/images/ApartmentMakerpaceSlide6.png
+    image_path: /assets/images/ApartmentMakerpaceSlide6.png
+    alt: "placeholder image 1"
+  - url: /assets/images/ApartmentMakerpaceSlide7.png
+    image_path: /assets/images/ApartmentMakerpaceSlide7.png
+    alt: "placeholder image 1"
+  - url: /assets/images/ApartmentMakerpaceSlide8.png
+    image_path: /assets/images/ApartmentMakerpaceSlide8.png
+    alt: "placeholder image 1"
 ---
 
 {% include gallery caption="The apartment makerspace workbench." %}
 
 ## Motivation
+
+{% include gallery id="gallery2" caption="Motivation for the project." %}
 
 ## Sketches
 

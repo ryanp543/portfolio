@@ -8,8 +8,8 @@ sidebar:
     image: /assets/images/MotorBankIcon.png
     text: "Undergraduate Researcher"
 gallery:
-  - url: /assets/images/MotorBank6b685ed4-4db9-4b18-a07e-475b54298c8c.jpg
-    image_path: /assets/images/MotorBank6b685ed4-4db9-4b18-a07e-475b54298c8c.jpg
+  - url: /assets/images/MotorBank6b685ed4-4db9-4b18-a07e-475b54298c8c.jfif
+    image_path: /assets/images/MotorBank6b685ed4-4db9-4b18-a07e-475b54298c8c.jfif
     alt: "placeholder image 1"
     title: "Assembly without strain gauges"
   - url: /assets/images/MotorBank583f2bf9-bc72-4ee4-aa26-ead637149433.jpg

@@ -46,8 +46,8 @@ gallery3:
     image_path: /assets/images/SenseObjectPicture 16.jpg
     alt: "placeholder image 1"
     title: "Disassembled object"
-  - url: /assets/images/SenseObjectPicture1.jpg
-    image_path: /assets/images/SenseObjectPicture1.jpg
+  - url: /assets/images/SenseObjectPicture1.png
+    image_path: /assets/images/SenseObjectPicture1.png
     alt: "placeholder image 1"
     title: "The hand"
   - url: /assets/images/SenseObjectPicture10.jpg

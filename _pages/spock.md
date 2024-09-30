@@ -20,8 +20,8 @@ gallery:
     image_path: /assets/images/SpockIMG_2722.jpg
     alt: "placeholder image 1"
     title: "Dribbling"
-  - url: /assets/images/SpockPicture6.png
-    image_path: /assets/images/SpockPicture6.png
+  - url: /assets/images/SpockPicture6.jpg
+    image_path: /assets/images/SpockPicture6.jpg
     alt: "placeholder image 1"
     title: "The shot"
 ---

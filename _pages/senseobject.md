@@ -7,9 +7,28 @@ sidebar:
   - title: "UCLA Biomechatronics Lab"
     image: /assets/images/SenseObjectIcon.png
     text: "Undergraduate Researcher"
+gallery:
+  - url: /assets/images/SenseObjectPicture6.jpg
+    image_path: /assets/images/SenseObjectPicture6.jpg
+    alt: "placeholder image 1"
+    title: "Cylinder"
+  - url: /assets/images/SenseObjectPicture7.jpg
+    image_path: /assets/images/SenseObjectPicture7.jpg
+    alt: "placeholder image 1"
+    title: "Disk"
+  - url: /assets/images/SenseObjectPicture8.jpg
+    image_path: /assets/images/SenseObjectPicture8.jpg
+    alt: "placeholder image 1"
+    title: "Sphere"
+  - url: /assets/images/SenseObjectPicture9.jpg
+    image_path: /assets/images/SenseObjectPicture9.jpg
+    alt: "placeholder image 1"
+    title: "Rectangle"
 ---
 
 As the go-to designer and manufacturer in the UCLA Biomechatronics Lab, I assisted in the development of pressure-sensitive instrumented objects to be used for an Office of Naval Research (ONR) project. Specifically, these objects would be implemented in various experiments to study the haptic search and retrieval of mock ordnances buried within granular media. My task was to design and manufacture a sphere, box, and disk.
+
+{% include gallery caption="The objects assembled." %}
 
 ## Sensor Implementation
 

@@ -24,8 +24,8 @@ gallery:
     image_path: /assets/images/HexIMG-5249.jpg
     alt: "placeholder image 1"
     title: "First joint"
-  - url: /assets/images/HexFEA.png
-    image_path: /assets/images/HexFEA.png
+  - url: /assets/images/HexFEA.jpg
+    image_path: /assets/images/HexFEA.jpg
     alt: "placeholder image 1"
     title: "First joint"
 ---

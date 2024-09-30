@@ -143,6 +143,23 @@ gallery5:
     image_path: /assets/images/AptMakerspaceTrash Slot Pics.jpeg
     alt: "placeholder image 1"
     title: "Concealed"
+gallery6:
+  - url: /assets/images/AptMakerspaceIMG_1928.jpeg
+    image_path: /assets/images/AptMakerspaceIMG_1928.jpeg
+    alt: "placeholder image 1"
+    title: "Test 1"
+  - url: /assets/images/AptMakerspaceIMG_1930.jpeg
+    image_path: /assets/images/AptMakerspaceIMG_1930.jpeg
+    alt: "placeholder image 1"
+    title: "Test 2"
+  - url: /assets/images/AptMakerspaceSlide24.png
+    image_path: /assets/images/AptMakerspaceSlide24.png
+    alt: "placeholder image 1"
+    title: "Many tests"
+  - url: /assets/images/AptMakerspaceSlide25.png
+    image_path: /assets/images/AptMakerspaceSlide25.png
+    alt: "placeholder image 1"
+    title: "One of many"
 ---
 
 {% include gallery caption="The apartment makerspace workbench." %}
@@ -165,6 +182,16 @@ gallery5:
 
 ## Customer Testing
 
+> "Super cool that you included the whiteboard!! I also really like the trash slot. It’s really cool to see a table that is built for the use cases of makers” - a potential customer
+
+> "It’s pretty. The color combinations make it feel like a home work-desk and it doesn’t look uncomfortable to me. Feels compact in a good way.” - a potential customer
+
+> "Customizability, trash bin is HUGE, good size work surface, nice height” - survey answer to “What do you like about this concept?”
+
+{% include gallery id="gallery6" caption="Very thorough customer testing and feedback." %}
+
 ## Reports and Provisional Patents
+
+Gotta give credit where credit is due. This is the fantastic team I was a part of!
 
 Provisional patent

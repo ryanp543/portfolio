@@ -76,6 +76,23 @@ gallery5:
     image_path: /assets/images/MotorBank1a80f370-c4be-4cf9-92fd-19225b42f2d1.jfif
     alt: "placeholder image 1"
     title: "CAD"
+gallery6:
+  - url: /assets/images/MotorBanka415ef1a-839b-4161-ad06-006f3f6b56e1.jfif
+    image_path: /assets/images/MotorBanka415ef1a-839b-4161-ad06-006f3f6b56e1.jfif
+    alt: "placeholder image 1"
+    title: "Full finger assembly with plate"
+  - url: /assets/images/MotorBankb3ba205e-90a7-41de-be00-ae27edb68753.jfif
+    image_path: /assets/images/MotorBankb3ba205e-90a7-41de-be00-ae27edb68753.jfif
+    alt: "placeholder image 1"
+    title: "Wrist adapter"
+  - url: /assets/images/MotorBankbeece417-13c2-4ec1-973c-278cacfb1bbf.jfif
+    image_path: /assets/images/MotorBankbeece417-13c2-4ec1-973c-278cacfb1bbf.jfif
+    alt: "placeholder image 1"
+    title: "Assembly process 1"
+  - url: /assets/images/MotorBanke48ed31a-3a57-4a4e-9125-159d6dce65a9.jfif
+    image_path: /assets/images/MotorBanke48ed31a-3a57-4a4e-9125-159d6dce65a9.jfif
+    alt: "placeholder image 1"
+    title: "Assembly process 2"
 ---
 
 In the UCLA Biomechatronics Lab are Barrett Technology’s WAM robotic arm and  tendon-driven fingers made by the lab for a prospective robotic hand, nicknamed the “Bairclaw.” My duty was to merge these two systems together with an adapter and expand the testbed from one to three fingers by building a motor bank.
@@ -117,3 +134,5 @@ The tendons were guided into the edge pulley holders (circled green) that could 
 ## Merging the Bairclaw Fingers to the WAM
 
 The Bairclaw fingers were fastened onto the finger holders via the screws at the top of the part. These finger holders could be fixed over any pair of holes on the baseplate. To attach the adapter to the WAM, a ring clamped onto the WAM wrist as it screwed onto the threads of the WAM adapter at the base (as seen in "Assembly 2" photo).
+
+{% include gallery id="gallery6" caption="The assembly and final product." %}

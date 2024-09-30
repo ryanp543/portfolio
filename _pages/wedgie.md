@@ -8,8 +8,8 @@ sidebar:
     image: /assets/images/WedgieIcon.png
     text: "President, Flagship Battlebot Lead"
 gallery:
-  - url: /assets/images/wedgie/05.jpg
-    image_path: portfolio/assets/images/wedgie/05.jpg
+  - url: /assets/images/05.jpg
+    image_path: /assets/images/wedgie/05.jpg
     alt: "placeholder image 1"
     title: "Close up 1"
   - url: /assets/images/wedgie/10.jpg

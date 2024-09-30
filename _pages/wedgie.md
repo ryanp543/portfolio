@@ -22,7 +22,7 @@ My second 60-lb flagship battlebot, nicknamed “Wedgie”, was a robot I comple
 
 “Wedgie” went on to make it to the third round of the lightweight division at the 2018 Robogames competition.
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+{% include gallery caption="Close-up image of Wedgie's weapon" %}
 
 ## Wedge and Vertical Spinner Weapon
 

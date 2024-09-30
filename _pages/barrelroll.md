@@ -60,9 +60,54 @@ gallery5:
     image_path: /assets/images/BarrelRolldrilling.jpg
     alt: "placeholder image 2"
     title: "On the lathe part 2"
+gallery6:
+  - url: /assets/images/BarrelRollChat1.jpg
+    image_path: /assets/images/BarrelRollChat1.jpg
+    alt: "placeholder image 1"
+    title: "1"
+  - url: /assets/images/BarrelRollChat2.jpg
+    image_path: /assets/images/BarrelRollChat2.jpg
+    alt: "placeholder image 2"
+    title: "2"
+  - url: /assets/images/BarrelRollChat3.jpg
+    image_path: /assets/images/BarrelRollChat3.jpg
+    alt: "placeholder image 1"
+    title: "3"
+  - url: /assets/images/BarrelRollChat4.jpg
+    image_path: /assets/images/BarrelRollChat4.jpg
+    alt: "placeholder image 2"
+    title: "4"
+  - url: /assets/images/BarrelRollChat5.jpg
+    image_path: /assets/images/BarrelRollChat5.jpg
+    alt: "placeholder image 1"
+    title: "5"
+  - url: /assets/images/BarrelRollChat6.jpg
+    image_path: /assets/images/BarrelRollChat6.jpg
+    alt: "placeholder image 2"
+    title: "6"
+  - url: /assets/images/BarrelRollChat7.jpg
+    image_path: /assets/images/BarrelRollChat7.jpg
+    alt: "placeholder image 1"
+    title: "7"
+  - url: /assets/images/BarrelRollChat8.jpg
+    image_path: /assets/images/BarrelRollChat8.jpg
+    alt: "placeholder image 2"
+    title: "8"
+  - url: /assets/images/BarrelRollChat9.jpg
+    image_path: /assets/images/BarrelRollChat9.jpg
+    alt: "placeholder image 1"
+    title: "9"
+  - url: /assets/images/BarrelRollChat10.jpg
+    image_path: /assets/images/BarrelRollChat10.jpg
+    alt: "placeholder image 2"
+    title: "10"
+  - url: /assets/images/BarrelRollChat11.jpg
+    image_path: /assets/images/BarrelRollChat11.jpg
+    alt: "placeholder image 2"
+    title: "11"
 ---
 
-This project served as my pinnacle achievement during the 2016-17 school year. As ASME’s Battlebots Lead, I took on the ambitious task of creating a never-seen-before battlebot. As a member of a team of six individuals, I designed 90% of the robot and conducted around 60-70% of the entire manufacturing process. In doing so, my hands-on skills in this field of mechanical engineering greatly expanded as my comfort with large scale and high precision machining increased substantially.
+This project served as my pinnacle achievement during the 2016-17 school year. As ASME’s Battlebots Lead, I took on the ambitious task of creating a never-seen-before battlebot. As a member of a team of six individuals and under the guidance of our project lead Sean Oh, I designed 90% of the robot and conducted around 60-70% of the entire manufacturing process. In doing so, my hands-on skills in this field of mechanical engineering greatly expanded as my comfort with large scale and high precision machining increased substantially.
 
 ## “Thwackbot” Concept
 
@@ -93,3 +138,9 @@ The motor and gearbox were selected carefully to achieve comparable impact energ
 Manufacturing was done on a manual lathe and a Haas CNC. Tolerances were held to ±0.0005 inches for press fits and +0.002 for slip fits. Large spherical bearings supporting up to 50000 lbs of dynamic load and needle roller bearings allowed free rotation and resisted radial forces. 4140 steel and 7075 aluminum were used to maximize material strength while remaining below the weight limit. Various processes such as boring, autofeed turning, and slot milling were employed to machine the parts.
 
 {% include gallery id="gallery5" caption="Manufacturing the parts." %}
+
+## Community Response
+
+The battlebots community responds:
+
+{% include gallery id="gallery6" caption="General confusion (hahaha)." %}

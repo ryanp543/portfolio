@@ -13,7 +13,7 @@ During the summer of 2017, I got the opportunity to intern at Made In Space, a s
 
 As an intern, I worked alongside Made In Space engineers to design, construct, and assemble hardware that would eventually be sent to the International Space Station.
 
-Projects for Space Flight
+## Projects for Space Flight
 
 At Made In Space, I worked on upgrading and modifying components for the Additive Manufacturing Facility (AMF) 3D printer. I prepared space-flight materials and designed a machine that would expedite the specific procedure of neatly spooling AMF spool canisters with filament. Another one of my primary projects was developing prototype hardware for next generation additive manufacturing technology to be used out in parabolic flight. A description of the project can be found in [this article](https://medium.com/made-in-space/new-space-based-manufacturing-technologies-demonstrated-by-made-in-space-79000e771ac4 "here"). 
 

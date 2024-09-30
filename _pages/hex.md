@@ -27,7 +27,44 @@ gallery:
   - url: /assets/images/HexFEA.jpg
     image_path: /assets/images/HexFEA.jpg
     alt: "placeholder image 1"
-    title: "First joint"
+    title: "FEA"
+gallery2:
+  - url: /assets/images/Hex44081535_317110939080484_5317776030549671936_n.jpg
+    image_path: /assets/images/Hex44081535_317110939080484_5317776030549671936_n.jpg
+    alt: "placeholder image 1"
+    title: "Joint bracket 1"
+  - url: /assets/images/Hex44118695_629353954147030_5158424677919490048_n.jpg
+    image_path: /assets/images/Hex44118695_629353954147030_5158424677919490048_n.jpg
+    alt: "placeholder image 1"
+    title: "Parts per leg"
+  - url: /assets/images/Hex44235360_2160068500918983_2811002691608641536_n.jpg
+    image_path: /assets/images/Hex44235360_2160068500918983_2811002691608641536_n.jpg
+    alt: "placeholder image 1"
+    title: "Mass producing"
+  - url: /assets/images/Hex44253207_327808601329760_710221942459727872_n.jpg
+    image_path: /assets/images/Hex44253207_327808601329760_710221942459727872_n.jpg
+    alt: "placeholder image 1"
+    title: "Threaded foot knob"
+  - url: /assets/images/Hex44277343_2391759227506822_7232815361295384576_n.jpg
+    image_path: /assets/images/Hex44277343_2391759227506822_7232815361295384576_n.jpg
+    alt: "placeholder image 1"
+    title: "Foot knob second view"
+  - url: /assets/images/Hex44301681_2101676306511459_3733039617809580032_n.jpg
+    image_path: /assets/images/Hex44301681_2101676306511459_3733039617809580032_n.jpg
+    alt: "placeholder image 1"
+    title: "Joint bracket 2"
+  - url: /assets/images/Hex44302740_2185550308328154_1137601107153911808_n.jpg
+    image_path: /assets/images/Hex44302740_2185550308328154_1137601107153911808_n.jpg
+    alt: "placeholder image 1"
+    title: "Joint bracket 1 different view"
+  - url: /assets/images/Hex44307047_345994232836757_5183695269056741376_n.jpg
+    image_path: /assets/images/Hex44307047_345994232836757_5183695269056741376_n.jpg
+    alt: "placeholder image 1"
+    title: "Joint bracket 2 different view"
+  - url: /assets/images/Hex44392245_1919171478171604_7239005585989959680_n.jpg
+    image_path: /assets/images/Hex44392245_1919171478171604_7239005585989959680_n.jpg
+    alt: "placeholder image 1"
+    title: "Foot socket"
 ---
 
 During the summer of 2018, I spearheaded my own project called the Hexapod Enhancement Experiment (HEX) in the Robotics and Mechanisms Lab at UCLA. Powered by Dynamixel Pro H54-200-S500-R actuators, the hexapod is designed to have a large footprint for future developments allowing the hexapod to crouch over and dig through the ground for buried objects. My particular focus was redesigning the legs of the robot.
@@ -41,6 +78,8 @@ The size of a twin bed, HEX’s former hexapod design suffered from serious flaw
 ## Computer Numerical Control Operations
 
 I modeled the components so I could make them with advanced operations on the CNC. The parts at the knee joints required six different orientations to mill out all of the features, while the tip of the feet required thread milling and hemispherical ramping. Every design demanded aggressive material removal with the shear hog and machining within close tolerances. The programming was done on HSM Works, a CAM software. In total, the CNCing of all 30 parts took around 100 hours.
+
+{% include gallery id="gallery2" caption="Lots of machining" %}
 
 ## Carbon Fiber Drilling and Gluing
 

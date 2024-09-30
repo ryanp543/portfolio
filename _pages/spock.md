@@ -24,6 +24,24 @@ gallery:
     image_path: /assets/images/SpockPicture6.jpg
     alt: "placeholder image 1"
     title: "The shot"
+gallery2:
+  - url: /assets/images/SpockIMG_2830.jpg
+    image_path: /assets/images/SpockIMG_2830.jpg
+    alt: "placeholder image 1"
+    title: "The back of the hand"
+  - url: /assets/images/SpockIMG_2815.jpg
+    image_path: /assets/images/SpockIMG_2815.jpg
+    alt: "placeholder image 1"
+    title: "Tendons in the front"
+  - url: /assets/images/SpockIMG_2814.jpg
+    image_path: /assets/images/SpockIMG_2814.jpg
+    alt: "placeholder image 1"
+    title: "Elastic in the back"
+gallery3:
+  - url: /assets/images/SpockPicture3.jpg
+    image_path: /assets/images/SpockPicture3.jpg
+    alt: "placeholder image 1"
+    title: "FEA"
 ---
 
 Since the 2015 "Spock" Basketball Prosthetic Hand project that spearheaded 3D4E's healthcare/prosthetics division, I've had a direct hand in developing several adaptive sports projects in collaboration with the Angel City Sports Facility in Los Angeles to provide more customizable, inexpensive, and accessible equipment for those who need them the most.
@@ -41,9 +59,13 @@ Built for children with limb differences, the Spock gave them the ability to dri
 
 I reverse engineered eNabling the Future’s Raptor Reloaded prosthetic hand so the channels guided tendons along the underside of the palm and forearm and the fingers curled when the wrist bent backwards (the “set” position of the shooting process). The fingers spread outwards when pushing the arm up and flicking the wrist forward, giving the ball upward acceleration and spin. Elastic strings running along the top side of the fingers caused the fingers to return to their original position after shooting basketballs. Adjusting the pins on the gauntlet via screws in the backs of the pins altered the tension of the tendons.
 
+{% include gallery id="gallery2" caption="Tendon guiding and different views." %}
+
 ## Stress Analysis of Prosthetic
 
 The greatest stress at the joints occurred when the basketball was at the fingertips. The simulation conducted showed that the fingers did not fail under this maximum force, calculated by finding the force of gravity acting on the basketball and distributing this force across the fingertips.
+
+{% include gallery id="gallery3" caption="FEA of the prosthetic hand." %}
 
 # Track and Field Throwing Chair
 

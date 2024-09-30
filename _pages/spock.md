@@ -42,6 +42,19 @@ gallery3:
     image_path: /assets/images/SpockPicture3.png
     alt: "placeholder image 1"
     title: "FEA"
+gallery4:
+  - url: /assets/images/Spock30531330_1675137325927500_7490489673656041472_n.jpg
+    image_path: /assets/images/Spock30531330_1675137325927500_7490489673656041472_n.jpg
+    alt: "placeholder image 1"
+    title: "The chair"
+  - url: /assets/images/SpockCapture.jpg
+    image_path: /assets/images/SpockCapture.jpg
+    alt: "placeholder image 1"
+    title: "FEA1"
+  - url: /assets/images/SpockFEA.jpg
+    image_path: /assets/images/SpockFEA.jpg
+    alt: "placeholder image 1"
+    title: "FEA2"
 ---
 
 Since the 2015 "Spock" Basketball Prosthetic Hand project that spearheaded 3D4E's healthcare/prosthetics division, I've had a direct hand in developing several adaptive sports projects in collaboration with the Angel City Sports Facility in Los Angeles to provide more customizable, inexpensive, and accessible equipment for those who need them the most.
@@ -72,6 +85,8 @@ The greatest stress at the joints occurred when the basketball was at the finger
 Built for disabled shotput and discus throwers, this prototype chair was created in response to the high cost of throwing chairs that made it difficult for new athletes to get into the sport. While the joints of the chair were 3D printed, the seat was made of wood and the legs of PVC piping. The chair was held together with screws and tight press fits.
 
 FEA simulation results on Autodesk Fusion 360 revealed that the chair with 100% infill joints could easily hold 600 pounds of force, with each joint undergoing stress much lower than the yield stress of ABS. Being able to showcase this project at Angel City Games, a major adaptive sports event held by the Angel City Sports facility, was mutually inspirational and exciting for both myself and the participants.
+
+{% include gallery id="gallery4" caption="The throwing chair idea." %}
 
 # Wheelchair Track Racing Gloves
 

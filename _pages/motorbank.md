@@ -76,6 +76,8 @@ Springs allowed the user to pre-load the tendons to prevent their detachment fro
 
 The motor bank could switch between two orientations: the one on the previous page and the one here. This second orientation kept all the vacuum tubes close together, while the first shrank the motor bank footprint.
 
+{% include gallery id="gallery3" caption="Different arrangements of the motor bank assembly." %}
+
 # WAM Adapter
 
 ## Pulleys Redirecting Tendons

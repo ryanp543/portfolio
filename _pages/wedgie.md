@@ -8,39 +8,39 @@ sidebar:
     image: /assets/images/WedgieIcon.png
     text: "President, Flagship Battlebot Lead"
 gallery:
-  - url: /assets/images/05.jpg
-    image_path: /assets/images/05.jpg
+  - url: /assets/images/Wedgie05.jpg
+    image_path: /assets/images/Wedgie05.jpg
     alt: "placeholder image 1"
     title: "Close up 1"
-  - url: /assets/images/10.jpg
-    image_path: /assets/images/10.jpg
+  - url: /assets/images/Wedgie10.jpg
+    image_path: /assets/images/Wedgie10.jpg
     alt: "placeholder image 2"
     title: "Close up 2"
 gallery2:
-  - url: /assets/images/IMG_20180425_203736.jpg
-    image_path: /assets/images/IMG_20180425_203736.jpg
+  - url: /assets/images/WedgieIMG_20180425_203736.jpg
+    image_path: /assets/images/WedgieIMG_20180425_203736.jpg
     alt: "placeholder image 1"
     title: "Electronics"
 gallery3:
-  - url: /assets/images/01.jpg
-    image_path: /assets/images/01.jpg
+  - url: /assets/images/Wedgie01.jpg
+    image_path: /assets/images/Wedgie01.jpg
     alt: "placeholder image 1"
     title: "Zoom out"
-  - url: /assets/images/03.jpg
-    image_path: /assets/images/03.jpg
+  - url: /assets/images/Wedgie03.jpg
+    image_path: /assets/images/Wedgie03.jpg
     alt: "placeholder image 1"
     title: "Front"
-  - url: /assets/images/IMG_20180426_040817.jpg
-    image_path: /assets/images/IMG_20180426_040817.jpg
+  - url: /assets/images/WedgieIMG_20180426_040817.jpg
+    image_path: /assets/images/WedgieIMG_20180426_040817.jpg
     alt: "placeholder image 1"
     title: "Blade close to ground"
-  - url: /assets/images/Picture1.png
-    image_path: /assets/images/Picture1.png
+  - url: /assets/images/WedgiePicture1.png
+    image_path: /assets/images/WedgiePicture1.png
     alt: "placeholder image 1"
     title: "Top of CAD"
 gallery4:
-  - url: /assets/images/IMG_20180426_034556_Bokeh.jpg
-    image_path: /assets/images/IMG_20180426_034556_Bokeh.jpg
+  - url: /assets/images/WedgieIMG_20180426_034556_Bokeh.jpg
+    image_path: /assets/images/WedgieIMG_20180426_034556_Bokeh.jpg
     alt: "placeholder image 1"
     title: "Inverted"
 ---

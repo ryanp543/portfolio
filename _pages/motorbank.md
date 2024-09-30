@@ -24,6 +24,23 @@ gallery:
     image_path: /assets/images/MotorBanke5f980fa-11fe-4af3-af23-c6591c790258.jfif
     alt: "placeholder image 1"
     title: "The original bairclaw finger"
+gallery:
+  - url: /assets/images/MotorBank6c8f6ce7-0673-4801-b6db-4e548f4ae156.png
+    image_path: /assets/images/MotorBank6c8f6ce7-0673-4801-b6db-4e548f4ae156.png
+    alt: "placeholder image 1"
+    title: "Springs on the balconies"
+  - url: /assets/images/MotorBankdc74d0f9-b2fd-401b-a764-362d9d60bb73.jfif
+    image_path: /assets/images/MotorBankdc74d0f9-b2fd-401b-a764-362d9d60bb73.jfif
+    alt: "placeholder image 1"
+    title: "Baseplate"
+  - url: /assets/images/MotorBank7552e5da-8258-4185-96da-bc2a82794934.jfif
+    image_path: /assets/images/MotorBank7552e5da-8258-4185-96da-bc2a82794934.jfif
+    alt: "placeholder image 1"
+    title: "Balconies for redirecting"
+  - url: /assets/images/MotorBanka21285c1-ab56-4356-9a8b-f10821957bf0.jfif
+    image_path: /assets/images/MotorBanka21285c1-ab56-4356-9a8b-f10821957bf0.jfif
+    alt: "placeholder image 1"
+    title: "Strain gauge installation"
 ---
 
 In the UCLA Biomechatronics Lab are Barrett Technology’s WAM robotic arm and  tendon-driven fingers made by the lab for a prospective robotic hand, nicknamed the “Bairclaw.” My duty was to merge these two systems together with an adapter and expand the testbed from one to three fingers by building a motor bank.
@@ -39,6 +56,8 @@ With three modular motor units, the motor bank was designed to accommodate 18 te
 ## Springs and Cantilever Beams with Strain Gauges
 
 Springs allowed the user to pre-load the tendons to prevent their detachment from the pulleys during operation. The tabs on which half of the pulleys resided acted as cantilever beams. Their deflection during operation could be measured by strain gauges and used to determine tendon tension.
+
+{% include gallery id="gallery2" caption="Redirecting the tendons." %}
 
 ## Modular Orientation via T-Slot Frames
 

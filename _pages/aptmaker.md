@@ -36,7 +36,7 @@ gallery2:
   - url: /assets/images/ApartmentMakerpaceSlide8.png
     image_path: /assets/images/ApartmentMakerpaceSlide8.png
     alt: "placeholder image 1"
-gallery2:
+gallery3:
   - url: /assets/images/ApartmentMakerspacefoosball.png
     image_path: /assets/images/ApartmentMakerspacefoosball.png
     alt: "placeholder image 1"
@@ -85,9 +85,7 @@ gallery2:
 
 {% include gallery id="gallery3" caption="Sketches that led to our final product." %}
 
-## Features
-
-## CAD and Renders
+## Features, Design, and Renders
 
 ## Manufacturing
 

@@ -208,6 +208,8 @@ gallery7:
 
 Gotta give credit where credit is due. This is the fantastic team I was a part of!
 
+[Download PDF]({{ site.baseurl }}/assets/pdf/AptMakerspaceReport.pdf)
+
 {% include gallery id="gallery7" caption="The fantastic team I was a part of!" %}
 
 Provisional patent

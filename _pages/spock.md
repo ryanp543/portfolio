@@ -15,6 +15,8 @@ Since the 2015 "Spock" Basketball Prosthetic Hand project that spearheaded 3D4E'
 
 Built for children with limb differences, the Spock gave them the ability to dribble, pass, and shoot a basketball. Through the organization eNabling the Future, we were able to find a youth recipient, Logan, to test and gift our prosthetic. He made 17 shots within an hour of practice. This project went on to become a finalist in the 2016 Instructables 3D Printing Contest.
 
+{% include video id="Gq1toJm_MgU&ab_channel=Pac-12" provider="youtube" %}
+
 ## Reverse Engineering the Raptor Reloaded
 
 I reverse engineered eNabling the Future’s Raptor Reloaded prosthetic hand so the channels guided tendons along the underside of the palm and forearm and the fingers curled when the wrist bent backwards (the “set” position of the shooting process). The fingers spread outwards when pushing the arm up and flicking the wrist forward, giving the ball upward acceleration and spin. Elastic strings running along the top side of the fingers caused the fingers to return to their original position after shooting basketballs. Adjusting the pins on the gauntlet via screws in the backs of the pins altered the tension of the tendons.

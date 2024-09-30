@@ -77,4 +77,4 @@ Wedgie’s frame was designed such that it guided any external loads through the
 
 ## Wedge Ground to be Extra Sharp!
 
-{% include video id="0ULI_Zez5As&ab" provider="youtube" %}
+{% include video id="1OIybhXqRz0GMvz5RaEmAWpNGKXdE04Bl/view?usp=sharing" provider="google-drive" %}

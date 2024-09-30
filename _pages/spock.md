@@ -14,8 +14,41 @@ Since the 2015 "Spock" Basketball Prosthetic Hand project that spearheaded 3D4E'
 # "Spock" Basketball Prosthetic Hand
 
 Built for children with limb differences, the Spock gave them the ability to dribble, pass, and shoot a basketball. Through the organization eNabling the Future, we were able to find a youth recipient, Logan, to test and gift our prosthetic. He made 17 shots within an hour of practice. This project went on to become a finalist in the 2016 Instructables 3D Printing Contest. 
+Make any link standout more when applying the `.btn` class.
 
+```html
+<a href="#" class="btn--success">Success Button</a>
+```
+
+[Primary Button](#){: .btn}
+[Success Button](#){: .btn .btn--success}
+[Warning Button](#){: .btn .btn--warning}
+[Danger Button](#){: .btn .btn--danger}
+[Info Button](#){: .btn .btn--info}
+[Inverse Button](#){: .btn .btn--inverse}
+[Light Outline Button](#){: .btn .btn--light-outline}
+
+```markdown
 [Primary Button Text](#link){: .btn}
+[Success Button Text](#link){: .btn .btn--success}
+[Warning Button Text](#link){: .btn .btn--warning}
+[Danger Button Text](#link){: .btn .btn--danger}
+[Info Button Text](#link){: .btn .btn--info}
+[Inverse Button](#link){: .btn .btn--inverse}
+[Light Outline Button](#link){: .btn .btn--light-outline}
+```
+
+[X-Large Button](#){: .btn .btn--x-large}
+[Large Button](#){: .btn .btn--large}
+[Default Button](#){: .btn}
+[Small Button](#){: .btn .btn--small}
+
+```markdown
+[X-Large Button](#link){: .btn .btn--x-large}
+[Large Button](#link){: .btn .btn--large}
+[Default Button](#link){: .btn}
+[Small Button](#link){: .btn .btn--small}
+```
 [This video ](https://www.advancedsciencenews.com/phase-changing-metamaterials-a-new-frontier-in-technology/ "here") 
 3D4E video: 
 

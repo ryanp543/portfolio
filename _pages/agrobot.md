@@ -50,6 +50,7 @@ gallery3:
     image_path: /assets/images/Agrobotrobotarmlabels.jpg
     alt: "placeholder image 1"
     title: "Agrobot arm labels"
+gallery4:
   - url: /assets/images/Agrobotrobotarmlink1inside.jpg
     image_path: /assets/images/Agrobotrobotarmlink1inside.jpg
     alt: "placeholder image 1"
@@ -82,9 +83,13 @@ Some text about it
 
 # The Arm
 
+{% include gallery id="gallery3" caption="The Agrobot arm and tool changer." %}
+
 ## Design and Manufacturing
 
 ### Arm Design
+
+{% include gallery id="gallery4" caption="Agrobot arm insides and build." %}
 
 ### Miniature Modular Tool Exchanger
 

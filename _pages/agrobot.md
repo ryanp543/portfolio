@@ -1,5 +1,5 @@
 ---
-title: "Agrobot Rover"
+title: "Agrobot Rover and Tool Changer"
 permalink: /agrobot/
 classes: wide
 author_profile: false

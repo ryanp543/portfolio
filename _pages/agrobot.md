@@ -148,6 +148,23 @@ gallery9:
     image_path: /assets/images/Agrobottoolchangercurrent.jpg
     alt: "placeholder image 1"
     title: "Current spike when tool attached"
+gallery10:
+  - url: /assets/images/Agrobotthermalcamerareal.png
+    image_path: /assets/images/Agrobotthermalcamerareal.png
+    alt: "placeholder image 1"
+    title: "Thermal camera"
+  - url: /assets/images/Agrobotthermalcameracad.png
+    image_path: /assets/images/Agrobotthermalcameracad.png
+    alt: "placeholder image 1"
+    title: "Thermal camera CAD"
+  - url: /assets/images/Agrobotthermacameraudder.jpg
+    image_path: /assets/images/Agrobotthermacameraudder.jpg
+    alt: "placeholder image 1"
+    title: "Fake udder thermal image"
+  - url: /assets/images/Agrobotthermalcameratest.png
+    image_path: /assets/images/Agrobotthermalcameratest.png
+    alt: "placeholder image 1"
+    title: "Testing thermal camera"
 ---
 
 # The Rover Overview
@@ -186,8 +203,20 @@ Some text
 
 Some text
 
-{% include gallery id="gallery9" caption="Current spike when tool attached" %}
+{% include gallery id="gallery9" caption="Current spike when tool attached." %}
 
 # Tools and Instruments
+
+## Thermal Camera
+
+{% include gallery id="gallery10" caption="The thermal camera tool." %}
+
+## Impedance Analyzer
+
+## Broad Spectrum Spectroscopy Sensor
+
+## NIR Spectroscopy Sensor
+
+## pH Probe
 
 # Streamlined PID Tuning Procedure

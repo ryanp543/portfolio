@@ -100,6 +100,40 @@ gallery5:
     image_path: /assets/images/Agrobottoolchangerxsection.jpg
     alt: "placeholder image 1"
     title: "Tool changer exchanging tool cross section"
+gallery6:
+  - url: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
+    image_path: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm wiring"
+  - url: /assets/images/Agrobotrobotarmwiring.jpg
+    image_path: /assets/images/Agrobotrobotarmwiring.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm wiring 2"
+  - url: /assets/images/Agrobotrobotarmmotor.jpg
+    image_path: /assets/images/Agrobotrobotarmmotor.jpg
+    alt: "placeholder image 1"
+    title: "Mini cheetah motors"
+  - url: /assets/images/Agrobotrobotarmcontrolbox.jpg
+    image_path: /assets/images/Agrobotrobotarmcontrolbox.jpg
+    alt: "placeholder image 1"
+    title: "Control box"
+  - url: /assets/images/Agrobotrobotarmstepdrive.jpg
+    image_path: /assets/images/Agrobotrobotarmstepdrive.jpg
+    alt: "placeholder image 1"
+    title: "Stepper wrist driver PCB"
+  - url: /assets/images/Agrobotrobotarmstepdriveass.jpg
+    image_path: /assets/images/Agrobotrobotarmstepdriveass.jpg
+    alt: "placeholder image 1"
+    title: "Stepper driver mounted"
+gallery7:
+  - url: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
+    image_path: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm wiring"
+  - url: /assets/images/Agrobotrobotarmwiring.jpg
+    image_path: /assets/images/Agrobotrobotarmwiring.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm wiring 2"
 ---
 
 # The Rover Overview
@@ -125,6 +159,12 @@ Some text about it
 {% include gallery id="gallery5" caption="The tool changer and how it works." %}
 
 ## Electronics
+
+{% include gallery id="gallery6" caption="Agrobot arm electronics" %}
+
+Some text
+
+
 
 ## Programming Infrastructure
 

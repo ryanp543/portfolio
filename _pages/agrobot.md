@@ -134,6 +134,20 @@ gallery7:
     image_path: /assets/images/Agrobotrobotarmcontrolboxtospcb.png
     alt: "placeholder image 1"
     title: "TOSLink PCB diagram"
+gallery8:
+  - url: /assets/images/Agrobotrobotarmautocon.jpg
+    image_path: /assets/images/Agrobotrobotarmautocon.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm automatic control"
+  - url: /assets/images/Agrobotrobotarmcontrolboxtospcb.png
+    image_path: /assets/images/Agrobotrobotarmcontrolboxtospcb.png
+    alt: "placeholder image 1"
+    title: "Agrobot arm manual control"
+gallery9:
+  - url: /assets/images/Agrobottoolchangercurrent.jpg
+    image_path: /assets/images/Agrobottoolchangercurrent.jpg
+    alt: "placeholder image 1"
+    title: "Current spike when tool attached"
 ---
 
 # The Rover Overview
@@ -160,13 +174,19 @@ Some text about it
 
 ## Electronics
 
-{% include gallery id="gallery6" caption="Agrobot arm electronics" %}
+{% include gallery id="gallery6" caption="Agrobot arm electronics." %}
 
 Some text
 
-{% include gallery id="gallery7" caption="Tool changer communication electronics" %}
+{% include gallery id="gallery7" caption="Tool changer communication electronics." %}
 
 ## Programming Infrastructure
+
+{% include gallery id="gallery8" caption="Agrobot arm modes of control." %}
+
+Some text
+
+{% include gallery id="gallery9" caption="Current spike when tool attached" %}
 
 # Tools and Instruments
 

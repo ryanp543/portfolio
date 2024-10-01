@@ -21,20 +21,20 @@ gallery:
     alt: "placeholder image 1"
     title: "Changing out table tops"
 gallery2:
-  - url: /assets/images/ApartmentMakerspaceSlide3.png
-    image_path: /assets/images/ApartmentMakerspaceSlide3.png
+  - url: /assets/images/ApartmentMakerspaceSlide3.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide3.PNG
     alt: "placeholder image 1"
-  - url: /assets/images/ApartmentMakerpaceSlide5.png
-    image_path: /assets/images/ApartmentMakerpaceSlide5.png
+  - url: /assets/images/ApartmentMakerpaceSlide5.PNG
+    image_path: /assets/images/ApartmentMakerpaceSlide5.PNG
     alt: "placeholder image 1"
-  - url: /assets/images/ApartmentMakerpaceSlide6.png
-    image_path: /assets/images/ApartmentMakerpaceSlide6.png
+  - url: /assets/images/ApartmentMakerpaceSlide6.PNG
+    image_path: /assets/images/ApartmentMakerpaceSlide6.PNG
     alt: "placeholder image 1"
-  - url: /assets/images/ApartmentMakerpaceSlide7.png
-    image_path: /assets/images/ApartmentMakerpaceSlide7.png
+  - url: /assets/images/ApartmentMakerpaceSlide7.PNG
+    image_path: /assets/images/ApartmentMakerpaceSlide7.PNG
     alt: "placeholder image 1"
-  - url: /assets/images/ApartmentMakerpaceSlide8.png
-    image_path: /assets/images/ApartmentMakerpaceSlide8.png
+  - url: /assets/images/ApartmentMakerpaceSlide8.PNG
+    image_path: /assets/images/ApartmentMakerpaceSlide8.PNG
     alt: "placeholder image 1"
 gallery3:
   - url: /assets/images/ApartmentMakerspacefoosball.png

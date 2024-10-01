@@ -126,14 +126,14 @@ gallery6:
     alt: "placeholder image 1"
     title: "Stepper driver mounted"
 gallery7:
-  - url: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
-    image_path: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
+  - url: /assets/images/Agrobotrobotarmcontrolboxtoslink.jpg
+    image_path: /assets/images/Agrobotrobotarmcontrolboxtoslink.jpg
     alt: "placeholder image 1"
-    title: "Agrobot arm wiring"
-  - url: /assets/images/Agrobotrobotarmwiring.jpg
-    image_path: /assets/images/Agrobotrobotarmwiring.jpg
+    title: "TOSLink PCB"
+  - url: /assets/images/Agrobotrobotarmcontrolboxtospcb.jpg
+    image_path: /assets/images/Agrobotrobotarmcontrolboxtospcb.jpg
     alt: "placeholder image 1"
-    title: "Agrobot arm wiring 2"
+    title: "TOSLink PCB diagram"
 ---
 
 # The Rover Overview
@@ -164,7 +164,7 @@ Some text about it
 
 Some text
 
-
+{% include gallery id="gallery7" caption="Tool changer communication electronics" %}
 
 ## Programming Infrastructure
 

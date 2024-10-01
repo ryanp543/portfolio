@@ -8,3 +8,5 @@ sidebar:
     image: /assets/images/NinjaIcon.png
     text: "Team Leader"
 ---
+
+coming soon

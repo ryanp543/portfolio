@@ -61,12 +61,12 @@ gallery3:
     image_path: /assets/images/ApartmentMakerspaceorigami4.png
     alt: "placeholder image 1"
     title: "Origami idea 4"
-  - url: /assets/images/ApartmentMakerspaceorigamimain.jpg
-    image_path: /assets/images/ApartmentMakerspaceorigamimain.jpg
+  - url: /assets/images/ApartmentMakerspaceorigamimain.JPG
+    image_path: /assets/images/ApartmentMakerspaceorigamimain.JPG
     alt: "placeholder image 1"
     title: "Origami idea main"
-  - url: /assets/images/ApartmentMakerspacesupports.jpg
-    image_path: /assets/images/ApartmentMakerspacesupports.jpg
+  - url: /assets/images/ApartmentMakerspacesupports.JPG
+    image_path: /assets/images/ApartmentMakerspacesupports.JPG
     alt: "placeholder image 1"
     title: "Support ideas"
   - url: /assets/images/ApartmentMakerspacetrash.jpg
@@ -74,44 +74,44 @@ gallery3:
     alt: "placeholder image 1"
     title: "trash idea"
 gallery4:
-  - url: /assets/images/ApartmentMakerspaceSlide13.png
-    image_path: /assets/images/ApartmentMakerspaceSlide13.png
+  - url: /assets/images/ApartmentMakerspaceSlide13.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide13.PNG
     alt: "placeholder image 1"
     title: "Full render"
-  - url: /assets/images/ApartmentMakerspaceSlide14.png
-    image_path: /assets/images/ApartmentMakerspaceSlide14.png
+  - url: /assets/images/ApartmentMakerspaceSlide14.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide14.PNG
     alt: "placeholder image 1"
     title: "Interchangeable surfaces"
-  - url: /assets/images/ApartmentMakerspaceSlide15.png
-    image_path: /assets/images/ApartmentMakerspaceSlide15.png
+  - url: /assets/images/ApartmentMakerspaceSlide15.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide15.PNG
     alt: "placeholder image 1"
     title: "Trash slots and surface storage"
-  - url: /assets/images/ApartmentMakerspaceSlide16.png
-    image_path: /assets/images/ApartmentMakerspaceSlide16.png
+  - url: /assets/images/ApartmentMakerspaceSlide16.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide16.PNG
     alt: "placeholder image 1"
     title: "Brush"
-  - url: /assets/images/ApartmentMakerspaceSlide17.png
-    image_path: /assets/images/ApartmentMakerspaceSlide17.png
+  - url: /assets/images/ApartmentMakerspaceSlide17.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide17.PNG
     alt: "placeholder image 1"
     title: "Storage space with seating"
-  - url: /assets/images/ApartmentMakerspaceSlide18.png
-    image_path: /assets/images/ApartmentMakerspaceSlide18.png
+  - url: /assets/images/ApartmentMakerspaceSlide18.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide18.PNG
     alt: "placeholder image 1"
     title: "Unpack and assemble"
-  - url: /assets/images/ApartmentMakerspaceSlide19.png
-    image_path: /assets/images/ApartmentMakerspaceSlide19.png
+  - url: /assets/images/ApartmentMakerspaceSlide19.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide19.PNG
     alt: "placeholder image 1"
     title: "Compact boxing"
-  - url: /assets/images/ApartmentMakerspaceSlide20.png
-    image_path: /assets/images/ApartmentMakerspaceSlide20.png
+  - url: /assets/images/ApartmentMakerspaceSlide20.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide20.PNG
     alt: "placeholder image 1"
     title: "Multiple materials and surfaces"
-  - url: /assets/images/ApartmentMakerspaceSlide21.png
-    image_path: /assets/images/ApartmentMakerspaceSlide21.png
+  - url: /assets/images/ApartmentMakerspaceSlide21.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide21.PNG
     alt: "placeholder image 1"
     title: "Render in context"
-  - url: /assets/images/ApartmentMakerspaceSlide35.png
-    image_path: /assets/images/ApartmentMakerspaceSlide35.png
+  - url: /assets/images/ApartmentMakerspaceSlide35.PNG
+    image_path: /assets/images/ApartmentMakerspaceSlide35.PNG
     alt: "placeholder image 1"
     title: "Trash bin storage"
 gallery5:
@@ -152,17 +152,17 @@ gallery6:
     image_path: /assets/images/AptMakerspaceIMG_1930.jpeg
     alt: "placeholder image 1"
     title: "Test 2"
-  - url: /assets/images/AptMakerspaceSlide24.png
-    image_path: /assets/images/AptMakerspaceSlide24.png
+  - url: /assets/images/AptMakerspaceSlide24.PNG
+    image_path: /assets/images/AptMakerspaceSlide24.PNG
     alt: "placeholder image 1"
     title: "Many tests"
-  - url: /assets/images/AptMakerspaceSlide25.png
-    image_path: /assets/images/AptMakerspaceSlide25.png
+  - url: /assets/images/AptMakerspaceSlide25.PNG
+    image_path: /assets/images/AptMakerspaceSlide25.PNG
     alt: "placeholder image 1"
     title: "One of many"
 gallery7:
-  - url: /assets/images/AptMakerspaceSlide37.png
-    image_path: /assets/images/AptMakerspaceSlide37.png
+  - url: /assets/images/AptMakerspaceSlide37.PNG
+    image_path: /assets/images/AptMakerspaceSlide37.PNG
     alt: "placeholder image 1"
     title: "The team"
 ---

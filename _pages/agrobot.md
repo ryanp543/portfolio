@@ -71,6 +71,35 @@ gallery4:
     image_path: /assets/images/Agrobotrobotarmmanufacture.jpg
     alt: "placeholder image 1"
     title: "Agrobot arm machined from stock"
+  - url: /assets/images/Agrobotrobotarmelbowrouter.jpg
+    image_path: /assets/images/Agrobotrobotarmelbowrouter.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm redirecting wires"
+gallery5:
+  - url: /assets/images/Agrobottoolchanger.jpg
+    image_path: /assets/images/Agrobottoolchanger.jpg
+    alt: "placeholder image 1"
+    title: "Tool changer assembled"
+  - url: /assets/images/Agrobottoolchangerattached.jpg
+    image_path: /assets/images/Agrobottoolchangerattached.jpg
+    alt: "placeholder image 1"
+    title: "Tool changer in use"
+  - url: /assets/images/Agrobottoolchangerinterfaceview.jpg
+    image_path: /assets/images/Agrobottoolchangerinterfaceview.jpg
+    alt: "placeholder image 1"
+    title: "Tool changer interface"
+  - url: /assets/images/Agrobottoolchangersocket.jpg
+    image_path: /assets/images/Agrobottoolchangersocket.jpg
+    alt: "placeholder image 1"
+    title: "Tool changer socket"
+  - url: /assets/images/Agrobottoolchangersockethole.jpg
+    image_path: /assets/images/Agrobottoolchangersockethole.jpg
+    alt: "placeholder image 1"
+    title: "Tool changer socket hole"
+  - url: /assets/images/Agrobottoolchangerxsection.jpg
+    image_path: /assets/images/Agrobottoolchangerxsection.jpg
+    alt: "placeholder image 1"
+    title: "Tool changer exchanging tool cross section"
 ---
 
 # The Rover Overview
@@ -92,6 +121,8 @@ Some text about it
 {% include gallery id="gallery4" caption="Agrobot arm insides and build." %}
 
 ### Miniature Modular Tool Exchanger
+
+{% include gallery id="gallery5" caption="The tool changer and how it works." %}
 
 ## Electronics
 

@@ -41,6 +41,35 @@ gallery2:
     image_path: /assets/images/Agrobotbilabroverinstruments.jpg
     alt: "placeholder image 1"
     title: "Agrobot infrastructure"
+gallery3:
+  - url: /assets/images/Agrobotrobotarm.png
+    image_path: /assets/images/Agrobotrobotarm.png
+    alt: "placeholder image 1"
+    title: "Agrobot arm"
+  - url: /assets/images/Agrobotrobotarmlabels.jpg
+    image_path: /assets/images/Agrobotrobotarmlabels.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm labels"
+  - url: /assets/images/Agrobotrobotarmlink1inside.jpg
+    image_path: /assets/images/Agrobotrobotarmlink1inside.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm insides"
+  - url: /assets/images/Agrobotrobotarmbeltclip.jpg
+    image_path: /assets/images/Agrobotrobotarmbeltclip.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm belt clip"
+  - url: /assets/images/Agrobotrobotarmwrist.jpg
+    image_path: /assets/images/Agrobotrobotarmwrist.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm wrist"
+  - url: /assets/images/Agrobotrobotarmfea.jpg
+    image_path: /assets/images/Agrobotrobotarmfea.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm FEA"
+  - url: /assets/images/Agrobotrobotarmmanufacture.jpg
+    image_path: /assets/images/Agrobotrobotarmmanufacture.jpg
+    alt: "placeholder image 1"
+    title: "Agrobot arm machined from stock"
 ---
 
 # The Rover Overview
@@ -60,6 +89,8 @@ Some text about it
 ### Miniature Modular Tool Exchanger
 
 ## Electronics
+
+## Programming Infrastructure
 
 # Tools and Instruments
 

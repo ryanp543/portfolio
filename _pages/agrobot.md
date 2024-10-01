@@ -139,8 +139,8 @@ gallery8:
     image_path: /assets/images/Agrobotrobotarmautocon.jpg
     alt: "placeholder image 1"
     title: "Agrobot arm automatic control"
-  - url: /assets/images/Agrobotrobotarmmanualcontrol.png
-    image_path: /assets/images/Agrobotrobotarmmanualcontrol.png
+  - url: /assets/images/Agrobotrobotarmmanualcontrol.jpg
+    image_path: /assets/images/Agrobotrobotarmmanualcontrol.jpg
     alt: "placeholder image 1"
     title: "Agrobot arm manual control"
 gallery9:

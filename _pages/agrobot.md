@@ -130,8 +130,8 @@ gallery7:
     image_path: /assets/images/Agrobotrobotarmcontrolboxtoslink.jpg
     alt: "placeholder image 1"
     title: "TOSLink PCB"
-  - url: /assets/images/Agrobotrobotarmcontrolboxtospcb.jpg
-    image_path: /assets/images/Agrobotrobotarmcontrolboxtospcb.jpg
+  - url: /assets/images/Agrobotrobotarmcontrolboxtospcb.png
+    image_path: /assets/images/Agrobotrobotarmcontrolboxtospcb.png
     alt: "placeholder image 1"
     title: "TOSLink PCB diagram"
 ---

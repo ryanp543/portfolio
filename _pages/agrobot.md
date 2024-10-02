@@ -167,7 +167,7 @@ gallery10:
     image_path: /assets/images/Agrobotthermalcameratest.png
     alt: "placeholder image 1"
     title: "Testing thermal camera"
-gallery10:
+gallery11:
   - url: /assets/images/Agrobotimpedancereal.png
     image_path: /assets/images/Agrobotimpedancereal.png
     alt: "placeholder image 1"

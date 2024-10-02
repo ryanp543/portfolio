@@ -167,6 +167,39 @@ gallery10:
     image_path: /assets/images/Agrobotthermalcameratest.png
     alt: "placeholder image 1"
     title: "Testing thermal camera"
+gallery10:
+  - url: /assets/images/Agrobotimpedancereal.png
+    image_path: /assets/images/Agrobotimpedancereal.png
+    alt: "placeholder image 1"
+    title: "Impedance probe"
+  - url: /assets/images/Agrobotimpedancecad.png
+    image_path: /assets/images/Agrobotimpedancecad.png
+    alt: "placeholder image 1"
+    title: "Impedance probe CAD"
+  - url: /assets/images/Agrobotimpedancepcb.png
+    image_path: /assets/images/Agrobotimpedancepcb.png
+    alt: "placeholder image 1"
+    title: "PCB design"
+  - url: /assets/images/Agrobotimpedancecalcurve.png
+    image_path: /assets/images/Agrobotimpedancecalcurve.png
+    alt: "placeholder image 1"
+    title: "Calibration curve"
+  - url: /assets/images/Agrobotimpedanceerror.png
+    image_path: /assets/images/Agrobotimpedanceerror.png
+    alt: "placeholder image 1"
+    title: "Impedance probe error"
+  - url: /assets/images/Agrobotimpedancemodel.png
+    image_path: /assets/images/Agrobotimpedancemodel.png
+    alt: "placeholder image 1"
+    title: "Probe model"
+  - url: /assets/images/Agrobotimpedancerestest.png
+    image_path: /assets/images/Agrobotimpedancerestest.png
+    alt: "placeholder image 1"
+    title: "Testing probe on resistors"
+  - url: /assets/images/Agrobotimpedancesoiltest.png
+    image_path: /assets/images/Agrobotimpedancesoiltest.png
+    alt: "placeholder image 1"
+    title: "Testing probe on soil"
 ---
 
 # The Rover Overview
@@ -214,6 +247,8 @@ Some text
 {% include gallery id="gallery10" caption="The thermal camera tool." %}
 
 ## Impedance Analyzer
+
+{% include gallery id="gallery11" caption="The impedance probe tool." %}
 
 ## Broad Spectrum Spectroscopy Sensor
 

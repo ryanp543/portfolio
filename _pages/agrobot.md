@@ -230,6 +230,19 @@ gallery13:
     image_path: /assets/images/Agrobotirspectroscopypsd.PNG
     alt: "placeholder image 1"
     title: "Power spectral density"
+gallery14:
+  - url: /assets/images/Agrobotphreal.png
+    image_path: /assets/images/Agrobotphreal.png
+    alt: "placeholder image 1"
+    title: "pH probe"
+  - url: /assets/images/Agrobotphcad.png
+    image_path: /assets/images/Agrobotphcad.png
+    alt: "placeholder image 1"
+    title: "pH probe CAD"
+  - url: /assets/images/Agrobotphtest.png
+    image_path: /assets/images/Agrobotphtest.png
+    alt: "placeholder image 1"
+    title: "pH probe test"
 ---
 
 # The Rover Overview
@@ -290,4 +303,10 @@ Some text
 
 ## pH Probe
 
+{% include gallery id="gallery14" caption="The pH probe tool." %}
+
 # Streamlined PID Tuning Procedure
+
+Paper is here:
+
+[Download PDF]({{ site.baseurl }}/assets/pdf/Streamlined_Tuning_Procedure_for_Stable_PID_Control_of_Flexible-Base_Manipulators.pdf)

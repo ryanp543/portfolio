@@ -218,16 +218,16 @@ gallery12:
     alt: "placeholder image 1"
     title: "Spectroscopy response"
 gallery13:
-  - url: /assets/images/Agrobotirspectroscopyreal.png
-    image_path: /assets/images/Agrobotirspectroscopyreal.png
+  - url: /assets/images/Agrobotirspectroscopyreal.PNG
+    image_path: /assets/images/Agrobotirspectroscopyreal.PNG
     alt: "placeholder image 1"
     title: "NIR Spectroscopy sensor"
-  - url: /assets/images/Agrobotirspectroscopycad.png
-    image_path: /assets/images/Agrobotirspectroscopycad.png
+  - url: /assets/images/Agrobotirspectroscopycad.PNG
+    image_path: /assets/images/Agrobotirspectroscopycad.PNG
     alt: "placeholder image 1"
     title: "NIR Spectroscopy sensor CAD"
-  - url: /assets/images/Agrobotirspectroscopypsd.png
-    image_path: /assets/images/Agrobotirspectroscopypsd.png
+  - url: /assets/images/Agrobotirspectroscopypsd.PNG
+    image_path: /assets/images/Agrobotirspectroscopypsd.PNG
     alt: "placeholder image 1"
     title: "Power spectral density"
 ---

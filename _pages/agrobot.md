@@ -7,6 +7,9 @@ sidebar:
   - title: "MIT Bioinstrumentation Lab"
     image: /assets/images/AgrobotIcon.png
     text: "Master's Student"
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 gallery:
   - url: /assets/images/AgrobotDSC00245.jpg
     image_path: /assets/images/AgrobotDSC00245.jpg

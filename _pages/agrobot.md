@@ -200,6 +200,23 @@ gallery11:
     image_path: /assets/images/Agrobotimpedancesoiltest.png
     alt: "placeholder image 1"
     title: "Testing probe on soil"
+gallery12:
+  - url: /assets/images/Agrobotspectroscopyreal.png
+    image_path: /assets/images/Agrobotspectroscopyreal.png
+    alt: "placeholder image 1"
+    title: "Spectroscopy sensor"
+  - url: /assets/images/Agrobotspectroscopycad.png
+    image_path: /assets/images/Agrobotspectroscopycad.png
+    alt: "placeholder image 1"
+    title: "Spectroscopy sensor CAD"
+  - url: /assets/images/Agrobotspectroscopyleaves.png
+    image_path: /assets/images/Agrobotspectroscopyleaves.png
+    alt: "placeholder image 1"
+    title: "Leaves used for testing"
+  - url: /assets/images/Agrobotspectroscopyresponse.png
+    image_path: /assets/images/Agrobotspectroscopyresponse.png
+    alt: "placeholder image 1"
+    title: "Spectroscopy response"
 ---
 
 # The Rover Overview
@@ -251,6 +268,8 @@ Some text
 {% include gallery id="gallery11" caption="The impedance probe tool." %}
 
 ## Broad Spectrum Spectroscopy Sensor
+
+{% include gallery id="gallery12" caption="The spectroscopy sensor tool." %}
 
 ## NIR Spectroscopy Sensor
 

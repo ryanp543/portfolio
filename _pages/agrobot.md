@@ -217,6 +217,19 @@ gallery12:
     image_path: /assets/images/Agrobotspectroscopyresponse.png
     alt: "placeholder image 1"
     title: "Spectroscopy response"
+gallery13:
+  - url: /assets/images/Agrobotirspectroscopyreal.png
+    image_path: /assets/images/Agrobotirspectroscopyreal.png
+    alt: "placeholder image 1"
+    title: "NIR Spectroscopy sensor"
+  - url: /assets/images/Agrobotirspectroscopycad.png
+    image_path: /assets/images/Agrobotirspectroscopycad.png
+    alt: "placeholder image 1"
+    title: "NIR Spectroscopy sensor CAD"
+  - url: /assets/images/Agrobotirspectroscopypsd.png
+    image_path: /assets/images/Agrobotirspectroscopypsd.png
+    alt: "placeholder image 1"
+    title: "Power spectral density"
 ---
 
 # The Rover Overview
@@ -272,6 +285,8 @@ Some text
 {% include gallery id="gallery12" caption="The spectroscopy sensor tool." %}
 
 ## NIR Spectroscopy Sensor
+
+{% include gallery id="gallery13" caption="The NIR spectroscopy sensor tool." %}
 
 ## pH Probe
 

@@ -56,6 +56,12 @@ gallery4:
     alt: "placeholder image 1"
     title: "Force output of winch"
 ---
+Paper submitted to ICRA:
+
+[Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
+
+Patent pending: 
+
 ## Design Description
 
 {% include gallery caption="The actuator twisting and winching actions." %}

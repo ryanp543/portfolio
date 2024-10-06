@@ -9,11 +9,13 @@ sidebar:
     text: "Team Leader"
 ---
 
-{% include video id="1mvovI81nVbt5JsTenSVpLuvXrYXJYww_" provider="google-drive" %}
+{% include video id="1QYpnim4EGypDZLt8Iai8_fKdDHwwsPfu" provider="google-drive" %}
 
 ## Experimental Setup
 
 ## Modeling and Simulation
+
+{% include video id="1QYpnim4EGypDZLt8Iai8_fKdDHwwsPfu" provider="google-drive" %}
 
 ## Control 
 

@@ -9,4 +9,16 @@ sidebar:
     text: "Team Leader"
 ---
 
-coming soon
+{% include video id="1mvovI81nVbt5JsTenSVpLuvXrYXJYww_" provider="google-drive" %}
+
+## Experimental Setup
+
+## Modeling and Simulation
+
+## Control 
+
+## Standard Height Test
+
+## Increased Height Test
+
+## Reduced Friction

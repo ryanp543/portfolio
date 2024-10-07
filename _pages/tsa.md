@@ -65,11 +65,18 @@ We scraped the internet to see if anyone had published or made something like th
 **Patent pending:** U.S. Patent Application No. 63/694,401
 
 ## Design Description
+The integrated TSA-winch system provides variable transmission ratios through dynamic adjustment, enhancing actuator stroke and force flexibility for precise, adaptable movement without overtwisting. The performance of this system was evaluated using a rotating turret design that houses a winch mounted on a bevel gear assembly driven by a through-hole drive shaft. Although this design requires one extra motor, the flexibility in motor size and absence of heavy on-axis gearboxes suggest good potential for miniaturization while maintaining large stroke and transmission ratio variability.
+
+If you look at the pictures below, you can figure out how the mechanism works. For twisting action (highlighted blue), the second motor rotates the turret via a geartrain and thus rotates the winch about its radial axis. For winching action (highlighted orange), the first motor rotates the winch about its cylindrical axis via a bevel or worm gear assembly and a through-hole drive shaft. 
 
 {% include gallery caption="The actuator twisting and winching actions." %}
 
 ## Experimental Setups
 
+The experimental setup used two motors to manipulatea Dacron polyester bowstring, chosen for its high stiffness and unbraided structure. For displacement measurement, the setup used a linear potentiometer and modular microcontroller hardware developed by TinkerForge. The string exiting the turret was clamped to a linear carriage that slid along a rail when the string was twisted or winched. This carriage was linked to the linear potentiometer that ran parallel to the rail. Because the potentiometer slide lacked bearings and fit loosely in the rail grooves of the potentiometer, flexure mounts constrained it to minimize the binding friction that is common with stages spanning two parallel rigid rails without bearings. 
+
+From the clamp on the linear stage, the experimental setup had two forms. To measure displacement, the string passed from the stage to a pulley and then over the table’s edge to a hanging set of masses. Two NEMA 17 stepper motors were chosen for their ease of installation and reliable operation without feedback. For measuring torque input and force output of this actuator, the experimental setup differed. Instead of passing from the stage to hanging masses, the string connected the stage to a PSD-S1 type load cell rated for 100 kg via a vented screw. DC 775 dual shaft brushed motors replaced the stepper motors for more stable current readings. 600 PPR incremental quadrature rotary encoders were mounted on the motors’ backs.
+ 
 {% include gallery id="gallery2" caption="Experimental setup for testing actuator." %}
 
 ## Displacement and Velocity

@@ -60,11 +60,9 @@ This project stemmed out of a problem I encountered during the development of my
 
 We scraped the internet to see if anyone had published or made something like this before. The patent lawyers couldn't find anything similar during their prior art search. So, we jumped at the opportunity. At the core of our idea is any mechanism that allows a winch to rotate about both its cylindrical and radial axes. Fortunately, I had the mechanism already in use on my climbing robot.
 
-Our first paper submitted to ICRA:
+**Our first paper submitted to ICRA:** [Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
 
-[Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
-
-Patent pending: U.S. Patent Application No. 63/694,401
+**Patent pending:** U.S. Patent Application No. 63/694,401
 
 ## Design Description
 

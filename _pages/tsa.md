@@ -56,11 +56,15 @@ gallery4:
     alt: "placeholder image 1"
     title: "Force output of winch"
 ---
-Paper submitted to ICRA:
+This project stemmed out of a problem I encountered during the development of my climbing robot. Essentially, I had a hook latch mechanism where I needed an actuator with a long initial linear stroke followed by a high force action. One of my labmates (thanks Vineet!) suggested a twisted string actuator, which seemed perfect. When I was testing my robot, I would tie together the arms with some cord, stick a screw into the cord, and then twist to tighten the arms closer. However, the issue with twisted string actuators is that they tend to have low stroke despite the high force output. Hence came the "brilliant" idea: combining a winch with a twisted string actuator.
+
+We scraped the internet to see if anyone had published or made something like this before. The patent lawyers couldn't find anything similar during their prior art search. So, we jumped at the opportunity. At the core of our idea is any mechanism that allows a winch to rotate about both its cylindrical and radial axes. Fortunately, I had the mechanism already in use on my climbing robot.
+
+Our first paper submitted to ICRA:
 
 [Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
 
-Patent pending: 
+Patent pending: U.S. Patent Application No. 63/694,401
 
 ## Design Description
 

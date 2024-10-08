@@ -260,6 +260,8 @@ The main body of the Agrobot houses an Intel NUC, GPS, Intel Realsense camera, a
 
 # The Arm
 
+The arm has four degrees of freedom and boasts a miniature tool changer mounted on the wrist at the end. Most of the motors are mounted at the base of the arm in order to reduce the inertia at the joints. 
+
 {% include gallery id="gallery3" caption="The Agrobot arm and tool changer." %}
 
 ## Design and Manufacturing

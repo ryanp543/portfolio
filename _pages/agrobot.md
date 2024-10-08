@@ -254,7 +254,7 @@ There is so much material to discuss here. For the full thesis, follow this link
 
 {% include gallery caption="Agrobot Version 3 and Version 2." %}
 
-Some text about it
+The main body of the Agrobot houses an Intel NUC, GPS, Intel Realsense camera, and massive electric brushed scooter motors. A powerful high current BasicMicro motor controller drives these motors. In the back of the rover is a docking bay that currently holds a battery but can also be used to house larger tools, such as methane cameras or other robots.
 
 {% include gallery id="gallery2" caption="Agrobot specs and general build." %}
 

@@ -244,6 +244,11 @@ gallery14:
     alt: "placeholder image 1"
     title: "pH probe test"
 ---
+The Agrobot Rover. My Master's Thesis.
+
+I worked on this robot with another graduate student in the lab, Marc-Andre Begin. He was responsible for the main body of robot. I was responsible for the robotic arm, the miniature tool changer at the end, and a suite of prototype tools. I would later replace the treads of Rover V2 with heavy-duty all terrain wheels in Rover V3. 
+
+There is so much material to discuss here. For the full thesis, follow this link [here](https://dspace.mit.edu/handle/1721.1/139075 "here").
 
 # The Rover Overview
 

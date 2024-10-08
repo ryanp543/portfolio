@@ -56,7 +56,7 @@ gallery4:
     alt: "placeholder image 1"
     title: "Force output of winch"
 ---
-This project stemmed out of a problem I encountered during the development of my climbing robot. Essentially, I had a hook latch mechanism where I needed an actuator with a long initial linear stroke followed by a high force action. One of my labmates (thanks Vineet!) suggested a twisted string actuator, which seemed perfect. When I was testing my robot, I would tie together the arms with some cord, stick a screw into the cord, and then twist to tighten the arms closer. However, the issue with twisted string actuators is that they tend to have low stroke despite the high force output. Hence came the "brilliant" idea: combining a winch with a twisted string actuator.
+This project stemmed out of a problem I encountered during the development of my climbing robot. Essentially, I had a hook latch mechanism where I needed an actuator with a long initial linear stroke followed by a high force action. One of my labmates (thanks Vineet!) suggested a twisted string actuator (TSA), which seemed perfect. When I was testing my robot, I would tie together the arms with some cord, stick a screw into the cord, and then twist to tighten the arms closer. However, the issue with twisted string actuators is that they tend to have low stroke despite the high force output. Hence came the "brilliant" idea: combining a winch with a twisted string actuator.
 
 We scraped the internet to see if anyone had published or made something like this before. The patent lawyers couldn't find anything similar during their prior art search. So, we jumped at the opportunity. At the core of our idea is any mechanism that allows a winch to rotate about both its cylindrical and radial axes. Fortunately, I had the mechanism already in use on my climbing robot.
 
@@ -81,8 +81,12 @@ From the clamp on the linear stage, the experimental setup had two forms. To mea
 
 ## Displacement and Velocity
 
+Mathematical models for this actuator can be found in the paper posted at the start of this page. Essentially, these models were based on both standard TSA and winch displacement expressions, taking into account the conservation of volume of the string as it twisted and hence its varying radius. Long story short, the model fit the experimental results pretty well, with errors most likely coming from string stretch, incomplete untwisting before the next cycles, and poor string strand packing. 
+
 {% include gallery id="gallery3" caption="Displacement and velocity experimental results." %}
 
 ## Force Output
+
+Similarly, the experimental force output also matched the mathematical model quite well. As expected, the twist action dominates the force output, while the winch dominates the velocity output. It should be noted that the number of twists was limited in these tests; as I twisted the string more and more at a faster rate, the experimental setup started to collapse on itself.
 
 {% include gallery id="gallery4" caption="Force output experimental results." %}

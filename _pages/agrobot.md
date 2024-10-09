@@ -290,9 +290,11 @@ The control box contains several hardware parts for operating the tool changer. 
 
 ## Programming Infrastructure
 
+I wrote a ROS package to control the arm and the tools. There are two ways to control the arm. One is an automated method, where you can run a pre-planned trajectory for the arm joints. To generate this trajectory, one option is to send a stream of joint commands. Another option is to physically move the arm to the desired positions and then save those joint positions, similar to Universal Robot collaborative arms can be programmed. The second method of controlling the arm is manually, where you can move the joints incrementally using keyboard commands. 
+
 {% include gallery id="gallery8" caption="Agrobot arm modes of control." %}
 
-On the 
+As for running the tool changer, the operation is quite simple. The current spikes when plug of the tool is drawn into socket, triggering the brushed motor coupled to the stud to stop immediately. By then, the power/ground pins and the TOSLink interface should have completely meshed, so communication with the attached tool can begin. 
 
 {% include gallery id="gallery9" caption="Current spike when tool attached." %}
 

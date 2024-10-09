@@ -290,7 +290,7 @@ The control box contains several hardware parts for operating the tool changer. 
 
 ## Programming Infrastructure
 
-I wrote a ROS package to control the arm and the tools. There are two ways to control the arm. One is an automated method, where you can run a pre-planned trajectory for the arm joints. To generate this trajectory, one option is to send a stream of joint commands. Another option is to physically move the arm to the desired positions and then save those joint positions, similar to Universal Robot collaborative arms can be programmed. The second method of controlling the arm is manually, where you can move the joints incrementally using keyboard commands. 
+I wrote a ROS package to control the arm and the tools. There are two ways to control the arm. One is an automated method, where you can run a pre-planned trajectory for the arm joints. To generate this trajectory, one option is to send a stream of joint commands. Another option is to physically move the arm to the desired positions and then save those joint positions, similar to Universal Robot collaborative arms can be programmed. The second method of controlling the arm is manually, where you can move the joints incrementally using keyboard commands. A Github repository for all of this can be found [here](https://github.com/ryanp543/agrobotarmcontrol "here").
 
 {% include gallery id="gallery8" caption="Agrobot arm modes of control." %}
 
@@ -300,27 +300,41 @@ As for running the tool changer, the operation is quite simple. The current spik
 
 # Tools and Instruments
 
+These are just some of the tools I built. Honestly, there are so many more tools that can be made for analyzing things not just in agriculture but also in general field work as well. I only built these five as a proof of concept for measuring potentially useful metrics on a farm. However, the potential for expanding this side of the project is limitless. Each tool came with a physical interface that is compatible with my tool changer as well as a custom-made TOSLink transceiver board that either communicated directly with the tool breakout board itself or an intermediary microcontroller. 
+
 ## Thermal Camera
+
+The thermal camera is what it sounds like: a thermal camera. It uses an off-the-shelf Sparkfun breakout board with a FLIR Lepton camera and MicroPython capabilities. I programmed it to take both pictures and provide live video feed. On the farm, this tool can be used to detect some diseases in livestock that cause perceptible changes in surface temperature. 
 
 {% include gallery id="gallery10" caption="The thermal camera tool." %}
 
 ## Impedance Analyzer
 
+The impedance analyzer is used to measure soil moisture by doing a impedance measurements over a wide frequency sweep across two probes. These two stainless steel probes are connected to a Digilent pMod-IA breakout board that does the measurements. A Teensy LC and a custom-made intermediary board allows communication between the TOSlink transceiver and the pMod-IA board. The analyzer also comes with a spring loaded "wiper" to wipe off the dirt passively after every use. 
+
 {% include gallery id="gallery11" caption="The impedance probe tool." %}
 
 ## Broad Spectrum Spectroscopy Sensor
+
+This tool uses an affordable off-the-shelf spectroscopy sensor directly connected to my custom-made TOSLink transceiver board. It's quite simple: light of nine different wavelengths ranging from UV to infrared is delivered to a specimen, and the spectral response is collected. This can be used to determine plant health via differences in color. However, more elaborate calibration (i.e. a better way of quantifying "plant health" and its relationship to the spectral response) might be needed in the future.
 
 {% include gallery id="gallery12" caption="The spectroscopy sensor tool." %}
 
 ## NIR Spectroscopy Sensor
 
+Our lab got a request to use their high resolution NIR spectroscopy sensor for the same purposes (to measure plant health). This device is a lot more expense and has a much higher resolution of wavelengths, but the development package it comes mounted on is physically larger than the other spectroscopy sensor tool. The NIR spectroscopy sensor is mounted to a Raspberry PI Zero and can only be communicated with via Java. It would have been a hassle to integrate the TOSLink transceiver with the Raspberry Pi Zero. Instead, I connected to it via Wifi and had the data printed onto a serial terminal which I could copy and plot on the home Intel NUC computer. It wasn't the best workaround, but I'll admit...working with someone else's Java code is not my forte.
+
 {% include gallery id="gallery13" caption="The NIR spectroscopy sensor tool." %}
 
 ## pH Probe
 
+Probably the simplest tool. A pH probe for measuring pH. I got the probe from Atlas Scientific, along with the breakout board that I could connect directly to my TOSLink transceiver. I made a clamping mount for the probe. The wire it came with was quite long, so I cut it and spliced it carefully after cleaning it (because I've had problems in the past with data transferred over solder joints).
+
 {% include gallery id="gallery14" caption="The pH probe tool." %}
 
 # Streamlined PID Tuning Procedure
+
+Marc and I wrote a paper about a streamlined PID tuning procedure for flexible base manipulators like the robotic arm mounted on our rover with suspension. The paper got accepted into IROS. Essentially, we came up with a Lyapunov candidate function that allowed us to figure out what PID gains to choose and for which states our system was stable. If you're interested, check out the paper below!
 
 Paper is here:
 

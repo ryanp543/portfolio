@@ -268,17 +268,23 @@ The arm has four degrees of freedom and boasts a miniature tool changer mounted 
 
 ### Arm Design
 
+The design of the arm was based on the leg of the Mini Cheetah robot that was built in the MIT Biomimetics Lab. With the motors mounted at the base, less torque is needed to accelerate the links of the arm. The third joint of the arm (rotating about the elbow) is actuated via a belt transmission that is housed in Link 2. For ease of manufacturing, assembly, and installation, the belt was cut and then spliced together, as the belt was expected to have a limited range of motion. At the wrist is a geared stepper motor that actuates the last degree of freedom, and the wrist itself has holes for bolting other attachments besides the tool changer if needed. This entire assembly is made of 7075 aluminum (machined by me on a very old Haas 3-axis CNC) and can withstand all the expected forces, even an unintentional one meter drop test. 
+
 {% include gallery id="gallery4" caption="Agrobot arm insides and build." %}
 
 ### Miniature Modular Tool Exchanger
+
+The miniature modular tool changer is mounted onto the wrist of the robotic arm and is designed to take in different types of tools. Inside the tool changer is a triangular lofted socket that matches the corresponding plug on the various tools I built for this project. The socket and plug were designed to be very similar to what I saw on a Mazak turning center that my lab had at the time. Once the plug enters the socket, there is a threaded stud that rotates until the plug is completely drawn in. 
 
 {% include gallery id="gallery5" caption="The tool changer and how it works." %}
 
 ## Electronics
 
+The first three joints on the Agrobot arm are driven by Mini Cheetah motors, which are high torque density brushless motors with a built in motor controller that is CANBus compatible. As mentioned before, the wrist is actuated by a stepper motor. I designed and built a custom PCB with a CANBus transceiver, stepper driver, Teensy, and step-down buck converter that can be placed on the CANBus daisy chain. The wires travel the length of the arm and connect to the arm control box. The box has a bunch of Tinkerforge bricks and bricklets acting as CANBus transceivers and safety switches. 
+
 {% include gallery id="gallery6" caption="Agrobot arm electronics." %}
 
-Some text
+The control box contains several hardware parts for operating the tool changer. First, there is a Tinkerforge DC brick to drive the brushed motor on the tool changer. On the tool changer, there are two ports: one delivers power/ground and the other receives and sends data over a TOSLink optic cable. Hence, in the control box, there is a custom PCB I made that fits in the Tinkerforge infrastructure. It uses the TTL pins on the RS232 bricklet to send and receive data over a TOSLink transceiver. There is a Tinkerforge relay that turns on and off the power for the tool. The power and ground sockets/pins on the tool changer itself are low force insertion sockets and pins from Methode Electronics.
 
 {% include gallery id="gallery7" caption="Tool changer communication electronics." %}
 
@@ -286,7 +292,7 @@ Some text
 
 {% include gallery id="gallery8" caption="Agrobot arm modes of control." %}
 
-Some text
+On the 
 
 {% include gallery id="gallery9" caption="Current spike when tool attached." %}
 

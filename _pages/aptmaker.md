@@ -169,7 +169,7 @@ gallery7:
     title: "The team"
 ---
 
-The apartment makerspace was a project I was fortunate to play a part of when I took 2.739J, a product design course at MIT that is offered to mechanical engineers, business students at Sloan, Harvard students, and Rhode Island School of Design students. The idea was to provide a compact, sturdy workbench for small spaces like city apartments. Our final prototype was quite polished, and I was proud to contribute to a group that worked so well together. We even filed a provisional patent on it! My role was mainly in CAD and manufacturing, but I also played a role in collecting customer feedback and writing the patent. 
+The apartment makerspace was a project I was fortunate to play a part of when I took 2.739J, a product design course at MIT that is offered to mechanical engineers, business students at Sloan, Harvard students, and Rhode Island School of Design (RISD) students. The idea was to provide a compact, sturdy workbench for small spaces like city apartments. Our final prototype was quite polished, and I was proud to contribute to a group that worked so well together. We even filed a provisional patent on it! My role was mainly in CAD (I designed all of it while getting my groupmates' feedback) and manufacturing, but I also played a role in collecting customer feedback and writing the patent. 
 
 {% include gallery caption="The apartment makerspace workbench." %}
 
@@ -187,17 +187,23 @@ The product design process (as with most projects) started with sketches, and mo
 
 ## Features, Design, and Renders
 
+In the end, our final product had a handful of key features, which can be seen in the renders below. First, the workbench we built had interchangeable table top surfaces that would be fully seated into a magnetic cavity. Some example surfaces were measurement and ruler grids, a whiteboard, and an anti-static rubber surface for soldering. These surfaces could be swapped out and stored on the left leg of the workbench. Another feature was a built-in trash slot, the lid of which was flush with the interchangeable surfaces and could be lifted to allow for brushing the trash from the workbench surface into the slot. Lastly, while we didn't built them, we also intended for the workbench to come with roll-out cabinets for storage that also served as seating. These cabinets were designed to be built from sheet-bent metal, similar to IKEA furniture. Overall, this whole workbench was built so that it could be compactly fit (disassembled) into a rectangular box for convenient shipping. 
+
 {% include gallery id="gallery4" caption="Renders of full assembly and features." %}
 
 {% include video id="1KKgBUuzeSHxnNFUtJGVVq23StoCTtUj1" provider="google-drive" %}
 
 ## Manufacturing
 
+The manufacturing was split between a couple of members in the group, and there were several "rough drafts" and proof-of-concept builds that we could give to potential users for more customer feedback. Our prototypes were made from MDF and plywood using a variety of woodworking tools. The trash slot had a chamfer that facilitated disposal of trash from the interchangeable surfaces, so the workbench table top (and the boards with cavities for different surfaces) had to be made on a large CNC router. 
+
 {% include gallery id="gallery5" caption="The first rough draft prototype of the workbench." %}
 
 {% include video id="1yU8FrEWQt4TVm_TeubWukgcv8GstKHvH" provider="google-drive" %}
 
 ## Customer Testing
+
+As I mentioned before, this class was run to be a constant pursuit of customer feedback. We collected feedback for every stage: the idea conception, the product specifications, the sketches, the proof-of-concept models, the first prototype, and the final prototype. Our final product was even driven to RISD and left out in a lounge. It was tried out by more than 30 students! Below are some pictures and videos showing our rough and final prototypes in action. 
 
 > "Super cool that you included the whiteboard!! I also really like the trash slot. It’s really cool to see a table that is built for the use cases of makers” - a potential customer
 
@@ -214,10 +220,8 @@ The product design process (as with most projects) started with sketches, and mo
 
 ## Reports and Provisional Patents
 
-Gotta give credit where credit is due. This is the fantastic team I was a part of!
+I have to give credit where credit is due. This is the fantastic team I was a part of! The final report that we submitted to the class can be read if you download the PDF below. 
 
 [Download PDF]({{ site.baseurl }}/assets/pdf/AptMakerspaceReport.pdf)
 
 {% include gallery id="gallery7" caption="The fantastic team I was a part of!" %}
-
-Provisional patent

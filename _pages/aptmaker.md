@@ -169,13 +169,19 @@ gallery7:
     title: "The team"
 ---
 
+The apartment makerspace was a project I was fortunate to play a part of when I took 2.739J, a product design course at MIT that is offered to mechanical engineers, business students at Sloan, Harvard students, and Rhode Island School of Design students. The idea was to provide a compact, sturdy workbench for small spaces like city apartments. Our final prototype was quite polished, and I was proud to contribute to a group that worked so well together. We even filed a provisional patent on it! My role was mainly in CAD and manufacturing, but I also played a role in collecting customer feedback and writing the patent. 
+
 {% include gallery caption="The apartment makerspace workbench." %}
 
 ## Motivation
 
+Our motivation stemmed mainly from the group members as well as some people that we knew outside of the class. Most of us (even the Sloanies) were maker-inclined but lived in small apartments in the city. Honestly, most of the motivation came from our customer feedback, and this class was essentially defined by a constant pursuit of customer feedback. Estimations of market value of any idea are generally overestimated, and while we still did them, it was heartening to see that our project could potentially fill a need. Of course, pricing and considering competitive alteratives was also important. 
+
 {% include gallery id="gallery2" caption="Motivation for the project." %}
 
 ## Sketches
+
+The product design process (as with most projects) started with sketches, and most everyone came up with ideas. Our final product prototype would contain features from several of these ideas. Nevertheless, in doing these sketches alongside collecting feedback from customers, we were able to hone in on the features that we wanted our workbench to have. 
 
 {% include gallery id="gallery3" caption="Sketches that led to our final product." %}
 

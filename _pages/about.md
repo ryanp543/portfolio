@@ -5,6 +5,6 @@ classes: wide
 author_profile: false
 sidebar:
   - title: "MIT Bioinstrumentation Lab"
-    image: /assets/images/TwistWinchIcon.png
+    image: /assets/images/ryan.jpg
     text: "PhD Candidate Student"
 ---

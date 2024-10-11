@@ -10,3 +10,13 @@ sidebar:
   - title: "UCLA Undergraduate Student"
     text: "2015-2019"
 ---
+
+Feel free to contact me on any of the standard channels. I currently reside in Massachusetts.
+
+## Email
+
+rjmpoon@gmail.com
+
+## LinkedIn
+
+https://www.linkedin.com/in/ryan-poon/

@@ -12,20 +12,20 @@ gallery:
     image_path: /assets/images/HexIMG-5238.jpg
     alt: "placeholder image 1"
     title: "Resting on rolling table"
-  - url: /assets/images/HexIMG-5246.jpg
-    image_path: /assets/images/HexIMG-5246.jpg
+  - url: /assets/images/HexIMG-5246.JPG
+    image_path: /assets/images/HexIMG-5246.JPG
     alt: "placeholder image 1"
     title: "Leg zoom in"
-  - url: /assets/images/HexIMG-5247.jpg
-    image_path: /assets/images/HexIMG-5247.jpg
+  - url: /assets/images/HexIMG-5247.JPG
+    image_path: /assets/images/HexIMG-5247.JPG
     alt: "placeholder image 1"
     title: "Knee joint"
-  - url: /assets/images/HexIMG-5249.jpg
-    image_path: /assets/images/HexIMG-5249.jpg
+  - url: /assets/images/HexIMG-5249.JPG
+    image_path: /assets/images/HexIMG-5249.JPG
     alt: "placeholder image 1"
     title: "First joint"
-  - url: /assets/images/HexFEA.jpg
-    image_path: /assets/images/HexFEA.jpg
+  - url: /assets/images/HexFEA.JPG
+    image_path: /assets/images/HexFEA.JPG
     alt: "placeholder image 1"
     title: "FEA"
 gallery2:
@@ -83,16 +83,16 @@ gallery4:
     image_path: /assets/images/Hexlowerleg.jpg
     alt: "placeholder image 1"
     title: "Batch of lower legs"
-  - url: /assets/images/HexIMG-5248.jpg
-    image_path: /assets/images/HexIMG-5248.jpg
+  - url: /assets/images/HexIMG-5248.JPG
+    image_path: /assets/images/HexIMG-5248.JPG
     alt: "placeholder image 1"
     title: "Close up of foot"
-  - url: /assets/images/HexLeg Stripped.jpg
-    image_path: /assets/images/HexLeg Stripped.jpg
+  - url: /assets/images/HexLeg Stripped.JPG
+    image_path: /assets/images/HexLeg Stripped.JPG
     alt: "placeholder image 1"
     title: "CAD with covers"
-  - url: /assets/images/HexLeg.jpg
-    image_path: /assets/images/HexLeg.jpg
+  - url: /assets/images/HexLeg.JPG
+    image_path: /assets/images/HexLeg.JPG
     alt: "placeholder image 1"
     title: "CAD without covers"
 ---

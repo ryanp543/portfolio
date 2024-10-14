@@ -16,8 +16,8 @@ gallery:
     image_path: /assets/images/Spock13177842_1033107270130512_2577748198247709657_n.jpg
     alt: "placeholder image 1"
     title: "Spock sizes"
-  - url: /assets/images/SpockIMG_2722.jpg
-    image_path: /assets/images/SpockIMG_2722.jpg
+  - url: /assets/images/SpockIMG_2722.JPG
+    image_path: /assets/images/SpockIMG_2722.JPG
     alt: "placeholder image 1"
     title: "Dribbling"
   - url: /assets/images/SpockPicture6.jpg
@@ -25,16 +25,16 @@ gallery:
     alt: "placeholder image 1"
     title: "The shot"
 gallery2:
-  - url: /assets/images/SpockIMG_2830.jpg
-    image_path: /assets/images/SpockIMG_2830.jpg
+  - url: /assets/images/SpockIMG_2830.JPG
+    image_path: /assets/images/SpockIMG_2830.JPG
     alt: "placeholder image 1"
     title: "The back of the hand"
-  - url: /assets/images/SpockIMG_2815.jpg
-    image_path: /assets/images/SpockIMG_2815.jpg
+  - url: /assets/images/SpockIMG_2815.JPG
+    image_path: /assets/images/SpockIMG_2815.JPG
     alt: "placeholder image 1"
     title: "Tendons in the front"
-  - url: /assets/images/SpockIMG_2814.jpg
-    image_path: /assets/images/SpockIMG_2814.jpg
+  - url: /assets/images/SpockIMG_2814.JPG
+    image_path: /assets/images/SpockIMG_2814.JPG
     alt: "placeholder image 1"
     title: "Elastic in the back"
 gallery3:
@@ -47,12 +47,12 @@ gallery4:
     image_path: /assets/images/Spock30531330_1675137325927500_7490489673656041472_n.jpg
     alt: "placeholder image 1"
     title: "The chair"
-  - url: /assets/images/SpockCapture.jpg
-    image_path: /assets/images/SpockCapture.jpg
+  - url: /assets/images/SpockCapture.JPG
+    image_path: /assets/images/SpockCapture.JPG
     alt: "placeholder image 1"
     title: "FEA1"
-  - url: /assets/images/SpockFEA.jpg
-    image_path: /assets/images/SpockFEA.jpg
+  - url: /assets/images/SpockFEA.JPG
+    image_path: /assets/images/SpockFEA.JPG
     alt: "placeholder image 1"
     title: "FEA2"
 gallery5:
@@ -60,8 +60,8 @@ gallery5:
     image_path: /assets/images/Spock30571431_1675137825927450_1876880753933942784_n.jpg
     alt: "placeholder image 1"
     title: "Gloves and wheelchair basketball water bottle holders"
-  - url: /assets/images/Spockglove.jpg
-    image_path: /assets/images/Spockglove.jpg
+  - url: /assets/images/Spockglove.JPG
+    image_path: /assets/images/Spockglove.JPG
     alt: "placeholder image 1"
     title: "Gloves for wheelchair racing"
   - url: /assets/images/Spock21762265_1473878906053344_8392460800794786475_o.jpg

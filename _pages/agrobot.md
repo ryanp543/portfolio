@@ -31,16 +31,16 @@ gallery:
     alt: "placeholder image 1"
     title: "Agrobot V2"
 gallery2:
-  - url: /assets/images/Agrobotbilabroverspecs.jpg
-    image_path: /assets/images/Agrobotbilabroverspecs.jpg
+  - url: /assets/images/Agrobotbilabroverspecs.JPG
+    image_path: /assets/images/Agrobotbilabroverspecs.JPG
     alt: "placeholder image 1"
     title: "Agrobot specs"
-  - url: /assets/images/Agrobotbilabroverdesign.jpg
-    image_path: /assets/images/Agrobotbilabroverdesign.jpg
+  - url: /assets/images/Agrobotbilabroverdesign.JPG
+    image_path: /assets/images/Agrobotbilabroverdesign.JPG
     alt: "placeholder image 1"
     title: "Agrobot design"
-  - url: /assets/images/Agrobotbilabroverinstruments.jpg
-    image_path: /assets/images/Agrobotbilabroverinstruments.jpg
+  - url: /assets/images/Agrobotbilabroverinstruments.JPG
+    image_path: /assets/images/Agrobotbilabroverinstruments.JPG
     alt: "placeholder image 1"
     title: "Agrobot infrastructure"
 gallery3:
@@ -48,8 +48,8 @@ gallery3:
     image_path: /assets/images/Agrobotrobotarm.png
     alt: "placeholder image 1"
     title: "Agrobot arm"
-  - url: /assets/images/Agrobotrobotarmlabels.jpg
-    image_path: /assets/images/Agrobotrobotarmlabels.jpg
+  - url: /assets/images/Agrobotrobotarmlabels.JPG
+    image_path: /assets/images/Agrobotrobotarmlabels.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm labels"
 gallery4:
@@ -57,24 +57,24 @@ gallery4:
     image_path: /assets/images/Agrobotrobotarmlink1inside.jpg
     alt: "placeholder image 1"
     title: "Agrobot arm insides"
-  - url: /assets/images/Agrobotrobotarmbeltclip.jpg
-    image_path: /assets/images/Agrobotrobotarmbeltclip.jpg
+  - url: /assets/images/Agrobotrobotarmbeltclip.JPG
+    image_path: /assets/images/Agrobotrobotarmbeltclip.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm belt clip"
-  - url: /assets/images/Agrobotrobotarmwrist.jpg
-    image_path: /assets/images/Agrobotrobotarmwrist.jpg
+  - url: /assets/images/Agrobotrobotarmwrist.JPG
+    image_path: /assets/images/Agrobotrobotarmwrist.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm wrist"
-  - url: /assets/images/Agrobotrobotarmfea.jpg
-    image_path: /assets/images/Agrobotrobotarmfea.jpg
+  - url: /assets/images/Agrobotrobotarmfea.JPG
+    image_path: /assets/images/Agrobotrobotarmfea.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm FEA"
-  - url: /assets/images/Agrobotrobotarmmanufacture.jpg
-    image_path: /assets/images/Agrobotrobotarmmanufacture.jpg
+  - url: /assets/images/Agrobotrobotarmmanufacture.JPG
+    image_path: /assets/images/Agrobotrobotarmmanufacture.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm machined from stock"
-  - url: /assets/images/Agrobotrobotarmelbowrouter.jpg
-    image_path: /assets/images/Agrobotrobotarmelbowrouter.jpg
+  - url: /assets/images/Agrobotrobotarmelbowrouter.JPG
+    image_path: /assets/images/Agrobotrobotarmelbowrouter.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm redirecting wires"
 gallery5:
@@ -82,45 +82,45 @@ gallery5:
     image_path: /assets/images/Agrobottoolchanger.jpg
     alt: "placeholder image 1"
     title: "Tool changer assembled"
-  - url: /assets/images/Agrobottoolchangerattached.jpg
-    image_path: /assets/images/Agrobottoolchangerattached.jpg
+  - url: /assets/images/Agrobottoolchangerattached.JPG
+    image_path: /assets/images/Agrobottoolchangerattached.JPG
     alt: "placeholder image 1"
     title: "Tool changer in use"
   - url: /assets/images/Agrobottoolchangerinterfaceview.jpg
     image_path: /assets/images/Agrobottoolchangerinterfaceview.jpg
     alt: "placeholder image 1"
     title: "Tool changer interface"
-  - url: /assets/images/Agrobottoolchangersocket.jpg
-    image_path: /assets/images/Agrobottoolchangersocket.jpg
+  - url: /assets/images/Agrobottoolchangersocket.JPG
+    image_path: /assets/images/Agrobottoolchangersocket.JPG
     alt: "placeholder image 1"
     title: "Tool changer socket"
-  - url: /assets/images/Agrobottoolchangersockethole.jpg
-    image_path: /assets/images/Agrobottoolchangersockethole.jpg
+  - url: /assets/images/Agrobottoolchangersockethole.JPG
+    image_path: /assets/images/Agrobottoolchangersockethole.JPG
     alt: "placeholder image 1"
     title: "Tool changer socket hole"
-  - url: /assets/images/Agrobottoolchangerxsection.jpg
-    image_path: /assets/images/Agrobottoolchangerxsection.jpg
+  - url: /assets/images/Agrobottoolchangerxsection.JPG
+    image_path: /assets/images/Agrobottoolchangerxsection.JPG
     alt: "placeholder image 1"
     title: "Tool changer exchanging tool cross section"
 gallery6:
-  - url: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
-    image_path: /assets/images/Agrobotrobotarmcontrolboxwiring.jpg
+  - url: /assets/images/Agrobotrobotarmcontrolboxwiring.JPG
+    image_path: /assets/images/Agrobotrobotarmcontrolboxwiring.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm wiring"
-  - url: /assets/images/Agrobotrobotarmwiring.jpg
-    image_path: /assets/images/Agrobotrobotarmwiring.jpg
+  - url: /assets/images/Agrobotrobotarmwiring.JPG
+    image_path: /assets/images/Agrobotrobotarmwiring.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm wiring 2"
-  - url: /assets/images/Agrobotrobotarmmotor.jpg
-    image_path: /assets/images/Agrobotrobotarmmotor.jpg
+  - url: /assets/images/Agrobotrobotarmmotor.JPG
+    image_path: /assets/images/Agrobotrobotarmmotor.JPG
     alt: "placeholder image 1"
     title: "Mini cheetah motors"
   - url: /assets/images/Agrobotrobotarmcontrolbox.jpg
     image_path: /assets/images/Agrobotrobotarmcontrolbox.jpg
     alt: "placeholder image 1"
     title: "Control box"
-  - url: /assets/images/Agrobotrobotarmstepdrive.jpg
-    image_path: /assets/images/Agrobotrobotarmstepdrive.jpg
+  - url: /assets/images/Agrobotrobotarmstepdrive.JPG
+    image_path: /assets/images/Agrobotrobotarmstepdrive.JPG
     alt: "placeholder image 1"
     title: "Stepper wrist driver PCB"
   - url: /assets/images/Agrobotrobotarmstepdriveass.jpg
@@ -137,17 +137,17 @@ gallery7:
     alt: "placeholder image 1"
     title: "TOSLink PCB diagram"
 gallery8:
-  - url: /assets/images/Agrobotrobotarmautocon.jpg
-    image_path: /assets/images/Agrobotrobotarmautocon.jpg
+  - url: /assets/images/Agrobotrobotarmautocon.JPG
+    image_path: /assets/images/Agrobotrobotarmautocon.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm automatic control"
-  - url: /assets/images/Agrobotrobotarmmanualcontrol.jpg
-    image_path: /assets/images/Agrobotrobotarmmanualcontrol.jpg
+  - url: /assets/images/Agrobotrobotarmmanualcontrol.JPG
+    image_path: /assets/images/Agrobotrobotarmmanualcontrol.JPG
     alt: "placeholder image 1"
     title: "Agrobot arm manual control"
 gallery9:
-  - url: /assets/images/Agrobottoolchangercurrent.jpg
-    image_path: /assets/images/Agrobottoolchangercurrent.jpg
+  - url: /assets/images/Agrobottoolchangercurrent.JPG
+    image_path: /assets/images/Agrobottoolchangercurrent.JPG
     alt: "placeholder image 1"
     title: "Current spike when tool attached"
 gallery10:
@@ -218,16 +218,16 @@ gallery12:
     alt: "placeholder image 1"
     title: "Spectroscopy response"
 gallery13:
-  - url: /assets/images/Agrobotirspectroscopyreal.PNG
-    image_path: /assets/images/Agrobotirspectroscopyreal.PNG
+  - url: /assets/images/Agrobotirspectroscopyreal.png
+    image_path: /assets/images/Agrobotirspectroscopyreal.png
     alt: "placeholder image 1"
     title: "NIR Spectroscopy sensor"
-  - url: /assets/images/Agrobotirspectroscopycad.PNG
-    image_path: /assets/images/Agrobotirspectroscopycad.PNG
+  - url: /assets/images/Agrobotirspectroscopycad.png
+    image_path: /assets/images/Agrobotirspectroscopycad.png
     alt: "placeholder image 1"
     title: "NIR Spectroscopy sensor CAD"
-  - url: /assets/images/Agrobotirspectroscopypsd.PNG
-    image_path: /assets/images/Agrobotirspectroscopypsd.PNG
+  - url: /assets/images/Agrobotirspectroscopypsd.png
+    image_path: /assets/images/Agrobotirspectroscopypsd.png
     alt: "placeholder image 1"
     title: "Power spectral density"
 gallery14:

@@ -9,3 +9,5 @@ sidebar:
     text: "PhD Candidate Student"
 ---
 # Coming soon!
+
+In the process of finishing the build and writing a paper on it. Happy to talk more about the robot in person, though!

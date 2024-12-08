@@ -55,12 +55,36 @@ gallery4:
     image_path: /assets/images/TwistWinchForceWinchSmooth.png
     alt: "placeholder image 1"
     title: "Force output of winch"
+gallery5:
+  - url: /assets/images/TwistWinchControlBlockDiagram.png
+    image_path: /assets/images/TwistWinchControlBlockDiagram.png
+    alt: "Render of actuator"
+    title: "Control block diagram"
+  - url: /assets/images/TwistWinchSimulationResults.png
+    image_path: /assets/images/TwistWinchSimulationResults.png
+    alt: "placeholder image 1"
+    title: "Simulation of adjusting control allocation factor beta"
+  - url: /assets/images/TwistWinchWinchSetpoint.png
+    image_path: /assets/images/TwistWinchWinchSetpoint.png
+    alt: "Render of actuator"
+    title: "Winch setpoint control"
+  - url: /assets/images/TwistWinchTwistSetpoint.png
+    image_path: /assets/images/TwistWinchTwistSetpoint.png
+    alt: "placeholder image 1"
+    title: "Twist setpoint control"
+  - url: /assets/images/TwistWinchTrajectory.png
+    image_path: /assets/images/TwistWinchTrajectory.png
+    alt: "Render of actuator"
+    title: "Trajectory control"
+
 ---
 This project stemmed out of a problem I encountered during the development of my climbing robot. Essentially, I had a hook latch mechanism where I needed an actuator with a long initial linear stroke followed by a high force action. One of my labmates (thanks Vineet!) suggested a twisted string actuator (TSA), which seemed perfect. When I was testing my robot, I would tie together the arms with some cord, stick a screw into the cord, and then twist to tighten the arms closer. However, the issue with twisted string actuators is that they tend to have low stroke despite the high force output. Hence came the "brilliant" idea: combining a winch with a twisted string actuator.
 
 We scraped the internet to see if anyone had published or made something like this before. The patent lawyers couldn't find anything similar during their prior art search. So, we jumped at the opportunity. At the core of our idea is any mechanism that allows a winch to rotate about both its cylindrical and radial axes. Fortunately, I had the mechanism already in use on my climbing robot.
 
-**Our first paper submitted to ICRA:** [Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
+**The first paper submitted to ICRA:** [Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
+
+**The second paper submitted to RoboSoft: Submitted but not yet available**
 
 **Patent pending:** U.S. Patent Application No. 63/694,401
 
@@ -90,3 +114,9 @@ Mathematical models for this actuator can be found in the paper posted at the st
 Similarly, the experimental force output also matched the mathematical model quite well. As expected, the twist action dominates the force output, while the winch dominates the velocity output. It should be noted that the number of twists was limited in these tests; as I twisted the string more and more at a faster rate, the experimental setup started to collapse on itself.
 
 {% include gallery id="gallery4" caption="Force output experimental results." %}
+
+## Controller
+
+For the second paper that was submitted to Robosoft, a feedback controller using a gain scheduling scheme was used to control the position of the string. The string was made to be conductive; by measuring the change in voltage as the string was twisted or winched, the displacement of the string could be measured. The controller depended on a control allocation factor beta, which was a user-defined value between 0 and 1 that proportionally allocated control effort between the winching and twisting actions. The closer the value of beta was to zero, the more winching action was done. 
+
+{% include gallery id="gallery5" caption="Control block diagrams, simulations, and test results." %}

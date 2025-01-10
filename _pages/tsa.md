@@ -86,18 +86,22 @@ We scraped the internet to see if anyone had published or made something like th
 
 **The first paper submitted to ICRA:** [Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
 
-**The second paper submitted to RoboSoft: Submitted but not yet available**
+**The second paper submitted to RoboSoft:** [Download PDF]({{ site.baseurl }}/assets/pdf/Control_and_Analysis_of_a_Multimodal_Twisted_Winching_String_Actuator_with_Embodied_Sensing.pdf)
+
+**The third paper submitted to ICCAR: Submitted but not yet available**
 
 **Patent pending:** U.S. Patent Application No. 63/694,401
 
-# Design Description
+# Base Design (ICRA)
+
+## Design Description 
 The integrated TSA-winch system provides variable transmission ratios through dynamic adjustment, enhancing actuator stroke and force flexibility for precise, adaptable movement without overtwisting. The performance of this system was evaluated using a rotating turret design that houses a winch mounted on a bevel gear assembly driven by a through-hole drive shaft. Although this design requires one extra motor, the flexibility in motor size and absence of heavy on-axis gearboxes suggest good potential for miniaturization while maintaining large stroke and transmission ratio variability.
 
 If you look at the pictures below, you can figure out how the mechanism works. For twisting action (highlighted blue), the second motor rotates the turret via a geartrain and thus rotates the winch about its radial axis. For winching action (highlighted orange), the first motor rotates the winch about its cylindrical axis via a bevel or worm gear assembly and a through-hole drive shaft. 
 
 {% include gallery caption="The actuator twisting and winching actions." %}
 
-# Experimental Setups
+## Experimental Setups
 
 The experimental setup used two motors to manipulatea Dacron polyester bowstring, chosen for its high stiffness and unbraided structure. For displacement measurement, the setup used a linear potentiometer and modular microcontroller hardware developed by TinkerForge. The string exiting the turret was clamped to a linear carriage that slid along a rail when the string was twisted or winched. This carriage was linked to the linear potentiometer that ran parallel to the rail. Because the potentiometer slide lacked bearings and fit loosely in the rail grooves of the potentiometer, flexure mounts constrained it to minimize the binding friction that is common with stages spanning two parallel rigid rails without bearings. 
 
@@ -105,20 +109,32 @@ From the clamp on the linear stage, the experimental setup had two forms. To mea
  
 {% include gallery id="gallery2" caption="Experimental setup for testing actuator." %}
 
-# Displacement and Velocity
+## Displacement and Velocity
 
 Mathematical models for this actuator can be found in the paper posted at the start of this page. Essentially, these models were based on both standard TSA and winch displacement expressions, taking into account the conservation of volume of the string as it twisted and hence its varying radius. Long story short, the model fit the experimental results pretty well, with errors most likely coming from string stretch, incomplete untwisting before the next cycles, and poor string strand packing. 
 
 {% include gallery id="gallery3" caption="Displacement and velocity experimental results." %}
 
-# Force Output
+## Force Output
 
 Similarly, the experimental force output also matched the mathematical model quite well. As expected, the twist action dominates the force output, while the winch dominates the velocity output. It should be noted that the number of twists was limited in these tests; as I twisted the string more and more at a faster rate, the experimental setup started to collapse on itself.
 
 {% include gallery id="gallery4" caption="Force output experimental results." %}
 
-# Controller
+# Feedback Controller (Robosoft)
+
+## Conductive String
+
+blah blah blah
+
+## PID Controller and Gain Scheduler
 
 For the second paper that was submitted to Robosoft, a feedback controller using a gain scheduling scheme was used to control the position of the string. The string was made to be conductive; by measuring the change in voltage as the string was twisted or winched, the displacement of the string could be measured. The controller depended on a control allocation factor beta, which was a user-defined value between 0 and 1 that proportionally allocated control effort between the winching and twisting actions. The closer the value of beta was to zero, the more winching action was done. 
 
 {% include gallery id="gallery5" caption="Control block diagrams, simulations, and test results." %}
+
+# Single Motor Design (ICCAR)
+
+## The Mechanism
+
+Analogous to planetary gear system.

@@ -123,9 +123,13 @@ Similarly, the experimental force output also matched the mathematical model qui
 
 # Feedback Controller (Robosoft)
 
+## Redesign of Turret and Gear Transmission
+
+Before developing a controller, a quick redesign was done to swap the bevel gear transmission inside to the housing to a worm gear transmission. This was done because the transmission needed to be non-backdrivable. As the string is twisted, a force is exerted on the winch as well as the object at the end of the string. If the transmission is non-backdrivable, the motor has to exert some torque or else the twisting string will unwind the string already on the winch. 
+
 ## Conductive String
 
-blah blah blah
+From our first paper, it was clear to see that the open loop control of the actuator wouldn't suffice for precision operation. While a standard encoder at the end of the string would work just fine for a feedback controller, we wanted to explore the use of a conductive string as feedback. By measuring the change in resistance as the string was twisted or wound up, we could get a pretty accurate position estimation from a model relating the resistance to displacement.
 
 ## PID Controller and Gain Scheduler
 

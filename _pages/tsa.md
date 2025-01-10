@@ -62,6 +62,11 @@ gallery5:
     image_path: /assets/images/TwistWinchActuatorShaded.png
     alt: "Render of actuator"
     title: "Actuator with worm gear"
+gallery6:
+  - url: /assets/images/TwistWinchCrossSection.jpg
+    image_path: /assets/images/TwistWinchCrossSection.jpg
+    alt: "Render of actuator"
+    title: "Experimental setup"
 gallery7:
   - url: /assets/images/TwistWinchControlBlockDiagram.png
     image_path: /assets/images/TwistWinchControlBlockDiagram.png
@@ -137,6 +142,8 @@ Before developing a controller, a quick redesign was done to swap the bevel gear
 ## Conductive String
 
 From our first paper, it was clear to see that the open loop control of the actuator wouldn't suffice for precision operation. While a standard encoder at the end of the string would work just fine for a feedback controller, we wanted to explore the use of a conductive string as feedback. By measuring the change in resistance as the string was twisted or wound up, we could get a pretty accurate position estimation from a model relating the resistance to displacement.
+
+{% include gallery id="gallery6" caption="Experimental setup showing conductive loop." %}
 
 ## PID Controller and Gain Scheduler
 

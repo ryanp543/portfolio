@@ -88,6 +88,21 @@ gallery7:
     image_path: /assets/images/TwistWinchTrajectory.png
     alt: "Render of actuator"
     title: "Trajectory control"
+gallery8:
+  - url: /assets/images/TwistWinchActuatorLabeled-2.png
+    image_path: /assets/images/TwistWinchActuatorLabeled-2.png
+    alt: "Render of actuator"
+    title: "Actuator Labeled"
+gallery9:
+  - url: /assets/images/TwistWinchProcessLabeled-1.png
+    image_path: /assets/images/TwistWinchProcessLabeled-1.png
+    alt: "Render of actuator"
+    title: "Operation Flow"
+gallery10:
+  - url: /assets/images/TwistWinchExperimentalSetup-1.png
+    image_path: /assets/images/TwistWinchExperimentalSetup-1.png
+    alt: "Render of actuator"
+    title: "Experimental setup"
 
 ---
 This project stemmed out of a problem I encountered during the development of my climbing robot. Essentially, I had a hook latch mechanism where I needed an actuator with a long initial linear stroke followed by a high force action. One of my labmates (thanks Vineet!) suggested a twisted string actuator (TSA), which seemed perfect. When I was testing my robot, I would tie together the arms with some cord, stick a screw into the cord, and then twist to tighten the arms closer. However, the issue with twisted string actuators is that they tend to have low stroke despite the high force output. Hence came the "brilliant" idea: combining a winch with a twisted string actuator.
@@ -153,6 +168,20 @@ For the second paper that was submitted to Robosoft, a feedback controller using
 
 # Single Motor Design (ICCAR)
 
+## The Motivation
+
+One thing we always wanted to do during the course of developing this actuator was to replace one of the motors with a mechanism to simplify the control. In doing so, we would sacrifice the ability to control the twist and displacement state of the string, so the actuator would be ideally used in cases where a large displacement was needed followed by high force twisting action. It should be noted that we didn't enforce physical space as a constraint on the design and the experimental setup. However, this actuator can be greatly miniaturized, as all of the components can be made quite small.  
+
+{% include gallery id="gallery8" caption="CAD model of the single motor actuator." %}
+
 ## The Mechanism
 
-Analogous to planetary gear system.
+Unfortunately, this mechanism is very hard to explain without a CAD model. It merges the advantages of winching and twisting into a single-motor driven unit. An automatic friction clutch, inspired by planetary gearbox mechanics and triggered by a high end-effector load, allows the actuator to transition from winching to twisting, maximizing force output according to the user’s desired number of rotations. This number of rotations is mechanically stored using a dial on the output shaft of a high-reduction gearbox. Furthermore, a slip clutch integrated with a unidirectional bearing enables complete untwisting and unwinching, ensuring the actuator can reliably return to its starting configuration. For full comprehension of the design, it might be best to read the paper we wrote and submitted to ICCAR. 
+
+{% include gallery id="gallery9" caption="Forward and reverse process flow of the actuator usage." %}
+
+## Experimental Setup
+
+The experimental setup was a little more complicated here because we wanted to provide varying loads to the end of the string and see when the transition from winching to twisting was triggered. To do so, we used a pneumatic piston and various valves to control the amount of load that the string experienced. 
+
+{% include gallery id="gallery10" caption="Experimental setup with the single-motor actuator and the piston head for varying load." %}

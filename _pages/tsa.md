@@ -58,6 +58,11 @@ gallery4:
     alt: "placeholder image 1"
     title: "Force output of winch"
 gallery5:
+  - url: /assets/images/TwistWinchActuatorShaded.png
+    image_path: /assets/images/TwistWinchActuatorShaded.png
+    alt: "Render of actuator"
+    title: "Actuator with worm gear"
+gallery7:
   - url: /assets/images/TwistWinchControlBlockDiagram.png
     image_path: /assets/images/TwistWinchControlBlockDiagram.png
     alt: "Render of actuator"
@@ -82,7 +87,7 @@ gallery5:
 ---
 This project stemmed out of a problem I encountered during the development of my climbing robot. Essentially, I had a hook latch mechanism where I needed an actuator with a long initial linear stroke followed by a high force action. One of my labmates (thanks Vineet!) suggested a twisted string actuator (TSA), which seemed perfect. When I was testing my robot, I would tie together the arms with some cord, stick a screw into the cord, and then twist to tighten the arms closer. However, the issue with twisted string actuators is that they tend to have low stroke despite the high force output. Hence came the "brilliant" idea: combining a winch with a twisted string actuator.
 
-We scraped the internet to see if anyone had published or made something like this before. The patent lawyers couldn't find anything similar during their prior art search. So, we jumped at the opportunity. At the core of our idea is any mechanism that allows a winch to rotate about both its cylindrical and radial axes. Fortunately, I had the mechanism already in use on my climbing robot.
+We scraped the internet to see if anyone had published or made something like this before. The patent lawyers couldn't find anything similar during their prior art search. So, we jumped at the opportunity. At the core of our idea is any mechanism that allows a winch to rotate about both its cylindrical and radial axes. Fortunately, I had the mechanism already in use on my climbing robot. From there, we submitted three different papers to conferences and filed the provisional patent in a single semester.
 
 **The first paper submitted to ICRA:** [Download PDF]({{ site.baseurl }}/assets/pdf/A_Novel_Twisted_Winching_String_Actuator_for_Robotic_Applications__Design_and_Validation.pdf)
 
@@ -127,6 +132,8 @@ Similarly, the experimental force output also matched the mathematical model qui
 
 Before developing a controller, a quick redesign was done to swap the bevel gear transmission inside to the housing to a worm gear transmission. This was done because the transmission needed to be non-backdrivable. As the string is twisted, a force is exerted on the winch as well as the object at the end of the string. If the transmission is non-backdrivable, the motor has to exert some torque or else the twisting string will unwind the string already on the winch. 
 
+{% include gallery id="gallery5" caption="Actuator with new worm gear transmission." %}
+
 ## Conductive String
 
 From our first paper, it was clear to see that the open loop control of the actuator wouldn't suffice for precision operation. While a standard encoder at the end of the string would work just fine for a feedback controller, we wanted to explore the use of a conductive string as feedback. By measuring the change in resistance as the string was twisted or wound up, we could get a pretty accurate position estimation from a model relating the resistance to displacement.
@@ -135,7 +142,7 @@ From our first paper, it was clear to see that the open loop control of the actu
 
 For the second paper that was submitted to Robosoft, a feedback controller using a gain scheduling scheme was used to control the position of the string. The string was made to be conductive; by measuring the change in voltage as the string was twisted or winched, the displacement of the string could be measured. The controller depended on a control allocation factor beta, which was a user-defined value between 0 and 1 that proportionally allocated control effort between the winching and twisting actions. The closer the value of beta was to zero, the more winching action was done. 
 
-{% include gallery id="gallery5" caption="Control block diagrams, simulations, and test results." %}
+{% include gallery id="gallery7" caption="Control block diagrams, simulations, and test results." %}
 
 # Single Motor Design (ICCAR)
 

@@ -170,7 +170,7 @@ For the second paper that was submitted to Robosoft, a feedback controller using
 
 ## The Motivation
 
-One thing we always wanted to do during the course of developing this actuator was to replace one of the motors with a mechanism to simplify the control. In doing so, we would sacrifice the ability to control the twist and displacement state of the string, so the actuator would be ideally used in cases where a large displacement was needed followed by high force twisting action. It should be noted that we didn't enforce physical space as a constraint on the design and the experimental setup. However, this actuator can be greatly miniaturized, as all of the components can be made quite small.  
+One thing we always wanted to do during the course of developing this actuator was to replace one of the motors with a mechanism to simplify the control. In doing so, we would sacrifice the ability to control the twist and displacement state of the string, so the actuator would be ideally used in cases where a large displacement was needed followed by high force twisting action. This transition would be facilitated by a sort of friction clutch that triggers when the load at the end of the string goes beyond a certain threshold. It should be noted that we didn't enforce physical space as a constraint on the design and the experimental setup. However, this actuator can be greatly miniaturized, as all of the components can be made quite small.  
 
 {% include gallery id="gallery8" caption="CAD model of the single motor actuator." %}
 

@@ -6,7 +6,7 @@ author_profile: false
 sidebar:
   - title: "MIT PhD Graduate Student"
     image: /assets/images/Aboutryan.jpg
-    text: "2019-2024"
+    text: "2019-2025"
   - title: "UCLA Undergraduate Student"
     text: "2015-2019"
 gallery:

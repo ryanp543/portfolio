@@ -113,7 +113,7 @@ We scraped the internet to see if anyone had published or made something like th
 
 **The second paper accepted to RoboSoft:** [Download PDF]({{ site.baseurl }}/assets/pdf/Control_and_Analysis_of_a_Multimodal_Twisted_Winching_String_Actuator_with_Embodied_Sensing.pdf)
 
-**The third paper submitted to ICCAR: Submitted but not yet available**
+**The third paper accepted to ICCAR:** [Download PDF]({{ site.baseurl }}/assets/pdf/A_Multimodal_Twisted_Winching_String_Actuator_with_a_Passive_Automatic_Transmission__Design_and_Validation.pdf)
 
 **Patent pending:** U.S. Patent Application No. 63/694,401
 

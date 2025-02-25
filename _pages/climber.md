@@ -7,6 +7,9 @@ sidebar:
   - title: "MIT Bioinstrumentation Lab"
     image: /assets/images/ClimberIcon.png
     text: "PhD Candidate Student"
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 # Coming soon!
 

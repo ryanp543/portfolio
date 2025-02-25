@@ -1,5 +1,5 @@
 ---
-title: "Modular Climbing Robot"
+title: "CLIMR: Cabled Limb Interlocking Modular Robot"
 permalink: /climber/
 classes: wide
 author_profile: false

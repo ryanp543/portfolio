@@ -14,10 +14,15 @@ gallery:
     image_path: /assets/images/ClimberIMG_1175.JPG
     alt: "placeholder image 1"
     title: "The tree climber"
+gallery2:
+  - url: /assets/images/ClimberFuncReq.png
+    image_path: /assets/images/ClimberFuncReq.png
+    alt: "placeholder image 1"
+    title: "CLIMR Functional Requirements"
 ---
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 
-{% include gallery caption="CLIMR: Cabled Limb Interlocking Modular Robot" %}
+{% include gallery caption="CLIMR: Cabled Limb Interlocking Modular Robot." %}
 
 On the electronics side of things, I have a Raspberry Pi 4B running Ubuntu and ROS 2. This talks with a Teensy 4.1 mounted on a custom PCB with motor drivers and buck converters to control the various motors and servos on the robot. Lots of modeling was done for this robot, but the development revolved around extreme rapid prototyping because many features were difficult to model for. There were some semesters and summers where I was building a brand new robot every two weeks for testing!
 
@@ -44,6 +49,7 @@ The general design constraints were formed from the commonly desired features fo
 
 From here, a list of guiding functional requirements could be devised. While these weren't set in stone, they gave some metrics when it came to selecting things like motors, materials, and part dimensions.
 
+{% include gallery id="gallery2" caption="CLIMR Functional Requirements." %}
 
 Spreadsheet of functional requirements can be found here: [Download Excel Document]({{ site.baseurl }}/assets/excel/Functional Requirements and Design Constraints.xlsx)
 

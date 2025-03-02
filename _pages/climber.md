@@ -23,7 +23,7 @@ On the electronics side of things, I have a Raspberry Pi 4B running Ubuntu and R
 
 This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)** in March 2025.
 
-# Proof of Life
+# Video Breakdown
 
 This 4-minute video gives a breakdown of the robot's features and functionality. 
 

@@ -31,13 +31,16 @@ This 4-minute video gives a breakdown of the robot's features and functionality.
 
 # Design Constraints and Functional Requirements
 
-The general design constraints can be seen in 
+The general design constraints were formed from the commonly desired features found across past climbing robot research works and are tabulated below.
 
-| Design Constraint  | Header 2  | Header 3  |
-|-----------|-----------|-----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| Constraint | Reasons | 
+|-----------|-----------|
+| Low Mass | Reduce drive power consumption and overall cost | 
+| Simple Build | Lower complexity generally means low risk of breakage| 
+| Non-Destructive Climbing | Climbing surface typically hard to puncture, surface damage undesirable | 
+| Self-Locking | Safety, can commit all power to payload |
+| Automated Grasping | Removes need for human assembly before climbing |
+| Adaptive to Column Diameter | Broadens variety of tasks, allows frequent climbing, limits max column diameter |
 
 
 # Self Locking Body

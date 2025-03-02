@@ -42,6 +42,11 @@ The general design constraints were formed from the commonly desired features fo
 | Automated Grasping | Removes need for human assembly before climbing |
 | Adaptive to Column Diameter | Broadens variety of tasks, allows frequent climbing, limits max column diameter |
 
+From here, a list of guiding functional requirements could be devised. While these weren't set in stone, they gave some metrics when it came to selecting things like motors, materials, and part dimensions.
+
+
+Spreadsheet of functional requirements can be found here: [Download Excel Document]({{ site.baseurl }}/assets/excel/Functional Requirements and Design Constraints.xlsx)
+
 
 # Self Locking Body
 

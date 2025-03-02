@@ -21,7 +21,7 @@ This robot is designed to climb poles and trunks (I use "columns" as a more gene
 
 On the electronics side of things, I have a Raspberry Pi 4B running Ubuntu and ROS 2. This talks with a Teensy 4.1 mounted on a custom PCB with motor drivers and buck converters to control the various motors and servos on the robot. Lots of modeling was done for this robot, but the development revolved around extreme rapid prototyping because many features were difficult to model for. There were some semesters and summers where I was building a brand new robot every two weeks for testing!
 
-This work has been submitted to IEEE Robotics and Automation Letters (RA-L) in March 2025. 
+This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)** in March 2025.
 
 # Proof of Life
 

@@ -101,7 +101,16 @@ gallery9:
   - url: /assets/images/ClimberLatchPulleySystem.png
     image_path: /assets/images/ClimberLatchPulleySystem.png
     alt: "placeholder image 1"
-    title: "Latch compound pulley system"    
+    title: "Latch compound pulley system"
+  - url: /assets/images/ClimberFEAHookLatch.png
+    image_path: /assets/images/ClimberFEAHookLatch.png
+    alt: "placeholder image 1"
+    title: "FEA of hook latch"
+gallery10:
+  - url: /assets/images/ClimberVelocityExperiment.png
+    image_path: /assets/images/ClimberVelocityExperiment.png
+    alt: "placeholder image 1"
+    title: "Velocity experiments"   
 ---
 This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)** in March 2025.
 
@@ -188,7 +197,18 @@ Modeling the arms in order to determine the amount of pulley windup required dep
 
 ## Modeling
 
-Mention balance between climbing and self locking
+Selection of the drive motor was based on the desired acceleration of the robot. In this case, I wanted the robot to achieve a vertical speed of around 100 mm/s (which is comparable to other climbing robots) in 3 seconds. However, some things also had to be considered. The tangential drive force applied by the wheel could not be greater than the force of friction or else the wheel would start to slip. In the end, a 5840WG-555PM E-S Motors brushed motor with a 280:1 worm gearbox was chosen for the drive. 
+
+{% include gallery id="gallery10" caption="Position and velocity experiments for climbing different column diameters." %}
+
+Turret
+
+| Constraint | Reasons | 
+|-----------|-----------|
+| Low Mass | Reduce drive power consumption and overall cost | 
+| Simple Build | Lower complexity generally means low risk of breakage| 
+
+Regardless, these models taking into account $F_B$ provide useful insights for designing the robot to allow self-locking without compromising climbing. Firstly, it can be seen that Equation \ref{eq:conditionselflocking} is clearly a upper bound. This means that $d_1$ can be lower than what is proposed in Equation \ref{eq:conditionselflocking} if self-locking is the only concern. However, Equation \ref{eq:FWupperbound} shows that $F_B$ can get so large that it causes wheel slip. As the value for $d_1$ increases, $F_B$ also increases. Thus, successfully designing this climbing robot hinges on the balance between self-locking and climbing ability---making sure $d_1$ from Equation \ref{eq:conditionselflocking} is large enough for self-locking but not so large that $F_B$ inhibits climbing. 
 
 ## Maximum Column Diameter Limit
 

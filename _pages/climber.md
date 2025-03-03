@@ -80,7 +80,28 @@ gallery8:
   - url: /assets/images/Climber459996903_467435282985741_4716885768589179217_n.jpg
     image_path: /assets/images/Climber459996903_467435282985741_4716885768589179217_n.jpg
     alt: "placeholder image 1"
-    title: "Latch actuation"    
+    title: "Latch actuation" 
+gallery9:
+  - url: /assets/images/ClimberNumLinksDiagram.png
+    image_path: /assets/images/ClimberNumLinksDiagram.png
+    alt: "placeholder image 1"
+    title: "Number of links diagram"
+  - url: /assets/images/ClimberModLinkDiagram.png
+    image_path: /assets/images/ClimberModLinkDiagram.png
+    alt: "placeholder image 1"
+    title: "Modular link diagram"  
+  - url: /assets/images/ClimberFirstLinkDiagram.png
+    image_path: /assets/images/ClimberFirstLinkDiagram.png
+    alt: "placeholder image 1"
+    title: "First link diagram"
+  - url: /assets/images/ClimberEndLinkLatchDiagram.png
+    image_path: /assets/images/ClimberEndLinkLatchDiagram.png
+    alt: "placeholder image 1"
+    title: "End link and latch diagram"
+  - url: /assets/images/ClimberLatchPulleySystem.png
+    image_path: /assets/images/ClimberLatchPulleySystem.png
+    alt: "placeholder image 1"
+    title: "Latch compound pulley system"    
 ---
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 
@@ -159,11 +180,19 @@ The tendons that pass through the arm do not generate enough torque at the joint
 
 ## Kinematics and Statics Modeling
 
+Modeling the arms in order to determine the amount of pulley windup required depends on extensive examination of the geometry of the links. On top of this, the amount of tendon stretch was also considered, assuming that the section of the tendon wrapped around the idler pulleys does not stretch. For the latch, calculations were done to ensure that the forces experienced by the latch do not break the small gears in the micro worm gear motor. 
+
+{% include gallery id="gallery9" caption="Diagrams used to do kinematics and statics modeling." %}
+
 # Drive Motor and Turret Motor Selection
 
 ## Modeling
 
 Mention balance between climbing and self locking
+
+## Maximum Column Diameter Limit
+
+Put figure here
 
 # Main Body Microcontroller PCB
 

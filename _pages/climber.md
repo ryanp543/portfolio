@@ -72,9 +72,9 @@ The main body houses the drive and turret motors. The drive motor (1) rotates a 
 
 The main body is attached to a cantilever tail to offset the center of mass away from the column axis. This offset creates a moment arm, which generates a normal force on the drive wheel and a frictional force that supports the mass of the robot when all the motors are off. The drive motor has a worm gearbox, which prevents backdrivability. The end of the cantilever tail has the Raspberry Pi computer, the tendon-driving motors, the Kobalt tool battery, and mounting holes for modular weight additions if needed. 
 
-
-
 ## Kinematics and Statics Modeling
+
+Finding the condition for self-locking depended on the force balance equation in the vertical direction and the moment balance equation about the wheel's column contact point. 
 
 # Underactuated Tendon Driven Arms
 
@@ -82,13 +82,19 @@ The main body is attached to a cantilever tail to offset the center of mass away
 
 ## End Link Clutch Rollers
 
+The end links were designed differently than the standard modular linkages. Because the normal force experienced by these links would be the greatest due to the moment created by the cantilever tail, links with standard ball transfer bearing contacts would experience excessive amounts of friction that would inhibit climbing. As a result, these end links has unidirectional clutch roller bearings mounted on rotational stages actuated by high power 12V brushless servos. 
+
+ADD GALLERY IMAGE
+
+These clutch roller bearings assisted with self-locking due to their unidirectional nature while still producing low rolling friction despite the high normal forces. Mounting them was non-trivial, however, to ensure that there was minimal friction. In general, roller bearings do not support any loads in the axial direction, but they had to be constrained in the axial direction for this robot. To do so, the clutch bearings were mounted on a custom set screw shaft collar and D-shaft with a spacer and flange bearing at each end to both constrain the clutch bearing axially while also minimizing friction in case it slid to far to either side. 
+
+ADD GALLERY IMAGE
+
 ## The Latch
 
 ## Kinematics and Statics Modeling
 
 # Drive Motor and Turret Motor Selection
-
-## Drive System Breakdown
 
 ## Modeling
 

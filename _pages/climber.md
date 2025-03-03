@@ -46,6 +46,28 @@ gallery5:
     image_path: /assets/images/Climber473333034_28132523703061865_1868369504961547215_n (1).jpg
     alt: "placeholder image 1"
     title: "Modular link"  
+gallery6:
+  - url: /assets/images/Climber482479309_1566441444020475_908920091449129282_n.jpg
+    image_path: /assets/images/Climber482479309_1566441444020475_908920091449129282_n.jpg
+    alt: "placeholder image 1"
+    title: "End link roller"
+  - url: /assets/images/Climber456274052_8890150284335385_1481794253590260374_n.jpg
+    image_path: /assets/images/Climber456274052_8890150284335385_1481794253590260374_n.jpg
+    alt: "placeholder image 1"
+    title: "End link servo"  
+  - url: /assets/images/Climber481593232_1303847770902018_6268652223769221977_n.jpg
+    image_path: /assets/images/Climber481593232_1303847770902018_6268652223769221977_n.jpg
+    alt: "placeholder image 1"
+    title: "End link roller latch side"
+  - url: /assets/images/Climber481927257_991245856279180_745589058561134465_n.jpg
+    image_path: /assets/images/Climber481927257_991245856279180_745589058561134465_n.jpg
+    alt: "placeholder image 1"
+    title: "End link servo latch side"  
+gallery7:
+  - url: /assets/images/Climberrollercross.png
+    image_path: /assets/images/Climberrollercross.png
+    alt: "placeholder image 1"
+    title: "End link roller cross section"    
 ---
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 
@@ -110,11 +132,11 @@ Each link is connected by a rotating pin joint. To enhance stability and improve
 
 The end links were designed differently than the standard modular linkages. Because the normal force experienced by these links would be the greatest due to the moment created by the cantilever tail, links with standard ball transfer bearing contacts would experience excessive amounts of friction that would inhibit climbing. As a result, these end links has unidirectional clutch roller bearings mounted on rotational stages actuated by high power 12V brushless servos. 
 
-ADD GALLERY IMAGE
+{% include gallery id="gallery6" caption="End link clutch roller bearings and servos." %}
 
 These clutch roller bearings assisted with self-locking due to their unidirectional nature while still producing low rolling friction despite the high normal forces. Mounting them was non-trivial, however, to ensure that there was minimal friction. In general, roller bearings do not support any loads in the axial direction, but they had to be constrained in the axial direction for this robot. To do so, the clutch bearings were mounted on a custom set screw shaft collar and D-shaft with a spacer and flange bearing at each end to both constrain the clutch bearing axially while also minimizing friction in case it slid to far to either side. 
 
-ADD GALLERY IMAGE
+{% include gallery id="gallery7" caption="End link clutch roller bearing mount cross section." %}
 
 ## The Latch
 
@@ -141,9 +163,3 @@ Ubuntu linux ROS2 nodes and code
 ## CANBus Commands and Packages
 
 ## Remote and Manual E-Stops
-
-
-{% include video id="1v9oS6sE4rDcAeWOoxOasQBHs3BesEweo" provider="google-drive" %}
-{% include video id="1HtABnQpHiPgBNZxBrSGnRcrOLGhLZYDp" provider="google-drive" %}
-{% include video id="1hgglDvoinb6c50ODsUlSWKkqUdGROMxw" provider="google-drive" %}
-{% include video id="1YVuWXlhMFWJfs8xfQFiyXE3O3xXGz4Ht" provider="google-drive" %}

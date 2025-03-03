@@ -37,6 +37,15 @@ gallery4:
     image_path: /assets/images/ClimberSelfLockingCOMDiagram.png
     alt: "placeholder image 1"
     title: "Line diagram"
+gallery5:
+  - url: /assets/images/ClimberLinkAssembly-1.png
+    image_path: /assets/images/ClimberLinkAssembly-1.png
+    alt: "placeholder image 1"
+    title: "Modular link assembly"
+  - url: /assets/images/Climber473333034_28132523703061865_1868369504961547215_n (1).jpg
+    image_path: /assets/images/Climber473333034_28132523703061865_1868369504961547215_n (1).jpg
+    alt: "placeholder image 1"
+    title: "Modular link"  
 ---
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 
@@ -87,9 +96,15 @@ Finding the condition for self-locking depended on the force balance equation in
 
 {% include gallery id="gallery4" caption="Line diagram used to find the self-locking condition." %}
 
+Each link is connected by a rotating pin joint. To enhance stability and improve contact with the column, each link is equipped with two steel ball transfer bearings. These bearings reduce sliding friction that could impede climbing forces, with at least two ball transfers per link necessary to ensure that the link maintains its proper orientation when the tendon tightens during grasping. The tendon is routed through each link using small idler pulleys, which help minimize friction along the tendon path. The arrangement of the pulleys facilitates sequential bending, ensuring that each link only bends once the preceding one has fully bent. The end links are secured with serrated flanged screws to anchor the tendons in place.
+
 # Underactuated Tendon Driven Arms
 
 ## Design and Materials
+
+The grasping arms were made of modular links with a single ultra high molecular weight polyethylene (UHMWPE) tendon going through all of them. This was done to minimize the mass of the modular units, as the maximum climbable column diameter was dependent on the number of links that could be added and the maximum torque of the drive motor. Furthermore, the tendon-driving worm gear motors could be placed on the tail to facilitate self-locking. To add links, first the rotation pin and retaining screws are inserted (1-3), followed by the electrical connection (4) and the antagonist spring (5). 
+
+{% include gallery id="gallery5" caption="Modular link assembly." %}
 
 ## End Link Clutch Rollers
 

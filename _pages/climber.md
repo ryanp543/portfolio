@@ -14,6 +14,10 @@ gallery:
     image_path: /assets/images/ClimberIMG_1175.JPG
     alt: "placeholder image 1"
     title: "The tree climber"
+  - url: /assets/images/ClimberSelfLockingPics-1.JPG
+    image_path: /assets/images/ClimberSelfLockingPics-1.JPG
+    alt: "placeholder image 1"
+    title: "The tree climber"
 gallery2:
   - url: /assets/images/ClimberFuncReq.png
     image_path: /assets/images/ClimberFuncReq.png
@@ -28,6 +32,11 @@ gallery3:
     image_path: /assets/images/Climber451573681_1137907953933609_3463007586565563867_n.jpg
     alt: "placeholder image 1"
     title: "CLIMR wheel top down view"
+gallery4:
+  - url: /assets/images/ClimberSelfLockingCOMDiagram.png
+    image_path: /assets/images/ClimberSelfLockingCOMDiagram.png
+    alt: "placeholder image 1"
+    title: "Line diagram"
 ---
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 
@@ -58,7 +67,7 @@ The general design constraints were formed from the commonly desired features fo
 
 From here, a list of guiding functional requirements could be devised. While these weren't set in stone, they gave some metrics when it came to selecting things like motors, materials, and part dimensions.
 
-{% include gallery id="gallery2" caption="CLIMR Functional Requirements." %}
+{% include gallery id="gallery2" caption="CLIMR functional requirements." %}
 
 Spreadsheet of functional requirements can be found here: [Download Excel Document]({{ site.baseurl }}/assets/excel/Functional Requirements and Design Constraints.xlsx)
 
@@ -68,13 +77,15 @@ Spreadsheet of functional requirements can be found here: [Download Excel Docume
 
 The main body houses the drive and turret motors. The drive motor (1) rotates a through-hole drive shaft (2), which moves the wheel (4) on the turret through a bevel gear transmission system (3). The turret itself is twisted by a brushless worm gear motor. The body is made of 3D printed PLA plastic and waterjetted 6061 aluminum components, primarily for their structural strength and relatively light weight. However, weight on the main body was not minimized, mainly because it assists in offsetting the center of mass for self-locking. Nevertheless, it was ensured that the main body was not too heavy for the drive motor. 
 
-{% include gallery id="gallery3" caption="CLIMR Drive System Cross Section." %}
+{% include gallery id="gallery3" caption="CLIMR drive system cross section." %}
 
 The main body is attached to a cantilever tail to offset the center of mass away from the column axis. This offset creates a moment arm, which generates a normal force on the drive wheel and a frictional force that supports the mass of the robot when all the motors are off. The drive motor has a worm gearbox, which prevents backdrivability. The end of the cantilever tail has the Raspberry Pi computer, the tendon-driving motors, the Kobalt tool battery, and mounting holes for modular weight additions if needed. 
 
 ## Kinematics and Statics Modeling
 
-Finding the condition for self-locking depended on the force balance equation in the vertical direction and the moment balance equation about the wheel's column contact point. 
+Finding the condition for self-locking depended on the force balance equation in the vertical direction and the moment balance equation about the wheel's column contact point. This condition tells us the necessary distance between the center of mass and the column axis. On the actual robot, the center of mass can be shifted on the body using the modular tail weights and the arm link modules. It should be noted that solving for this condition is significantly easier if it is assumed that the ball transfer bearings do not have any friction (which isn't true in reality). Because the distribution of force along the arms is nonuniform, the force and moment balance equations become incredibly complicated if ball transfer bearing friction is considered to be nontrivial. 
+
+{% include gallery id="gallery4" caption="Line diagram used to find the self-locking condition." %}
 
 # Underactuated Tendon Driven Arms
 
@@ -97,6 +108,8 @@ ADD GALLERY IMAGE
 # Drive Motor and Turret Motor Selection
 
 ## Modeling
+
+Mention balance between climbing and self locking
 
 # Main Body Microcontroller PCB
 

@@ -210,10 +210,10 @@ The turret motor was chosen based on the friction the motor would have to overco
 
 {% include gallery id="gallery11" caption="Diagram used to calculate the friction torque that the turret motor needed to overcome." %}
 
-| Constraint | Reasons | 
-|-----------|-----------|
-| Low Mass | Reduce drive power consumption and overall cost | 
-| Simple Build | Lower complexity generally means low risk of breakage| 
+| Motor | Required Torque (Nm) | Rated Motor Torque (Nm) | Rated Motor Speed (RPM) |
+|-----------|-----------|-----------|-----------|
+| Drive | 4.057 | 6.865 | 41 |
+| Turret | 0.829 | 1.863 | 7 |
 
 Regardless, these models taking into account $F_B$ provide useful insights for designing the robot to allow self-locking without compromising climbing. Firstly, it can be seen that Equation \ref{eq:conditionselflocking} is clearly a upper bound. This means that $d_1$ can be lower than what is proposed in Equation \ref{eq:conditionselflocking} if self-locking is the only concern. However, Equation \ref{eq:FWupperbound} shows that $F_B$ can get so large that it causes wheel slip. As the value for $d_1$ increases, $F_B$ also increases. Thus, successfully designing this climbing robot hinges on the balance between self-locking and climbing ability---making sure $d_1$ from Equation \ref{eq:conditionselflocking} is large enough for self-locking but not so large that $F_B$ inhibits climbing. 
 

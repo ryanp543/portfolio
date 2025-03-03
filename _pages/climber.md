@@ -19,6 +19,15 @@ gallery2:
     image_path: /assets/images/ClimberFuncReq.png
     alt: "placeholder image 1"
     title: "CLIMR Functional Requirements"
+gallery3:
+  - url: /assets/images/ClimberDriveCrossSection-1.png
+    image_path: /assets/images/ClimberDriveCrossSection-1.png
+    alt: "placeholder image 1"
+    title: "CLIMR drive system cross section"
+  - url: /assets/images/Climber451573681_1137907953933609_3463007586565563867_n.jpg
+    image_path: /assets/images/Climber451573681_1137907953933609_3463007586565563867_n.jpg
+    alt: "placeholder image 1"
+    title: "CLIMR wheel top down view"
 ---
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 
@@ -53,10 +62,17 @@ From here, a list of guiding functional requirements could be devised. While the
 
 Spreadsheet of functional requirements can be found here: [Download Excel Document]({{ site.baseurl }}/assets/excel/Functional Requirements and Design Constraints.xlsx)
 
-
 # Self Locking Body
 
 ## Design and Materials
+
+The main body houses the drive and turret motors. The drive motor (1) rotates a through-hole drive shaft (2), which moves the wheel (4) on the turret through a bevel gear transmission system (3). The turret itself is twisted by a brushless worm gear motor. The body is made of 3D printed PLA plastic and waterjetted 6061 aluminum components, primarily for their structural strength and relatively light weight. However, weight on the main body was not minimized, mainly because it assists in offsetting the center of mass for self-locking. Nevertheless, it was ensured that the main body was not too heavy for the drive motor. 
+
+{% include gallery id="gallery3" caption="CLIMR Drive System Cross Section." %}
+
+The main body is attached to a cantilever tail to offset the center of mass away from the column axis. This offset creates a moment arm, which generates a normal force on the drive wheel and a frictional force that supports the mass of the robot when all the motors are off. The drive motor has a worm gearbox, which prevents backdrivability. The end of the cantilever tail has the Raspberry Pi computer, the tendon-driving motors, the Kobalt tool battery, and mounting holes for modular weight additions if needed. 
+
+
 
 ## Kinematics and Statics Modeling
 

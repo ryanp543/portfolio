@@ -96,8 +96,6 @@ Finding the condition for self-locking depended on the force balance equation in
 
 {% include gallery id="gallery4" caption="Line diagram used to find the self-locking condition." %}
 
-Each link is connected by a rotating pin joint. To enhance stability and improve contact with the column, each link is equipped with two steel ball transfer bearings. These bearings reduce sliding friction that could impede climbing forces, with at least two ball transfers per link necessary to ensure that the link maintains its proper orientation when the tendon tightens during grasping. The tendon is routed through each link using small idler pulleys, which help minimize friction along the tendon path. The arrangement of the pulleys facilitates sequential bending, ensuring that each link only bends once the preceding one has fully bent. The end links are secured with serrated flanged screws to anchor the tendons in place.
-
 # Underactuated Tendon Driven Arms
 
 ## Design and Materials
@@ -105,6 +103,8 @@ Each link is connected by a rotating pin joint. To enhance stability and improve
 The grasping arms were made of modular links with a single ultra high molecular weight polyethylene (UHMWPE) tendon going through all of them. This was done to minimize the mass of the modular units, as the maximum climbable column diameter was dependent on the number of links that could be added and the maximum torque of the drive motor. Furthermore, the tendon-driving worm gear motors could be placed on the tail to facilitate self-locking. To add links, first the rotation pin and retaining screws are inserted (1-3), followed by the electrical connection (4) and the antagonist spring (5). 
 
 {% include gallery id="gallery5" caption="Modular link assembly." %}
+
+Each link is connected by a rotating pin joint. To enhance stability and improve contact with the column, each link is equipped with two steel ball transfer bearings. These bearings reduce sliding friction that could impede climbing forces, with at least two ball transfers per link necessary to ensure that the link maintains its proper orientation when the tendon tightens during grasping. The tendon is routed through each link using small idler pulleys, which help minimize friction along the tendon path. The arrangement of the pulleys facilitates sequential bending, ensuring that each link only bends once the preceding one has fully bent. The end links are secured with serrated flanged screws to anchor the tendons in place.
 
 ## End Link Clutch Rollers
 

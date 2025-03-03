@@ -111,6 +111,11 @@ gallery10:
     image_path: /assets/images/ClimberVelocityExperiment.png
     alt: "placeholder image 1"
     title: "Velocity experiments"   
+gallery11:
+  - url: /assets/images/ClimberWheelDeform.png
+    image_path: /assets/images/ClimberWheelDeform.png
+    alt: "placeholder image 1"
+    title: "Friction from wheel compression"   
 ---
 This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)**.
 
@@ -201,7 +206,9 @@ Selection of the drive motor was based on the desired acceleration of the robot.
 
 {% include gallery id="gallery10" caption="Position and velocity experiments for climbing different column diameters." %}
 
-Turret
+The turret motor was chosen based on the friction the motor would have to overcome. Because there is a large normal force being applied to the drive wheel due to the cantilever tail, the wheel presses up against the column, causing the rubber to deform and creating a rectangular contact surface. Assuming that the contact area was flat and not convex (which isn't the case in reality), I could get a rough approximation of the friction by integrating across the contact area to get the total friction moment. I ended up selecting a 4632WG-2430BL E-S Motors brushless motor with a 600:1 worm gearbox.
+
+{% include gallery id="gallery11" caption="Diagram used to calculate the friction torque that the turret motor needed to overcome." %}
 
 | Constraint | Reasons | 
 |-----------|-----------|

@@ -67,7 +67,20 @@ gallery7:
   - url: /assets/images/Climberrollercross.png
     image_path: /assets/images/Climberrollercross.png
     alt: "placeholder image 1"
-    title: "End link roller cross section"    
+    title: "End link roller cross section"
+gallery8:
+  - url: /assets/images/Climber482340634_1190037402690547_4233205666734714003_n.jpg
+    image_path: /assets/images/Climber482340634_1190037402690547_4233205666734714003_n.jpg
+    alt: "placeholder image 1"
+    title: "The latch and compound pulley system"
+  - url: /assets/images/Climber462536978_1282907199544871_7110130987847451592_n.jpg
+    image_path: /assets/images/Climber462536978_1282907199544871_7110130987847451592_n.jpg
+    alt: "placeholder image 1"
+    title: "Pulley close up"  
+  - url: /assets/images/Climber459996903_467435282985741_4716885768589179217_n.jpg
+    image_path: /assets/images/Climber459996903_467435282985741_4716885768589179217_n.jpg
+    alt: "placeholder image 1"
+    title: "Latch actuation"    
 ---
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 
@@ -139,6 +152,10 @@ These clutch roller bearings assisted with self-locking due to their unidirectio
 {% include gallery id="gallery7" caption="End link clutch roller bearing mount cross section." %}
 
 ## The Latch
+
+The tendons that pass through the arm do not generate enough torque at the joints to provide secure grasping around a column. Hence, an automated latch is attached to one end link. It is designed to hook onto a pin on the opposite end link, pulling the arms together for a more secure grasp before climbing. This latch consists of both a rotary joint and a prismatic joint. Once the arm links are fully in contact with the column, continued tension on the tendon causes the latch to rotate around its rotary joint until it aligns with the pin on the opposite end link. A 15 mm micro worm gear motor then pulls the latch along the linear shafts using a compound pulley system until the latch hooks onto the pin. A constant force spring provides the restoring force.
+
+
 
 ## Kinematics and Statics Modeling
 

@@ -14,8 +14,8 @@ gallery:
     image_path: /assets/images/ClimberIMG_1175.JPG
     alt: "placeholder image 1"
     title: "The tree climber"
-  - url: /assets/images/ClimberSelfLockingPics-1.JPG
-    image_path: /assets/images/ClimberSelfLockingPics-1.JPG
+  - url: /assets/images/ClimberSelfLockingPics-1.png
+    image_path: /assets/images/ClimberSelfLockingPics-1.png
     alt: "placeholder image 1"
     title: "The tree climber"
 gallery2:

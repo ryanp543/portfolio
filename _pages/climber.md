@@ -155,7 +155,7 @@ These clutch roller bearings assisted with self-locking due to their unidirectio
 
 The tendons that pass through the arm do not generate enough torque at the joints to provide secure grasping around a column. Hence, an automated latch is attached to one end link. It is designed to hook onto a pin on the opposite end link, pulling the arms together for a more secure grasp before climbing. This latch consists of both a rotary joint and a prismatic joint. Once the arm links are fully in contact with the column, continued tension on the tendon causes the latch to rotate around its rotary joint until it aligns with the pin on the opposite end link. A 15 mm micro worm gear motor then pulls the latch along the linear shafts using a compound pulley system until the latch hooks onto the pin. A constant force spring provides the restoring force.
 
-
+{% include gallery id="gallery8" caption="The latch mechanism and actuation." %}
 
 ## Kinematics and Statics Modeling
 

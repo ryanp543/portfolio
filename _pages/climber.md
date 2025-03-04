@@ -116,6 +116,11 @@ gallery11:
     image_path: /assets/images/ClimberWheelDeform.png
     alt: "placeholder image 1"
     title: "Friction from wheel compression"   
+gallery12:
+  - url: /assets/images/ClimberNumLinksColumnDiam.png
+    image_path: /assets/images/ClimberNumLinksColumnDiam.png
+    alt: "placeholder image 1"
+    title: "Required torque versus number of links"   
 ---
 This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)**.
 
@@ -219,7 +224,9 @@ It should be noted that these calculations were generally done assuming that the
 
 ## Maximum Column Diameter Limit
 
-Put figure here
+Despite CLIMR's adaptability, there is still a limit to the largest diameter column that the robot can climb. Eventually, adding too many modular links and tail weights to the robot will cause the total mass of the robot to be greater than the available drive motor torque. Iterating over a series of conditional statements yields a plot of the necessary torque versus the number of arm links (or versus column diameter), which can be used as a metric to compare CLIMR to similar wheeled-grasping hybrid robots that are developed in the future. 
+
+{% include gallery id="gallery12" caption="Required number of arm links and required motor torque for given column diameter." %}
 
 # Main Body Microcontroller PCB
 

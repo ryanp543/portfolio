@@ -247,6 +247,8 @@ How I usually design and package the electronics for my robots is creating a cus
 
 ## Feedback Controllers
 
+Most of the actuators are controlled using standard PID position controllers. However, the D terms were removed from the PI velocity controller of the drive motor and the PI torque controllers for the tendon motors, as feedback readings were affected by noise. The micro worm gear motor controlling the latch operates until a current spike is detected, signaling that the latch has successfully hooked onto the opposite end link.
+
 # Tail Electronics
 
 ## Raspberry Pi

@@ -130,6 +130,20 @@ gallery13:
     image_path: /assets/images/Climber449846941_942915194274276_6301547683539169334_n.jpg
     alt: "placeholder image 1"
     title: "Cooling fan"
+gallery14:
+  - url: /assets/images/Climber452721320_1209287816892634_1649453263029459450_n.jpg
+    image_path: /assets/images/Climber452721320_1209287816892634_1649453263029459450_n.jpg
+    alt: "placeholder image 1"
+    title: "Computer box" 
+gallery15:
+  - url: /assets/images/Climber449501649_442964608727163_6459533818699463223_n.jpg
+    image_path: /assets/images/Climber449501649_442964608727163_6459533818699463223_n.jpg
+    alt: "placeholder image 1"
+    title: "PCB tail"   
+  - url: /assets/images/Climber448258254_7834173083330341_3383734817237693958_n.jpg
+    image_path: /assets/images/Climber448258254_7834173083330341_3383734817237693958_n.jpg
+    alt: "placeholder image 1"
+    title: "PCB tail 2"  
 ---
 This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)**.
 
@@ -253,8 +267,16 @@ Most of the actuators are controlled using standard PID position controllers. Ho
 
 ## Raspberry Pi
 
-Ubuntu linux ROS2 nodes and code
+The computer on the tail is a Raspberry Pi 4B. The operating system is Ubuntu, and I also uploaded ROS2 so I can have different nodes talk to each other in a modular fashion. Additionally, I overclocked the CPU for extra processing power (while making sure to have a fan and heatsinks, of course). The computer "box" houses three boards: the Raspberry Pi on the bottom, a CANBus hat on top, and a custom PCB on top of that. The custom PCB has the step down 24V to 5V buck converter that allows the Kobalt tool battery to supply power to the Raspberry Pi. To control the robot remotely, I just use Teamviewer to remote desktop and then access the terminal. 
+
+{% include gallery id="gallery14" caption="The Raspberry Pi on the tail." %}
 
 ## CANBus Commands and Packages
 
+As mentioned, a CANBus hat is mounted on the Raspberry Pi. I chose to use CANBus to communicate with the main body PCB because of CANBus's high data transfer rate as well as its modularity. In this sense, CLIMR is a robotic platform. With some easy design modifications, payloads modules can be both mechanically and electronically integrated into the system quite seamlessly because the infrastructure is there. CANBus messages sent along the wires are broken down by mailbox number. Drive wheel position, drive wheel velocity, right and left tendon torque and position, servo positions, turret position, latch control, and data collection are all potential commands. 
+
 ## Remote and Manual E-Stops
+
+The custom PCB on the top of the computer box stack has the Raspberry Pi power switch and the buck converter. More importantly, it houses a high power relay for remote safety switching and an LED to indicate the on/off status of the relay. I designed the PCB so the pins aligned perfectly with the Raspberry Pi and CANBus hat header pins so that I'd be able to access the power and IO pins. For extra safety, I have a manual high power switch serving as an extra E-stop between the battery and all the motors. 
+
+{% include gallery id="gallery15" caption="Custom PCB with high power relay for remote E-stop." %}

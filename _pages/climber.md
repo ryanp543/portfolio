@@ -121,6 +121,15 @@ gallery12:
     image_path: /assets/images/ClimberNumLinksColumnDiam.png
     alt: "placeholder image 1"
     title: "Required torque versus number of links"   
+gallery13:
+  - url: /assets/images/Climber462568761_1241716627066432_3983263308307811589_n.jpg
+    image_path: /assets/images/Climber462568761_1241716627066432_3983263308307811589_n.jpg
+    alt: "placeholder image 1"
+    title: "Main body PCB"   
+  - url: /assets/images/Climber449846941_942915194274276_6301547683539169334_n.jpg
+    image_path: /assets/images/Climber449846941_942915194274276_6301547683539169334_n.jpg
+    alt: "placeholder image 1"
+    title: "Cooling fan"
 ---
 This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)**.
 
@@ -231,6 +240,10 @@ Despite CLIMR's adaptability, there is still a limit to the largest diameter col
 # Main Body Microcontroller PCB
 
 ## Design and Breakout Boards
+
+How I usually design and package the electronics for my robots is creating a custom PCB on which I can mount many breakout boards and microcontrollers. I do this to get a balance of both prototyping speed and compactness. I'm a particular fan of Teensy 4.1 microcontrollers for their ridiculously high clock speed, many pinouts, and compatibility with the Arduino IDE. CLIMR's Teensy 4.1 is mounted on the main body PCB, which also houses: a high power G2 18v25 Pololu brushed motor driver for the drive motor, an eletrolytic capacitor for PWM smoothing, two INA169 current sensors for the tendon motors, a 24V to 12V step down buck converter, a DRV8876 Pololu brushed motor driver for the latch micro worm gear motor, and an LED for visual cues. There is also a cooling fan for the G2 18v25 Pololu brushed motor driver.
+
+{% include gallery id="gallery13" caption="Main body PCB for the microcontrollers, sensors, and motor drivers." %}
 
 ## Feedback Controllers
 

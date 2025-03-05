@@ -10,3 +10,7 @@ sidebar:
   - title: "UCLA Undergraduate Student"
     text: "2015-2019"
 ---
+
+My resume can be downloaded here: [Download PDF]({{ site.baseurl }}/assets/pdf/Poon_Ryan_Resume.pdf)
+
+Last updated 3/5/2025

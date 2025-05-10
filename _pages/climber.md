@@ -145,7 +145,7 @@ gallery15:
     alt: "placeholder image 1"
     title: "PCB tail 2"  
 ---
-This work has been submitted to **IEEE Robotics and Automation Letters (RA-L)**.
+Two separate works have been submitted to **IEEE Robotics and Automation Letters (RA-L)** and the **2025 European Conference on Mobile Robots (ECMR)**.
 
 This robot is designed to climb poles and trunks (I use "columns" as a more general term). Essentially, this robot has two grasping arms that can autonomously wrap about a column. An automated latch at the end of one arm hooks onto the end of the other arm. Each arm is made up of modular links and is driven by a single tendon string that runs through them all. The number of links per arm can be adjusted to adapt for different column diameters. To achieve self-locking on the column (meaning the robot stays on the column when all electronics are off), the center of mass is designed to be off to the side of the column via a cantilever tail, generating a moment that creates a frictional force from the wheel pressing against the climbing surface. The drive wheel is mounted on a turret that rotates to achieve both vertical climbing and rotation about the column. 
 

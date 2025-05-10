@@ -250,7 +250,7 @@ I worked on this robot with another graduate student in the lab, Marc-Andre Begi
 
 There is so much material to discuss here. For the full thesis, follow this link [here](https://dspace.mit.edu/handle/1721.1/139075 "here").
 
-Paper on the streamlined PID tuning procedure is here: [Download PDF]({{ site.baseurl }}/assets/pdf/Streamlined_Tuning_Procedure_for_Stable_PID_Control_of_Flexible-Base_Manipulators.pdf)
+Paper on the streamlined PID tuning procedure (accepted to **IEEE Robotics and Automation Letters (RA-L) and IROS**) is here: [Download PDF]({{ site.baseurl }}/assets/pdf/Streamlined_Tuning_Procedure_for_Stable_PID_Control_of_Flexible-Base_Manipulators.pdf)
 
 # The Rover Overview
 
